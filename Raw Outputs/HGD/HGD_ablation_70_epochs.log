@@ -1,0 +1,159 @@
+8.2s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.2s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.2s 3 0.00s - to python to disable frozen modules.
+8.2s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.7s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.7s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.7s 7 0.00s - to python to disable frozen modules.
+8.7s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.8s 9 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_1
+12.8s 10 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_2
+12.8s 11 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/batches.meta
+12.8s 12 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/test_batch
+12.8s 13 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_3
+12.8s 14 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_5
+12.8s 15 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_4
+12.8s 16 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/readme.html
+21.9s 17 Using device: cuda
+25.6s 18 50000 10000
+25.8s 19 Starting Ablation Experiment.
+25.8s 20 Comparing HyperLRs: [0.0, 1e-10, 1e-08, 1e-06]
+25.8s 21 
+25.8s 22 ######################################################################
+25.8s 23 PROCESSING ABLATION GROUP: hyper_lr = 0.0
+25.8s 24 ######################################################################
+25.8s 25 --> Running Seed 38042...
+49.9s 26 Ep 0 | Val Acc: 30.4% | LR: 3.30e-04
+267.4s 27 Ep 10 | Val Acc: 49.9% | LR: 3.30e-04
+486.6s 28 Ep 20 | Val Acc: 54.6% | LR: 3.30e-04
+705.9s 29 Ep 30 | Val Acc: 59.1% | LR: 3.30e-04
+925.1s 30 Ep 40 | Val Acc: 63.5% | LR: 3.30e-04
+1144.7s 31 Ep 50 | Val Acc: 68.0% | LR: 3.30e-04
+1363.9s 32 Ep 60 | Val Acc: 69.4% | LR: 3.30e-04
+1560.1s 33 --> Running Seed 217401...
+1584.5s 34 Ep 0 | Val Acc: 36.6% | LR: 3.30e-04
+1804.1s 35 Ep 10 | Val Acc: 50.6% | LR: 3.30e-04
+2024.1s 36 Ep 20 | Val Acc: 55.3% | LR: 3.30e-04
+2244.5s 37 Ep 30 | Val Acc: 60.0% | LR: 3.30e-04
+2464.3s 38 Ep 40 | Val Acc: 64.4% | LR: 3.30e-04
+2684.9s 39 Ep 50 | Val Acc: 67.7% | LR: 3.30e-04
+2904.8s 40 Ep 60 | Val Acc: 69.0% | LR: 3.30e-04
+3100.6s 41 
+3100.6s 42 ######################################################################
+3100.6s 43 PROCESSING ABLATION GROUP: hyper_lr = 1e-10
+3100.6s 44 ######################################################################
+3100.6s 45 --> Running Seed 38042...
+3125.3s 46 Ep 0 | Val Acc: 30.4% | LR: 2.64e-04
+3345.0s 47 Ep 10 | Val Acc: 50.1% | LR: 1.42e-04
+3564.9s 48 Ep 20 | Val Acc: 54.8% | LR: 1.52e-04
+3785.3s 49 Ep 30 | Val Acc: 55.6% | LR: 1.68e-04
+4005.4s 50 Ep 40 | Val Acc: 59.6% | LR: 2.31e-04
+4226.1s 51 Ep 50 | Val Acc: 63.7% | LR: 4.95e-04
+4445.9s 52 Ep 60 | Val Acc: 68.5% | LR: 3.47e-04
+4641.3s 53 --> Running Seed 217401...
+4666.0s 54 Ep 0 | Val Acc: 36.6% | LR: 3.71e-04
+4886.6s 55 Ep 10 | Val Acc: 50.1% | LR: 4.55e-04
+5106.1s 56 Ep 20 | Val Acc: 53.8% | LR: 4.47e-04
+5326.4s 57 Ep 30 | Val Acc: 59.6% | LR: 4.45e-04
+5545.4s 58 Ep 40 | Val Acc: 64.9% | LR: 3.41e-04
+5765.2s 59 Ep 50 | Val Acc: 67.6% | LR: 3.53e-04
+5985.5s 60 Ep 60 | Val Acc: 69.2% | LR: 3.63e-04
+6180.2s 61 
+6180.2s 62 ######################################################################
+6180.2s 63 PROCESSING ABLATION GROUP: hyper_lr = 1e-08
+6180.2s 64 ######################################################################
+6180.2s 65 --> Running Seed 38042...
+6204.7s 66 Ep 0 | Val Acc: 30.4% | LR: 2.64e-04
+6425.0s 67 Ep 10 | Val Acc: 49.8% | LR: 1.30e-04
+6645.3s 68 Ep 20 | Val Acc: 53.8% | LR: 9.57e-05
+6865.4s 69 Ep 30 | Val Acc: 56.1% | LR: 1.06e-04
+7085.6s 70 Ep 40 | Val Acc: 57.7% | LR: 1.17e-04
+7305.6s 71 Ep 50 | Val Acc: 61.5% | LR: 2.91e-04
+7526.2s 72 Ep 60 | Val Acc: 67.0% | LR: 9.54e-05
+7720.9s 73 --> Running Seed 217401...
+7745.1s 74 Ep 0 | Val Acc: 36.6% | LR: 3.96e-04
+7966.1s 75 Ep 10 | Val Acc: 50.3% | LR: 4.38e-04
+8186.3s 76 Ep 20 | Val Acc: 52.6% | LR: 7.26e-04
+8405.3s 77 Ep 30 | Val Acc: 58.8% | LR: 5.36e-04
+8625.2s 78 Ep 40 | Val Acc: 65.2% | LR: 5.28e-04
+8845.1s 79 Ep 50 | Val Acc: 68.2% | LR: 5.84e-04
+9065.5s 80 Ep 60 | Val Acc: 71.0% | LR: 4.31e-04
+9260.3s 81 
+9260.3s 82 ######################################################################
+9260.3s 83 PROCESSING ABLATION GROUP: hyper_lr = 1e-06
+9260.3s 84 ######################################################################
+9260.3s 85 --> Running Seed 38042...
+9285.0s 86 Ep 0 | Val Acc: 30.4% | LR: 2.64e-04
+9504.7s 87 Ep 10 | Val Acc: 50.2% | LR: 1.30e-04
+9724.4s 88 Ep 20 | Val Acc: 53.9% | LR: 1.44e-04
+9943.4s 89 Ep 30 | Val Acc: 54.7% | LR: 2.38e-04
+10162.9s 90 Ep 40 | Val Acc: 60.2% | LR: 2.63e-04
+10383.3s 91 Ep 50 | Val Acc: 64.7% | LR: 4.37e-04
+10603.1s 92 Ep 60 | Val Acc: 68.5% | LR: 2.15e-04
+10797.6s 93 --> Running Seed 217401...
+10822.2s 94 Ep 0 | Val Acc: 36.6% | LR: 3.96e-04
+11041.6s 95 Ep 10 | Val Acc: 50.4% | LR: 4.38e-04
+11260.6s 96 Ep 20 | Val Acc: 52.6% | LR: 7.26e-04
+11480.0s 97 Ep 30 | Val Acc: 59.2% | LR: 5.36e-04
+11699.1s 98 Ep 40 | Val Acc: 66.7% | LR: 3.95e-04
+11919.0s 99 Ep 50 | Val Acc: 68.3% | LR: 2.91e-04
+12137.9s 100 Ep 60 | Val Acc: 70.1% | LR: 2.15e-04
+12333.0s 101 Ablation Complete. Data saved to ablation_results.csv
+12337.4s 102 Traceback (most recent call last):
+12337.4s 103 File "<string>", line 1, in <module>
+12337.4s 104 File "/usr/local/lib/python3.11/dist-packages/papermill/execute.py", line 131, in execute_notebook
+12337.4s 105 raise_for_execution_errors(nb, output_path)
+12337.4s 106 File "/usr/local/lib/python3.11/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+12337.4s 107 raise error
+12337.4s 108 papermill.exceptions.PapermillExecutionError:
+12337.4s 109 ---------------------------------------------------------------------------
+12337.4s 110 Exception encountered at "In [10]":
+12337.4s 111 ---------------------------------------------------------------------------
+12337.4s 112 ValueError                                Traceback (most recent call last)
+12337.4s 113 /tmp/ipykernel_20/4231612620.py in <cell line: 0>()
+12337.4s 114 18
+12337.4s 115 19 # Plot 1: Validation Accuracy
+12337.4s 116 ---> 20 sns.lineplot(
+12337.4s 117 21     data=df, x="Epoch", y="Val_Acc", hue="HyperLR_Group",
+12337.4s 118 22     palette=palette, ax=axes[0], linewidth=2
+12337.4s 119 
+12337.4s 120 /usr/local/lib/python3.11/dist-packages/seaborn/relational.py in lineplot(data, x, y, hue, size, style, units, palette, hue_order, hue_norm, sizes, size_order, size_norm, dashes, markers, style_order, estimator, errorbar, n_boot, seed, orient, sort, err_style, err_kws, legend, ci, ax, **kwargs)
+12337.4s 121 623     )
+12337.4s 122 624
+12337.4s 123 --> 625     p.map_hue(palette=palette, order=hue_order, norm=hue_norm)
+12337.4s 124 626     p.map_size(sizes=sizes, order=size_order, norm=size_norm)
+12337.4s 125 627     p.map_style(markers=markers, dashes=dashes, order=style_order)
+12337.4s 126 
+12337.4s 127 /usr/local/lib/python3.11/dist-packages/seaborn/_oldcore.py in map(cls, plotter, *args, **kwargs)
+12337.4s 128 53         # This method is assigned the __init__ docstring
+12337.4s 129 54         method_name = f"_{cls.__name__[:-7].lower()}_map"
+12337.4s 130 ---> 55         setattr(plotter, method_name, cls(plotter, *args, **kwargs))
+12337.4s 131 56         return plotter
+12337.4s 132 57
+12337.4s 133 
+12337.4s 134 /usr/local/lib/python3.11/dist-packages/seaborn/_oldcore.py in __init__(self, plotter, palette, order, norm)
+12337.4s 135 146
+12337.4s 136 147                 cmap = norm = None
+12337.4s 137 --> 148                 levels, lookup_table = self.categorical_mapping(
+12337.4s 138 149                     data, palette, order,
+12337.4s 139 150                 )
+12337.4s 140 
+12337.4s 141 /usr/local/lib/python3.11/dist-packages/seaborn/_oldcore.py in categorical_mapping(self, data, palette, order)
+12337.4s 142 225             if any(missing):
+12337.4s 143 226                 err = "The palette dictionary is missing keys: {}"
+12337.4s 144 --> 227                 raise ValueError(err.format(missing))
+12337.4s 145 228
+12337.4s 146 229             lookup_table = palette
+12337.4s 147 
+12337.4s 148 ValueError: The palette dictionary is missing keys: {0.0, 1e-08, 1e-10, 1e-06}
+12337.4s 149 
+12340.5s 150 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+12340.5s 151 warn(
+12340.6s 152 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+12340.8s 153 [NbConvertApp] Writing 51221 bytes to __notebook__.ipynb
+12343.3s 154 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+12343.3s 155 warn(
+12343.3s 156 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+12344.1s 157 [NbConvertApp] Support files will be in __results___files/
+12344.1s 158 [NbConvertApp] Making directory __results___files
+12344.1s 159 [NbConvertApp] Writing 355133 bytes to __results__.html

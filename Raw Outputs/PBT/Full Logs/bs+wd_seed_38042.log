@@ -1,0 +1,2193 @@
+7.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.8s 3 0.00s - to python to disable frozen modules.
+7.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.4s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.4s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.4s 7 0.00s - to python to disable frozen modules.
+8.4s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.5s 9 /kaggle/input/cifar-10/cifar-10-batches-py/data_batch_1
+12.5s 10 /kaggle/input/cifar-10/cifar-10-batches-py/data_batch_2
+12.5s 11 /kaggle/input/cifar-10/cifar-10-batches-py/batches.meta
+12.5s 12 /kaggle/input/cifar-10/cifar-10-batches-py/test_batch
+12.5s 13 /kaggle/input/cifar-10/cifar-10-batches-py/data_batch_3
+12.5s 14 /kaggle/input/cifar-10/cifar-10-batches-py/data_batch_5
+12.5s 15 /kaggle/input/cifar-10/cifar-10-batches-py/data_batch_4
+12.5s 16 /kaggle/input/cifar-10/cifar-10-batches-py/readme.html
+22.4s 17 Using device: cuda
+26.0s 18 Starting PBT ViT Experiment with Timing...
+26.0s 19 Note: This will train ViT-Small models on CIFAR-10
+26.0s 20 Each member may have different batch sizes
+26.0s 21 
+26.0s 22 Using device: cuda
+26.7s 23 Starting PBT Training for ViT-Small...
+26.7s 24 Population size: 2
+26.7s 25 Total epochs: 60
+26.7s 26 Exploit interval: 5 epochs
+26.7s 27 
+26.7s 28 ============================================================
+26.7s 29 Epoch 1/60
+26.7s 30 ============================================================
+26.7s 31 
+26.7s 32 --- Training Member 0 (Batch size: 64) ---
+26.7s 33 0%|          | 0.00/170M [00:00<?, ?B/s]
+26.8s 34 0%|          | 0.00/170M [00:00<?, ?B/s]  0%|          | 459k/170M [00:00<00:40, 4.20MB/s]
+26.9s 35 0%|          | 459k/170M [00:00<00:40, 4.20MB/s]  4%|▍         | 6.68M/170M [00:00<00:04, 37.0MB/s]
+27.0s 36 4%|▍         | 6.68M/170M [00:00<00:04, 37.0MB/s]  9%|▉         | 15.7M/170M [00:00<00:02, 60.7MB/s]
+27.1s 37 9%|▉         | 15.7M/170M [00:00<00:02, 60.7MB/s] 14%|█▍        | 24.5M/170M [00:00<00:02, 71.4MB/s]
+27.2s 38 14%|█▍        | 24.5M/170M [00:00<00:02, 71.4MB/s] 20%|█▉        | 33.5M/170M [00:00<00:01, 77.4MB/s]
+27.3s 39 20%|█▉        | 33.5M/170M [00:00<00:01, 77.4MB/s] 25%|██▍       | 42.5M/170M [00:00<00:01, 81.7MB/s]
+27.4s 40 25%|██▍       | 42.5M/170M [00:00<00:01, 81.7MB/s] 30%|███       | 51.4M/170M [00:00<00:01, 84.1MB/s]
+27.5s 41 30%|███       | 51.4M/170M [00:00<00:01, 84.1MB/s] 35%|███▌      | 60.4M/170M [00:00<00:01, 85.9MB/s]
+27.6s 42 35%|███▌      | 60.4M/170M [00:00<00:01, 85.9MB/s] 41%|████      | 69.3M/170M [00:00<00:01, 86.8MB/s]
+27.7s 43 41%|████      | 69.3M/170M [00:00<00:01, 86.8MB/s] 46%|████▌     | 78.3M/170M [00:01<00:01, 87.6MB/s]
+27.8s 44 46%|████▌     | 78.3M/170M [00:01<00:01, 87.6MB/s] 51%|█████     | 87.1M/170M [00:01<00:00, 87.7MB/s]
+27.9s 45 51%|█████     | 87.1M/170M [00:01<00:00, 87.7MB/s] 56%|█████▋    | 95.9M/170M [00:01<00:00, 88.0MB/s]
+28.0s 46 56%|█████▋    | 95.9M/170M [00:01<00:00, 88.0MB/s] 62%|██████▏   | 105M/170M [00:01<00:00, 88.4MB/s]
+28.1s 47 62%|██████▏   | 105M/170M [00:01<00:00, 88.4MB/s]  67%|██████▋   | 114M/170M [00:01<00:00, 89.0MB/s]
+28.2s 48 67%|██████▋   | 114M/170M [00:01<00:00, 89.0MB/s] 72%|███████▏  | 123M/170M [00:01<00:00, 88.7MB/s]
+28.3s 49 72%|███████▏  | 123M/170M [00:01<00:00, 88.7MB/s] 77%|███████▋  | 132M/170M [00:01<00:00, 88.9MB/s]
+28.4s 50 77%|███████▋  | 132M/170M [00:01<00:00, 88.9MB/s] 83%|████████▎ | 141M/170M [00:01<00:00, 89.3MB/s]
+28.5s 51 83%|████████▎ | 141M/170M [00:01<00:00, 89.3MB/s] 88%|████████▊ | 150M/170M [00:01<00:00, 88.7MB/s]
+28.6s 52 88%|████████▊ | 150M/170M [00:01<00:00, 88.7MB/s] 93%|█████████▎| 159M/170M [00:01<00:00, 88.9MB/s]
+28.7s 53 93%|█████████▎| 159M/170M [00:01<00:00, 88.9MB/s] 98%|█████████▊| 168M/170M [00:02<00:00, 89.0MB/s]
+28.8s 54 98%|█████████▊| 168M/170M [00:02<00:00, 89.0MB/s]100%|██████████| 170M/170M [00:02<00:00, 83.2MB/s]
+28.8s 55 100%|██████████| 170M/170M [00:02<00:00, 83.2MB/s]
+28.8s 56 
+28.8s 57 
+32.1s 58 built data in 5.395642995834351 seconds
+93.9s 59 LR changed during epoch: 4.84e-08 -> 3.79e-05
+93.9s 60 total runtime to train this model was 61.999088525772095 seconds
+105.5s 61 evaluation in 11.392096519470215 seconds
+105.5s 62 Loss: 1.8867
+105.5s 63 Train Accuracy: 29.42%
+105.5s 64 Test Accuracy: 36.69%
+105.5s 65 
+105.5s 66 --- Training Member 1 (Batch size: 128) ---
+107.0s 67 built data in 1.6612722873687744 seconds
+170.0s 68 LR changed during epoch: 1.34e-07 -> 5.23e-05
+170.0s 69 total runtime to train this model was 63.0048508644104 seconds
+183.8s 70 evaluation in 13.56788182258606 seconds
+183.8s 71 Loss: 1.8981
+183.8s 72 Train Accuracy: 29.23%
+183.8s 73 Test Accuracy: 35.01%
+183.8s 74 
+183.8s 75 ============================================================
+183.8s 76 Epoch 1 Summary:
+183.8s 77 ============================================================
+183.8s 78 Time: 157.02s (Avg member: 78.51s)
+183.8s 79 Population Mean Accuracy: 35.85%
+183.8s 80 Best Member Accuracy: 36.69%
+183.8s 81 Mean Batch Size: 96
+183.8s 82 Mean Learning Rate: 2.25e-04
+183.8s 83 Mean Weight Decay: 0.232
+183.8s 84 
+183.8s 85 ============================================================
+183.8s 86 Epoch 2/60
+183.8s 87 ============================================================
+183.8s 88 
+183.8s 89 --- Training Member 0 (Batch size: 64) ---
+185.2s 90 built data in 1.6261787414550781 seconds
+253.4s 91 LR changed during epoch: 3.79e-05 -> 7.58e-05
+253.4s 92 total runtime to train this model was 68.21116876602173 seconds
+266.7s 93 evaluation in 13.086052656173706 seconds
+266.7s 94 Loss: 1.6182
+266.7s 95 Train Accuracy: 40.38%
+266.7s 96 Test Accuracy: 43.57%
+266.7s 97 
+266.7s 98 --- Training Member 1 (Batch size: 128) ---
+268.2s 99 built data in 1.675980806350708 seconds
+333.0s 100 LR changed during epoch: 5.23e-05 -> 1.05e-04
+333.0s 101 total runtime to train this model was 64.78481650352478 seconds
+346.2s 102 evaluation in 13.043758392333984 seconds
+346.2s 103 Loss: 1.6295
+346.2s 104 Train Accuracy: 40.16%
+346.2s 105 Test Accuracy: 44.72%
+346.2s 106 
+346.2s 107 ============================================================
+346.2s 108 Epoch 2 Summary:
+346.2s 109 ============================================================
+346.2s 110 Time: 162.43s (Avg member: 81.22s)
+346.2s 111 Population Mean Accuracy: 44.14%
+346.2s 112 Best Member Accuracy: 44.72%
+346.2s 113 Mean Batch Size: 96
+346.2s 114 Mean Learning Rate: 2.25e-04
+346.2s 115 Mean Weight Decay: 0.232
+346.2s 116 
+346.2s 117 ============================================================
+346.2s 118 Epoch 3/60
+346.2s 119 ============================================================
+346.2s 120 
+346.2s 121 --- Training Member 0 (Batch size: 64) ---
+347.7s 122 built data in 1.7308943271636963 seconds
+416.6s 123 LR changed during epoch: 7.58e-05 -> 1.14e-04
+416.6s 124 total runtime to train this model was 68.86885714530945 seconds
+429.9s 125 evaluation in 13.099745273590088 seconds
+429.9s 126 Loss: 1.4237
+429.9s 127 Train Accuracy: 47.84%
+429.9s 128 Test Accuracy: 49.85%
+429.9s 129 
+429.9s 130 --- Training Member 1 (Batch size: 128) ---
+431.4s 131 built data in 1.7421164512634277 seconds
+496.8s 132 LR changed during epoch: 1.05e-04 -> 1.57e-04
+496.8s 133 total runtime to train this model was 65.39908289909363 seconds
+510.1s 134 evaluation in 13.093514204025269 seconds
+510.1s 135 Loss: 1.4241
+510.1s 136 Train Accuracy: 48.09%
+510.1s 137 Test Accuracy: 50.89%
+510.1s 138 
+510.1s 139 ============================================================
+510.1s 140 Epoch 3 Summary:
+510.1s 141 ============================================================
+510.1s 142 Time: 163.94s (Avg member: 81.97s)
+510.1s 143 Population Mean Accuracy: 50.37%
+510.1s 144 Best Member Accuracy: 50.89%
+510.1s 145 Mean Batch Size: 96
+510.1s 146 Mean Learning Rate: 2.25e-04
+510.1s 147 Mean Weight Decay: 0.232
+510.1s 148 
+510.1s 149 ============================================================
+510.1s 150 Epoch 4/60
+510.1s 151 ============================================================
+510.1s 152 
+510.1s 153 --- Training Member 0 (Batch size: 64) ---
+511.7s 154 built data in 1.7258579730987549 seconds
+580.6s 155 LR changed during epoch: 1.14e-04 -> 1.52e-04
+580.6s 156 total runtime to train this model was 68.97369241714478 seconds
+593.9s 157 evaluation in 13.122644901275635 seconds
+593.9s 158 Loss: 1.2991
+593.9s 159 Train Accuracy: 52.99%
+593.9s 160 Test Accuracy: 55.62%
+593.9s 161 
+593.9s 162 --- Training Member 1 (Batch size: 128) ---
+595.5s 163 built data in 1.7353858947753906 seconds
+661.0s 164 LR changed during epoch: 1.57e-04 -> 2.09e-04
+661.0s 165 total runtime to train this model was 65.46318626403809 seconds
+674.2s 166 evaluation in 13.076742172241211 seconds
+674.2s 167 Loss: 1.2922
+674.2s 168 Train Accuracy: 53.13%
+674.2s 169 Test Accuracy: 55.73%
+674.2s 170 
+674.2s 171 ============================================================
+674.2s 172 Epoch 4 Summary:
+674.2s 173 ============================================================
+674.2s 174 Time: 164.10s (Avg member: 82.05s)
+674.2s 175 Population Mean Accuracy: 55.67%
+674.2s 176 Best Member Accuracy: 55.73%
+674.2s 177 Mean Batch Size: 96
+674.2s 178 Mean Learning Rate: 2.25e-04
+674.2s 179 Mean Weight Decay: 0.232
+674.2s 180 
+674.2s 181 ============================================================
+674.2s 182 Epoch 5/60
+674.2s 183 ============================================================
+674.2s 184 
+674.2s 185 --- Training Member 0 (Batch size: 64) ---
+675.8s 186 built data in 1.7964859008789062 seconds
+744.5s 187 LR changed during epoch: 1.52e-04 -> 1.89e-04
+744.5s 188 total runtime to train this model was 68.6343002319336 seconds
+757.6s 189 evaluation in 12.958723783493042 seconds
+757.6s 190 Loss: 1.2210
+757.6s 191 Train Accuracy: 55.98%
+757.6s 192 Test Accuracy: 60.40%
+757.6s 193 
+757.6s 194 --- Training Member 1 (Batch size: 128) ---
+759.1s 195 built data in 1.6715302467346191 seconds
+824.2s 196 LR changed during epoch: 2.09e-04 -> 2.61e-04
+824.2s 197 total runtime to train this model was 65.11576962471008 seconds
+837.3s 198 evaluation in 12.882821083068848 seconds
+837.3s 199 Loss: 1.2020
+837.3s 200 Train Accuracy: 56.61%
+837.3s 201 Test Accuracy: 58.88%
+837.3s 202 
+837.3s 203 --- Population Update (Epoch 5) ---
+837.3s 204 
+837.3s 205 === PBT Exploit & Explore ===
+837.3s 206 Truncating 1 members
+837.3s 207 Top performers: ['60.40%']
+837.3s 208 Bottom performers: ['58.88%']
+837.3s 209 Member 1: lr changed from 0.0002610457762689696 to 0.0001919967677364046
+837.3s 210 Member 1: weight_decay changed from 0.2675600132436913 to 0.26096853197566383
+837.3s 211 Member 1: drop_path changed from 0.11955409449658805 to 0.14859330013641303
+837.3s 212 Member 1: batch_size changed from 128 to 256
+837.3s 213 Member 1 copied from 0
+837.3s 214 LR=1.92e-04, WD=0.261, DropPath=0.149, Warmup=5 epochs, Batch=256
+837.3s 215 
+837.3s 216 ============================================================
+837.3s 217 Epoch 5 Summary:
+837.3s 218 ============================================================
+837.3s 219 Time: 163.07s (Avg member: 81.53s)
+837.3s 220 Population Mean Accuracy: 59.64%
+837.3s 221 Best Member Accuracy: 60.40%
+837.3s 222 Mean Batch Size: 160
+837.3s 223 Mean Learning Rate: 1.91e-04
+837.3s 224 Mean Weight Decay: 0.229
+837.3s 225 
+837.3s 226 ============================================================
+837.3s 227 Epoch 6/60
+837.3s 228 ============================================================
+837.3s 229 
+837.3s 230 --- Training Member 0 (Batch size: 64) ---
+838.8s 231 built data in 1.6946690082550049 seconds
+907.5s 232 LR changed during epoch: 1.89e-04 -> 1.89e-04
+907.5s 233 total runtime to train this model was 68.71274876594543 seconds
+920.7s 234 evaluation in 13.012994050979614 seconds
+920.7s 235 Loss: 1.1552
+920.7s 236 Train Accuracy: 58.76%
+920.7s 237 Test Accuracy: 61.56%
+920.7s 238 
+920.7s 239 --- Training Member 1 (Batch size: 256) ---
+922.2s 240 built data in 1.6835517883300781 seconds
+985.8s 241 LR changed during epoch: 1.96e-07 -> 3.86e-05
+985.8s 242 total runtime to train this model was 63.551795959472656 seconds
+998.9s 243 evaluation in 12.89420747756958 seconds
+998.9s 244 Loss: 1.0480
+998.9s 245 Train Accuracy: 62.46%
+998.9s 246 Test Accuracy: 62.90%
+998.9s 247 
+998.9s 248 ============================================================
+998.9s 249 Epoch 6 Summary:
+998.9s 250 ============================================================
+998.9s 251 Time: 161.55s (Avg member: 80.78s)
+998.9s 252 Population Mean Accuracy: 62.23%
+998.9s 253 Best Member Accuracy: 62.90%
+998.9s 254 Mean Batch Size: 160
+998.9s 255 Mean Learning Rate: 1.91e-04
+998.9s 256 Mean Weight Decay: 0.229
+998.9s 257 
+998.9s 258 ============================================================
+998.9s 259 Epoch 7/60
+998.9s 260 ============================================================
+998.9s 261 
+998.9s 262 --- Training Member 0 (Batch size: 64) ---
+1000.4s 263 built data in 1.7181928157806396 seconds
+1069.1s 264 LR changed during epoch: 1.89e-04 -> 1.89e-04
+1069.1s 265 total runtime to train this model was 68.73220729827881 seconds
+1082.3s 266 evaluation in 13.023614168167114 seconds
+1082.3s 267 Loss: 1.0873
+1082.3s 268 Train Accuracy: 60.84%
+1082.3s 269 Test Accuracy: 62.97%
+1082.3s 270 
+1082.3s 271 --- Training Member 1 (Batch size: 256) ---
+1083.8s 272 built data in 1.6565876007080078 seconds
+1147.4s 273 LR changed during epoch: 3.86e-05 -> 7.70e-05
+1147.4s 274 total runtime to train this model was 63.5799674987793 seconds
+1160.6s 275 evaluation in 13.05336332321167 seconds
+1160.6s 276 Loss: 0.9881
+1160.6s 277 Train Accuracy: 64.51%
+1160.6s 278 Test Accuracy: 65.54%
+1160.6s 279 
+1160.6s 280 ============================================================
+1160.6s 281 Epoch 7 Summary:
+1160.6s 282 ============================================================
+1160.6s 283 Time: 161.77s (Avg member: 80.88s)
+1160.6s 284 Population Mean Accuracy: 64.25%
+1160.6s 285 Best Member Accuracy: 65.54%
+1160.6s 286 Mean Batch Size: 160
+1160.6s 287 Mean Learning Rate: 1.91e-04
+1160.6s 288 Mean Weight Decay: 0.229
+1160.6s 289 
+1160.6s 290 ============================================================
+1160.6s 291 Epoch 8/60
+1160.6s 292 ============================================================
+1160.6s 293 
+1160.6s 294 --- Training Member 0 (Batch size: 64) ---
+1162.2s 295 built data in 1.7535645961761475 seconds
+1230.9s 296 LR changed during epoch: 1.89e-04 -> 1.88e-04
+1230.9s 297 total runtime to train this model was 68.7481906414032 seconds
+1244.3s 298 evaluation in 13.18960976600647 seconds
+1244.3s 299 Loss: 1.0288
+1244.3s 300 Train Accuracy: 63.33%
+1244.3s 301 Test Accuracy: 66.04%
+1244.3s 302 
+1244.3s 303 --- Training Member 1 (Batch size: 256) ---
+1245.8s 304 built data in 1.6655538082122803 seconds
+1309.0s 305 LR changed during epoch: 7.70e-05 -> 1.15e-04
+1309.0s 306 total runtime to train this model was 63.203927993774414 seconds
+1322.1s 307 evaluation in 12.9431791305542 seconds
+1322.1s 308 Loss: 0.9680
+1322.1s 309 Train Accuracy: 65.51%
+1322.1s 310 Test Accuracy: 65.95%
+1322.1s 311 
+1322.1s 312 ============================================================
+1322.1s 313 Epoch 8 Summary:
+1322.1s 314 ============================================================
+1322.1s 315 Time: 161.51s (Avg member: 80.75s)
+1322.1s 316 Population Mean Accuracy: 66.00%
+1322.1s 317 Best Member Accuracy: 66.04%
+1322.1s 318 Mean Batch Size: 160
+1322.1s 319 Mean Learning Rate: 1.91e-04
+1322.1s 320 Mean Weight Decay: 0.229
+1322.1s 321 
+1322.1s 322 ============================================================
+1322.1s 323 Epoch 9/60
+1322.1s 324 ============================================================
+1322.1s 325 
+1322.1s 326 --- Training Member 0 (Batch size: 64) ---
+1323.7s 327 built data in 1.7421445846557617 seconds
+1392.5s 328 LR changed during epoch: 1.88e-04 -> 1.87e-04
+1392.5s 329 total runtime to train this model was 68.80901861190796 seconds
+1405.7s 330 evaluation in 12.973018407821655 seconds
+1405.7s 331 Loss: 0.9793
+1405.7s 332 Train Accuracy: 65.05%
+1405.7s 333 Test Accuracy: 63.35%
+1405.7s 334 
+1405.7s 335 --- Training Member 1 (Batch size: 256) ---
+1407.2s 336 built data in 1.694580078125 seconds
+1470.6s 337 LR changed during epoch: 1.15e-04 -> 1.54e-04
+1470.6s 338 total runtime to train this model was 63.42635178565979 seconds
+1483.9s 339 evaluation in 13.117745876312256 seconds
+1483.9s 340 Loss: 0.9551
+1483.9s 341 Train Accuracy: 65.89%
+1483.9s 342 Test Accuracy: 65.76%
+1483.9s 343 
+1483.9s 344 ============================================================
+1483.9s 345 Epoch 9 Summary:
+1483.9s 346 ============================================================
+1483.9s 347 Time: 161.77s (Avg member: 80.88s)
+1483.9s 348 Population Mean Accuracy: 64.56%
+1483.9s 349 Best Member Accuracy: 65.76%
+1483.9s 350 Mean Batch Size: 160
+1483.9s 351 Mean Learning Rate: 1.91e-04
+1483.9s 352 Mean Weight Decay: 0.229
+1483.9s 353 
+1483.9s 354 ============================================================
+1483.9s 355 Epoch 10/60
+1483.9s 356 ============================================================
+1483.9s 357 
+1483.9s 358 --- Training Member 0 (Batch size: 64) ---
+1485.4s 359 built data in 1.7073032855987549 seconds
+1554.4s 360 LR changed during epoch: 1.87e-04 -> 1.86e-04
+1554.4s 361 total runtime to train this model was 68.93415594100952 seconds
+1567.7s 362 evaluation in 13.116306066513062 seconds
+1567.7s 363 Loss: 0.9299
+1567.7s 364 Train Accuracy: 67.12%
+1567.7s 365 Test Accuracy: 67.83%
+1567.7s 366 
+1567.7s 367 --- Training Member 1 (Batch size: 256) ---
+1569.2s 368 built data in 1.708817720413208 seconds
+1632.5s 369 LR changed during epoch: 1.54e-04 -> 1.92e-04
+1632.5s 370 total runtime to train this model was 63.362096548080444 seconds
+1645.7s 371 evaluation in 12.95494532585144 seconds
+1645.7s 372 Loss: 0.9332
+1645.7s 373 Train Accuracy: 66.71%
+1645.7s 374 Test Accuracy: 65.32%
+1645.7s 375 
+1645.7s 376 --- Population Update (Epoch 10) ---
+1645.7s 377 
+1645.7s 378 === PBT Exploit & Explore ===
+1645.7s 379 Truncating 1 members
+1645.7s 380 Top performers: ['67.83%']
+1645.7s 381 Bottom performers: ['65.32%']
+1645.7s 382 Member 1: lr changed from 0.0001919967677364046 to 0.00019183100676830526
+1645.7s 383 Member 1: weight_decay changed from 0.26096853197566383 to 0.2789346922638196
+1645.7s 384 Member 1: drop_path changed from 0.14859330013641303 to 0.14160524200413435
+1645.7s 385 Member 1: batch_size changed from 256 to 128
+1645.7s 386 Member 1 copied from 0
+1645.7s 387 LR=1.92e-04, WD=0.279, DropPath=0.142, Warmup=5 epochs, Batch=128
+1645.7s 388 
+1645.7s 389 ============================================================
+1645.7s 390 Epoch 10 Summary:
+1645.7s 391 ============================================================
+1645.7s 392 Time: 161.80s (Avg member: 80.89s)
+1645.7s 393 Population Mean Accuracy: 66.57%
+1645.7s 394 Best Member Accuracy: 67.83%
+1645.7s 395 Mean Batch Size: 96
+1645.7s 396 Mean Learning Rate: 1.91e-04
+1645.7s 397 Mean Weight Decay: 0.238
+1645.7s 398 
+1645.7s 399 ============================================================
+1645.7s 400 Epoch 11/60
+1645.7s 401 ============================================================
+1645.7s 402 
+1645.7s 403 --- Training Member 0 (Batch size: 64) ---
+1647.3s 404 built data in 1.7692210674285889 seconds
+1716.1s 405 LR changed during epoch: 1.86e-04 -> 1.84e-04
+1716.1s 406 total runtime to train this model was 68.81509780883789 seconds
+1729.3s 407 evaluation in 13.052513360977173 seconds
+1729.3s 408 Loss: 0.8858
+1729.3s 409 Train Accuracy: 68.72%
+1729.3s 410 Test Accuracy: 70.77%
+1729.3s 411 
+1729.3s 412 --- Training Member 1 (Batch size: 128) ---
+1730.8s 413 built data in 1.7115190029144287 seconds
+1796.2s 414 LR changed during epoch: 9.81e-08 -> 3.85e-05
+1796.2s 415 total runtime to train this model was 65.3410415649414 seconds
+1809.5s 416 evaluation in 13.10389494895935 seconds
+1809.5s 417 Loss: 0.7942
+1809.5s 418 Train Accuracy: 72.08%
+1809.5s 419 Test Accuracy: 72.98%
+1809.5s 420 
+1809.5s 421 ============================================================
+1809.5s 422 Epoch 11 Summary:
+1809.5s 423 ============================================================
+1809.5s 424 Time: 163.80s (Avg member: 81.90s)
+1809.5s 425 Population Mean Accuracy: 71.88%
+1809.5s 426 Best Member Accuracy: 72.98%
+1809.5s 427 Mean Batch Size: 96
+1809.5s 428 Mean Learning Rate: 1.91e-04
+1809.5s 429 Mean Weight Decay: 0.238
+1809.5s 430 
+1809.5s 431 ============================================================
+1809.5s 432 Epoch 12/60
+1809.5s 433 ============================================================
+1809.5s 434 
+1809.5s 435 --- Training Member 0 (Batch size: 64) ---
+1811.1s 436 built data in 1.8032677173614502 seconds
+1879.9s 437 LR changed during epoch: 1.84e-04 -> 1.82e-04
+1879.9s 438 total runtime to train this model was 68.80297899246216 seconds
+1893.1s 439 evaluation in 13.040432691574097 seconds
+1893.1s 440 Loss: 0.8432
+1893.1s 441 Train Accuracy: 70.24%
+1893.1s 442 Test Accuracy: 72.08%
+1893.1s 443 
+1893.1s 444 --- Training Member 1 (Batch size: 128) ---
+1894.6s 445 built data in 1.6885006427764893 seconds
+1959.8s 446 LR changed during epoch: 3.85e-05 -> 7.68e-05
+1959.8s 447 total runtime to train this model was 65.20138216018677 seconds
+1973.1s 448 evaluation in 13.076078414916992 seconds
+1973.1s 449 Loss: 0.7415
+1973.1s 450 Train Accuracy: 73.79%
+1973.1s 451 Test Accuracy: 73.69%
+1973.1s 452 
+1973.1s 453 ============================================================
+1973.1s 454 Epoch 12 Summary:
+1973.1s 455 ============================================================
+1973.1s 456 Time: 163.62s (Avg member: 81.81s)
+1973.1s 457 Population Mean Accuracy: 72.88%
+1973.1s 458 Best Member Accuracy: 73.69%
+1973.1s 459 Mean Batch Size: 96
+1973.1s 460 Mean Learning Rate: 1.91e-04
+1973.1s 461 Mean Weight Decay: 0.238
+1973.1s 462 
+1973.1s 463 ============================================================
+1973.1s 464 Epoch 13/60
+1973.1s 465 ============================================================
+1973.1s 466 
+1973.1s 467 --- Training Member 0 (Batch size: 64) ---
+1974.6s 468 built data in 1.7234716415405273 seconds
+2043.3s 469 LR changed during epoch: 1.82e-04 -> 1.80e-04
+2043.3s 470 total runtime to train this model was 68.68545794487 seconds
+2056.5s 471 evaluation in 13.005417823791504 seconds
+2056.5s 472 Loss: 0.8054
+2056.5s 473 Train Accuracy: 71.34%
+2056.5s 474 Test Accuracy: 71.47%
+2056.5s 475 
+2056.5s 476 --- Training Member 1 (Batch size: 128) ---
+2058.0s 477 built data in 1.7102775573730469 seconds
+2123.5s 478 LR changed during epoch: 7.68e-05 -> 1.15e-04
+2123.5s 479 total runtime to train this model was 65.45207691192627 seconds
+2136.7s 480 evaluation in 12.979458332061768 seconds
+2136.7s 481 Loss: 0.7324
+2136.7s 482 Train Accuracy: 74.10%
+2136.7s 483 Test Accuracy: 73.40%
+2136.7s 484 
+2136.7s 485 ============================================================
+2136.7s 486 Epoch 13 Summary:
+2136.7s 487 ============================================================
+2136.7s 488 Time: 163.56s (Avg member: 81.78s)
+2136.7s 489 Population Mean Accuracy: 72.44%
+2136.7s 490 Best Member Accuracy: 73.40%
+2136.7s 491 Mean Batch Size: 96
+2136.7s 492 Mean Learning Rate: 1.91e-04
+2136.7s 493 Mean Weight Decay: 0.238
+2136.7s 494 
+2136.7s 495 ============================================================
+2136.7s 496 Epoch 14/60
+2136.7s 497 ============================================================
+2136.7s 498 
+2136.7s 499 --- Training Member 0 (Batch size: 64) ---
+2138.2s 500 built data in 1.7582495212554932 seconds
+2206.9s 501 LR changed during epoch: 1.80e-04 -> 1.77e-04
+2206.9s 502 total runtime to train this model was 68.70610213279724 seconds
+2220.0s 503 evaluation in 12.848621845245361 seconds
+2220.0s 504 Loss: 0.7797
+2220.0s 505 Train Accuracy: 72.65%
+2220.0s 506 Test Accuracy: 72.65%
+2220.0s 507 
+2220.0s 508 --- Training Member 1 (Batch size: 128) ---
+2221.5s 509 built data in 1.712374210357666 seconds
+2286.7s 510 LR changed during epoch: 1.15e-04 -> 1.54e-04
+2286.7s 511 total runtime to train this model was 65.21894645690918 seconds
+2299.8s 512 evaluation in 12.886064291000366 seconds
+2299.8s 513 Loss: 0.7372
+2299.8s 514 Train Accuracy: 74.01%
+2299.8s 515 Test Accuracy: 73.05%
+2299.8s 516 
+2299.8s 517 ============================================================
+2299.8s 518 Epoch 14 Summary:
+2299.8s 519 ============================================================
+2299.8s 520 Time: 163.13s (Avg member: 81.57s)
+2299.8s 521 Population Mean Accuracy: 72.85%
+2299.8s 522 Best Member Accuracy: 73.05%
+2299.8s 523 Mean Batch Size: 96
+2299.8s 524 Mean Learning Rate: 1.91e-04
+2299.8s 525 Mean Weight Decay: 0.238
+2299.8s 526 
+2299.8s 527 ============================================================
+2299.8s 528 Epoch 15/60
+2299.8s 529 ============================================================
+2299.8s 530 
+2299.8s 531 --- Training Member 0 (Batch size: 64) ---
+2301.3s 532 built data in 1.7288191318511963 seconds
+2370.0s 533 LR changed during epoch: 1.77e-04 -> 1.74e-04
+2370.0s 534 total runtime to train this model was 68.63812947273254 seconds
+2383.0s 535 evaluation in 12.883058547973633 seconds
+2383.0s 536 Loss: 0.7467
+2383.0s 537 Train Accuracy: 73.64%
+2383.0s 538 Test Accuracy: 73.08%
+2383.0s 539 
+2383.0s 540 --- Training Member 1 (Batch size: 128) ---
+2384.5s 541 built data in 1.6826972961425781 seconds
+2449.7s 542 LR changed during epoch: 1.54e-04 -> 1.92e-04
+2449.7s 543 total runtime to train this model was 65.17124676704407 seconds
+2462.9s 544 evaluation in 12.953948497772217 seconds
+2462.9s 545 Loss: 0.7464
+2462.9s 546 Train Accuracy: 73.83%
+2462.9s 547 Test Accuracy: 72.73%
+2462.9s 548 
+2462.9s 549 --- Population Update (Epoch 15) ---
+2462.9s 550 
+2462.9s 551 === PBT Exploit & Explore ===
+2462.9s 552 Truncating 1 members
+2462.9s 553 Top performers: ['73.08%']
+2462.9s 554 Bottom performers: ['72.73%']
+2462.9s 555 Member 1: lr changed from 0.00019183100676830526 to 0.00017211218054368182
+2462.9s 556 Member 1: weight_decay changed from 0.2789346922638196 to 0.2827343517805138
+2462.9s 557 Member 1: drop_path changed from 0.14160524200413435 to 0.18030138567324847
+2462.9s 558 Member 1: batch_size changed from 128 to 64
+2462.9s 559 Member 1 copied from 0
+2462.9s 560 LR=1.72e-04, WD=0.283, DropPath=0.180, Warmup=5 epochs, Batch=64
+2462.9s 561 
+2462.9s 562 ============================================================
+2462.9s 563 Epoch 15 Summary:
+2462.9s 564 ============================================================
+2462.9s 565 Time: 163.07s (Avg member: 81.53s)
+2462.9s 566 Population Mean Accuracy: 72.91%
+2462.9s 567 Best Member Accuracy: 73.08%
+2462.9s 568 Mean Batch Size: 64
+2462.9s 569 Mean Learning Rate: 1.81e-04
+2462.9s 570 Mean Weight Decay: 0.240
+2462.9s 571 
+2462.9s 572 ============================================================
+2462.9s 573 Epoch 16/60
+2462.9s 574 ============================================================
+2462.9s 575 
+2462.9s 576 --- Training Member 0 (Batch size: 64) ---
+2464.4s 577 built data in 1.7079617977142334 seconds
+2533.0s 578 LR changed during epoch: 1.74e-04 -> 1.71e-04
+2533.0s 579 total runtime to train this model was 68.58478140830994 seconds
+2546.1s 580 evaluation in 12.971898078918457 seconds
+2546.1s 581 Loss: 0.7217
+2546.1s 582 Train Accuracy: 74.52%
+2546.1s 583 Test Accuracy: 74.85%
+2546.1s 584 
+2546.1s 585 --- Training Member 1 (Batch size: 64) ---
+2547.6s 586 built data in 1.6979889869689941 seconds
+2615.9s 587 LR changed during epoch: 4.40e-08 -> 3.45e-05
+2615.9s 588 total runtime to train this model was 68.26887631416321 seconds
+2629.2s 589 evaluation in 13.128170013427734 seconds
+2629.2s 590 Loss: 0.6218
+2629.2s 591 Train Accuracy: 78.06%
+2629.2s 592 Test Accuracy: 77.90%
+2629.2s 593 
+2629.2s 594 ============================================================
+2629.2s 595 Epoch 16 Summary:
+2629.2s 596 ============================================================
+2629.2s 597 Time: 166.36s (Avg member: 83.18s)
+2629.2s 598 Population Mean Accuracy: 76.38%
+2629.2s 599 Best Member Accuracy: 77.90%
+2629.2s 600 Mean Batch Size: 64
+2629.2s 601 Mean Learning Rate: 1.81e-04
+2629.2s 602 Mean Weight Decay: 0.240
+2629.2s 603 
+2629.2s 604 ============================================================
+2629.2s 605 Epoch 17/60
+2629.2s 606 ============================================================
+2629.2s 607 
+2629.2s 608 --- Training Member 0 (Batch size: 64) ---
+2630.7s 609 built data in 1.6939337253570557 seconds
+2699.2s 610 LR changed during epoch: 1.71e-04 -> 1.68e-04
+2699.2s 611 total runtime to train this model was 68.47272562980652 seconds
+2712.5s 612 evaluation in 13.057939052581787 seconds
+2712.5s 613 Loss: 0.6928
+2712.5s 614 Train Accuracy: 75.57%
+2712.5s 615 Test Accuracy: 76.14%
+2712.5s 616 
+2712.5s 617 --- Training Member 1 (Batch size: 64) ---
+2714.0s 618 built data in 1.69339919090271 seconds
+2782.6s 619 LR changed during epoch: 3.45e-05 -> 6.89e-05
+2782.6s 620 total runtime to train this model was 68.62159323692322 seconds
+2795.7s 621 evaluation in 12.924057960510254 seconds
+2795.7s 622 Loss: 0.5875
+2795.7s 623 Train Accuracy: 79.39%
+2795.7s 624 Test Accuracy: 78.22%
+2795.7s 625 
+2795.7s 626 ============================================================
+2795.7s 627 Epoch 17 Summary:
+2795.7s 628 ============================================================
+2795.7s 629 Time: 166.47s (Avg member: 83.23s)
+2795.7s 630 Population Mean Accuracy: 77.18%
+2795.7s 631 Best Member Accuracy: 78.22%
+2795.7s 632 Mean Batch Size: 64
+2795.7s 633 Mean Learning Rate: 1.81e-04
+2795.7s 634 Mean Weight Decay: 0.240
+2795.7s 635 
+2795.7s 636 ============================================================
+2795.7s 637 Epoch 18/60
+2795.7s 638 ============================================================
+2795.7s 639 
+2795.7s 640 --- Training Member 0 (Batch size: 64) ---
+2797.2s 641 built data in 1.674548864364624 seconds
+2865.8s 642 LR changed during epoch: 1.68e-04 -> 1.65e-04
+2865.8s 643 total runtime to train this model was 68.56317043304443 seconds
+2878.9s 644 evaluation in 12.937827110290527 seconds
+2878.9s 645 Loss: 0.6606
+2878.9s 646 Train Accuracy: 76.68%
+2878.9s 647 Test Accuracy: 77.00%
+2878.9s 648 
+2878.9s 649 --- Training Member 1 (Batch size: 64) ---
+2880.3s 650 built data in 1.6687991619110107 seconds
+2949.0s 651 LR changed during epoch: 6.89e-05 -> 1.03e-04
+2949.0s 652 total runtime to train this model was 68.63129138946533 seconds
+2962.1s 653 evaluation in 12.952988147735596 seconds
+2962.1s 654 Loss: 0.6053
+2962.1s 655 Train Accuracy: 78.83%
+2962.1s 656 Test Accuracy: 75.85%
+2962.1s 657 
+2962.1s 658 ============================================================
+2962.1s 659 Epoch 18 Summary:
+2962.1s 660 ============================================================
+2962.1s 661 Time: 166.43s (Avg member: 83.22s)
+2962.1s 662 Population Mean Accuracy: 76.42%
+2962.1s 663 Best Member Accuracy: 77.00%
+2962.1s 664 Mean Batch Size: 64
+2962.1s 665 Mean Learning Rate: 1.81e-04
+2962.1s 666 Mean Weight Decay: 0.240
+2962.1s 667 
+2962.1s 668 ============================================================
+2962.1s 669 Epoch 19/60
+2962.1s 670 ============================================================
+2962.1s 671 
+2962.1s 672 --- Training Member 0 (Batch size: 64) ---
+2963.6s 673 built data in 1.7048485279083252 seconds
+3032.4s 674 LR changed during epoch: 1.65e-04 -> 1.61e-04
+3032.4s 675 total runtime to train this model was 68.71970868110657 seconds
+3045.6s 676 evaluation in 13.072609901428223 seconds
+3045.6s 677 Loss: 0.6411
+3045.6s 678 Train Accuracy: 77.27%
+3045.6s 679 Test Accuracy: 76.48%
+3045.6s 680 
+3045.6s 681 --- Training Member 1 (Batch size: 64) ---
+3047.1s 682 built data in 1.6768336296081543 seconds
+3115.9s 683 LR changed during epoch: 1.03e-04 -> 1.38e-04
+3115.9s 684 total runtime to train this model was 68.76216530799866 seconds
+3129.1s 685 evaluation in 13.055564641952515 seconds
+3129.1s 686 Loss: 0.6292
+3129.1s 687 Train Accuracy: 77.66%
+3129.1s 688 Test Accuracy: 76.30%
+3129.1s 689 
+3129.1s 690 ============================================================
+3129.1s 691 Epoch 19 Summary:
+3129.1s 692 ============================================================
+3129.1s 693 Time: 166.99s (Avg member: 83.50s)
+3129.1s 694 Population Mean Accuracy: 76.39%
+3129.1s 695 Best Member Accuracy: 76.48%
+3129.1s 696 Mean Batch Size: 64
+3129.1s 697 Mean Learning Rate: 1.81e-04
+3129.1s 698 Mean Weight Decay: 0.240
+3129.1s 699 
+3129.1s 700 ============================================================
+3129.1s 701 Epoch 20/60
+3129.1s 702 ============================================================
+3129.1s 703 
+3129.1s 704 --- Training Member 0 (Batch size: 64) ---
+3130.6s 705 built data in 1.7009375095367432 seconds
+3199.5s 706 LR changed during epoch: 1.61e-04 -> 1.57e-04
+3199.5s 707 total runtime to train this model was 68.86498856544495 seconds
+3212.7s 708 evaluation in 13.02570915222168 seconds
+3212.7s 709 Loss: 0.6219
+3212.7s 710 Train Accuracy: 78.31%
+3212.7s 711 Test Accuracy: 77.16%
+3212.7s 712 
+3212.7s 713 --- Training Member 1 (Batch size: 64) ---
+3214.2s 714 built data in 1.6917493343353271 seconds
+3283.0s 715 LR changed during epoch: 1.38e-04 -> 1.72e-04
+3283.0s 716 total runtime to train this model was 68.77276563644409 seconds
+3296.3s 717 evaluation in 13.092067956924438 seconds
+3296.3s 718 Loss: 0.6533
+3296.3s 719 Train Accuracy: 77.20%
+3296.3s 720 Test Accuracy: 75.90%
+3296.3s 721 
+3296.3s 722 --- Population Update (Epoch 20) ---
+3296.3s 723 
+3296.3s 724 === PBT Exploit & Explore ===
+3296.3s 725 Truncating 1 members
+3296.3s 726 Top performers: ['77.16%']
+3296.3s 727 Bottom performers: ['75.90%']
+3296.3s 728 Member 1: lr changed from 0.00017211218054368182 to 0.0001877514482714974
+3296.3s 729 Member 1: weight_decay changed from 0.2827343517805138 to 0.2539477457548212
+3296.3s 730 Member 1: drop_path changed from 0.18030138567324847 to 0.15710428598495385
+3296.3s 731 Member 1: batch_size changed from 64 to 128
+3296.3s 732 Member 1 copied from 0
+3296.3s 733 LR=1.88e-04, WD=0.254, DropPath=0.157, Warmup=5 epochs, Batch=128
+3296.3s 734 
+3296.3s 735 ============================================================
+3296.3s 736 Epoch 20 Summary:
+3296.3s 737 ============================================================
+3296.3s 738 Time: 167.16s (Avg member: 83.58s)
+3296.3s 739 Population Mean Accuracy: 76.53%
+3296.3s 740 Best Member Accuracy: 77.16%
+3296.3s 741 Mean Batch Size: 96
+3296.3s 742 Mean Learning Rate: 1.89e-04
+3296.3s 743 Mean Weight Decay: 0.225
+3296.3s 744 
+3296.3s 745 ============================================================
+3296.3s 746 Epoch 21/60
+3296.3s 747 ============================================================
+3296.3s 748 
+3296.3s 749 --- Training Member 0 (Batch size: 64) ---
+3297.8s 750 built data in 1.6761691570281982 seconds
+3366.0s 751 LR changed during epoch: 1.57e-04 -> 1.53e-04
+3366.0s 752 total runtime to train this model was 68.2665627002716 seconds
+3379.2s 753 evaluation in 12.965763568878174 seconds
+3379.2s 754 Loss: 0.6023
+3379.2s 755 Train Accuracy: 78.67%
+3379.2s 756 Test Accuracy: 77.94%
+3379.2s 757 
+3379.2s 758 --- Training Member 1 (Batch size: 128) ---
+3380.7s 759 built data in 1.6781494617462158 seconds
+3445.8s 760 LR changed during epoch: 9.60e-08 -> 3.76e-05
+3445.8s 761 total runtime to train this model was 65.10706186294556 seconds
+3459.0s 762 evaluation in 12.987041473388672 seconds
+3459.0s 763 Loss: 0.5137
+3459.0s 764 Train Accuracy: 81.99%
+3459.0s 765 Test Accuracy: 80.79%
+3459.0s 766 
+3459.0s 767 ============================================================
+3459.0s 768 Epoch 21 Summary:
+3459.0s 769 ============================================================
+3459.0s 770 Time: 162.68s (Avg member: 81.34s)
+3459.0s 771 Population Mean Accuracy: 79.37%
+3459.0s 772 Best Member Accuracy: 80.79%
+3459.0s 773 Mean Batch Size: 96
+3459.0s 774 Mean Learning Rate: 1.89e-04
+3459.0s 775 Mean Weight Decay: 0.225
+3459.0s 776 
+3459.0s 777 ============================================================
+3459.0s 778 Epoch 22/60
+3459.0s 779 ============================================================
+3459.0s 780 
+3459.0s 781 --- Training Member 0 (Batch size: 64) ---
+3460.5s 782 built data in 1.677687168121338 seconds
+3529.1s 783 LR changed during epoch: 1.53e-04 -> 1.48e-04
+3529.1s 784 total runtime to train this model was 68.5848913192749 seconds
+3542.1s 785 evaluation in 12.876978158950806 seconds
+3542.1s 786 Loss: 0.5812
+3542.1s 787 Train Accuracy: 79.46%
+3542.1s 788 Test Accuracy: 78.08%
+3542.1s 789 
+3542.1s 790 --- Training Member 1 (Batch size: 128) ---
+3543.6s 791 built data in 1.673002004623413 seconds
+3608.7s 792 LR changed during epoch: 3.76e-05 -> 7.52e-05
+3608.7s 793 total runtime to train this model was 65.09540724754333 seconds
+3621.8s 794 evaluation in 12.912163019180298 seconds
+3621.8s 795 Loss: 0.4813
+3621.8s 796 Train Accuracy: 83.04%
+3621.8s 797 Test Accuracy: 80.90%
+3621.8s 798 
+3621.8s 799 ============================================================
+3621.8s 800 Epoch 22 Summary:
+3621.8s 801 ============================================================
+3621.8s 802 Time: 162.82s (Avg member: 81.41s)
+3621.8s 803 Population Mean Accuracy: 79.49%
+3621.8s 804 Best Member Accuracy: 80.90%
+3621.8s 805 Mean Batch Size: 96
+3621.8s 806 Mean Learning Rate: 1.89e-04
+3621.8s 807 Mean Weight Decay: 0.225
+3621.8s 808 
+3621.8s 809 ============================================================
+3621.8s 810 Epoch 23/60
+3621.8s 811 ============================================================
+3621.8s 812 
+3621.8s 813 --- Training Member 0 (Batch size: 64) ---
+3623.3s 814 built data in 1.6885576248168945 seconds
+3692.1s 815 LR changed during epoch: 1.48e-04 -> 1.44e-04
+3692.1s 816 total runtime to train this model was 68.81704044342041 seconds
+3705.2s 817 evaluation in 12.919630765914917 seconds
+3705.2s 818 Loss: 0.5617
+3705.2s 819 Train Accuracy: 80.15%
+3705.2s 820 Test Accuracy: 79.33%
+3705.2s 821 
+3705.2s 822 --- Training Member 1 (Batch size: 128) ---
+3706.7s 823 built data in 1.6912047863006592 seconds
+3771.9s 824 LR changed during epoch: 7.52e-05 -> 1.13e-04
+3771.9s 825 total runtime to train this model was 65.16574001312256 seconds
+3785.0s 826 evaluation in 12.924389123916626 seconds
+3785.0s 827 Loss: 0.4866
+3785.0s 828 Train Accuracy: 82.71%
+3785.0s 829 Test Accuracy: 80.92%
+3785.0s 830 
+3785.0s 831 ============================================================
+3785.0s 832 Epoch 23 Summary:
+3785.0s 833 ============================================================
+3785.0s 834 Time: 163.21s (Avg member: 81.60s)
+3785.0s 835 Population Mean Accuracy: 80.12%
+3785.0s 836 Best Member Accuracy: 80.92%
+3785.0s 837 Mean Batch Size: 96
+3785.0s 838 Mean Learning Rate: 1.89e-04
+3785.0s 839 Mean Weight Decay: 0.225
+3785.0s 840 
+3785.0s 841 ============================================================
+3785.0s 842 Epoch 24/60
+3785.0s 843 ============================================================
+3785.0s 844 
+3785.0s 845 --- Training Member 0 (Batch size: 64) ---
+3786.5s 846 built data in 1.6712760925292969 seconds
+3855.1s 847 LR changed during epoch: 1.44e-04 -> 1.39e-04
+3855.1s 848 total runtime to train this model was 68.57553219795227 seconds
+3868.1s 849 evaluation in 12.87954306602478 seconds
+3868.1s 850 Loss: 0.5380
+3868.1s 851 Train Accuracy: 80.99%
+3868.1s 852 Test Accuracy: 78.63%
+3868.1s 853 
+3868.1s 854 --- Training Member 1 (Batch size: 128) ---
+3869.6s 855 built data in 1.6651523113250732 seconds
+3934.8s 856 LR changed during epoch: 1.13e-04 -> 1.50e-04
+3934.8s 857 total runtime to train this model was 65.2137496471405 seconds
+3947.9s 858 evaluation in 12.865036964416504 seconds
+3947.9s 859 Loss: 0.4995
+3947.9s 860 Train Accuracy: 82.53%
+3947.9s 861 Test Accuracy: 79.60%
+3947.9s 862 
+3947.9s 863 ============================================================
+3947.9s 864 Epoch 24 Summary:
+3947.9s 865 ============================================================
+3947.9s 866 Time: 162.87s (Avg member: 81.44s)
+3947.9s 867 Population Mean Accuracy: 79.11%
+3947.9s 868 Best Member Accuracy: 79.60%
+3947.9s 869 Mean Batch Size: 96
+3947.9s 870 Mean Learning Rate: 1.89e-04
+3947.9s 871 Mean Weight Decay: 0.225
+3947.9s 872 
+3947.9s 873 ============================================================
+3947.9s 874 Epoch 25/60
+3947.9s 875 ============================================================
+3947.9s 876 
+3947.9s 877 --- Training Member 0 (Batch size: 64) ---
+3949.4s 878 built data in 1.6790275573730469 seconds
+4018.1s 879 LR changed during epoch: 1.39e-04 -> 1.34e-04
+4018.1s 880 total runtime to train this model was 68.7303819656372 seconds
+4031.1s 881 evaluation in 12.839372873306274 seconds
+4031.1s 882 Loss: 0.5201
+4031.1s 883 Train Accuracy: 81.70%
+4031.1s 884 Test Accuracy: 78.83%
+4031.1s 885 
+4031.1s 886 --- Training Member 1 (Batch size: 128) ---
+4032.6s 887 built data in 1.668513536453247 seconds
+4097.6s 888 LR changed during epoch: 1.50e-04 -> 1.88e-04
+4097.6s 889 total runtime to train this model was 64.97574615478516 seconds
+4110.6s 890 evaluation in 12.872079849243164 seconds
+4110.6s 891 Loss: 0.5154
+4110.6s 892 Train Accuracy: 81.88%
+4110.6s 893 Test Accuracy: 79.39%
+4110.6s 894 
+4110.6s 895 --- Population Update (Epoch 25) ---
+4110.6s 896 
+4110.6s 897 === PBT Exploit & Explore ===
+4110.6s 898 Truncating 1 members
+4110.6s 899 Top performers: ['79.39%']
+4110.6s 900 Bottom performers: ['78.83%']
+4110.6s 901 Member 0: lr changed from 0.0001894099367645819 to 0.0001916000304619308
+4110.6s 902 Member 0: weight_decay changed from 0.19647588213967787 to 0.15925391315856716
+4110.6s 903 Member 0: drop_path changed from 0.12303546707184179 to 0.12128180474227052
+4110.6s 904 Member 0 copied from 1
+4110.6s 905 LR=1.92e-04, WD=0.159, DropPath=0.121, Warmup=5 epochs, Batch=64
+4110.6s 906 
+4110.6s 907 ============================================================
+4110.6s 908 Epoch 25 Summary:
+4110.6s 909 ============================================================
+4110.6s 910 Time: 162.78s (Avg member: 81.38s)
+4110.6s 911 Population Mean Accuracy: 79.11%
+4110.6s 912 Best Member Accuracy: 79.39%
+4110.6s 913 Mean Batch Size: 96
+4110.6s 914 Mean Learning Rate: 1.90e-04
+4110.6s 915 Mean Weight Decay: 0.207
+4110.6s 916 
+4110.6s 917 ============================================================
+4110.6s 918 Epoch 26/60
+4110.6s 919 ============================================================
+4110.6s 920 
+4110.6s 921 --- Training Member 0 (Batch size: 64) ---
+4112.1s 922 built data in 1.678300380706787 seconds
+4180.9s 923 LR changed during epoch: 4.90e-08 -> 3.84e-05
+4180.9s 924 total runtime to train this model was 68.71777963638306 seconds
+4194.0s 925 evaluation in 12.959103345870972 seconds
+4194.0s 926 Loss: 0.4326
+4194.0s 927 Train Accuracy: 84.83%
+4194.0s 928 Test Accuracy: 81.32%
+4194.0s 929 
+4194.0s 930 --- Training Member 1 (Batch size: 128) ---
+4195.5s 931 built data in 1.657606601715088 seconds
+4260.7s 932 LR changed during epoch: 1.88e-04 -> 1.88e-04
+4260.7s 933 total runtime to train this model was 65.15930724143982 seconds
+4273.7s 934 evaluation in 12.91448187828064 seconds
+4273.7s 935 Loss: 0.5274
+4273.7s 936 Train Accuracy: 81.35%
+4273.7s 937 Test Accuracy: 79.64%
+4273.7s 938 
+4273.7s 939 ============================================================
+4273.7s 940 Epoch 26 Summary:
+4273.7s 941 ============================================================
+4273.7s 942 Time: 163.09s (Avg member: 81.54s)
+4273.7s 943 Population Mean Accuracy: 80.48%
+4273.7s 944 Best Member Accuracy: 81.32%
+4273.7s 945 Mean Batch Size: 96
+4273.7s 946 Mean Learning Rate: 1.90e-04
+4273.7s 947 Mean Weight Decay: 0.207
+4273.7s 948 
+4273.7s 949 ============================================================
+4273.7s 950 Epoch 27/60
+4273.7s 951 ============================================================
+4273.7s 952 
+4273.7s 953 --- Training Member 0 (Batch size: 64) ---
+4275.2s 954 built data in 1.6890819072723389 seconds
+4343.9s 955 LR changed during epoch: 3.84e-05 -> 7.67e-05
+4343.9s 956 total runtime to train this model was 68.68681788444519 seconds
+4357.0s 957 evaluation in 12.911560535430908 seconds
+4357.0s 958 Loss: 0.4287
+4357.0s 959 Train Accuracy: 84.77%
+4357.0s 960 Test Accuracy: 80.82%
+4357.0s 961 
+4357.0s 962 --- Training Member 1 (Batch size: 128) ---
+4358.5s 963 built data in 1.6615631580352783 seconds
+4423.7s 964 LR changed during epoch: 1.88e-04 -> 1.87e-04
+4423.7s 965 total runtime to train this model was 65.19807839393616 seconds
+4436.9s 966 evaluation in 13.022499561309814 seconds
+4436.9s 967 Loss: 0.5110
+4436.9s 968 Train Accuracy: 81.88%
+4436.9s 969 Test Accuracy: 79.78%
+4436.9s 970 
+4436.9s 971 ============================================================
+4436.9s 972 Epoch 27 Summary:
+4436.9s 973 ============================================================
+4436.9s 974 Time: 163.17s (Avg member: 81.59s)
+4436.9s 975 Population Mean Accuracy: 80.30%
+4436.9s 976 Best Member Accuracy: 80.82%
+4436.9s 977 Mean Batch Size: 96
+4436.9s 978 Mean Learning Rate: 1.90e-04
+4436.9s 979 Mean Weight Decay: 0.207
+4436.9s 980 
+4436.9s 981 ============================================================
+4436.9s 982 Epoch 28/60
+4436.9s 983 ============================================================
+4436.9s 984 
+4436.9s 985 --- Training Member 0 (Batch size: 64) ---
+4438.4s 986 built data in 1.6688272953033447 seconds
+4507.3s 987 LR changed during epoch: 7.67e-05 -> 1.15e-04
+4507.3s 988 total runtime to train this model was 68.84925746917725 seconds
+4520.5s 989 evaluation in 13.111331224441528 seconds
+4520.5s 990 Loss: 0.4663
+4520.5s 991 Train Accuracy: 83.60%
+4520.5s 992 Test Accuracy: 79.80%
+4520.5s 993 
+4520.5s 994 --- Training Member 1 (Batch size: 128) ---
+4522.1s 995 built data in 1.7100894451141357 seconds
+4587.4s 996 LR changed during epoch: 1.87e-04 -> 1.86e-04
+4587.4s 997 total runtime to train this model was 65.28184962272644 seconds
+4600.6s 998 evaluation in 13.026392936706543 seconds
+4600.6s 999 Loss: 0.5025
+4600.6s 1000 Train Accuracy: 82.26%
+4600.6s 1001 Test Accuracy: 79.46%
+4600.6s 1002 
+4600.6s 1003 ============================================================
+4600.6s 1004 Epoch 28 Summary:
+4600.6s 1005 ============================================================
+4600.6s 1006 Time: 163.65s (Avg member: 81.83s)
+4600.6s 1007 Population Mean Accuracy: 79.63%
+4600.6s 1008 Best Member Accuracy: 79.80%
+4600.6s 1009 Mean Batch Size: 96
+4600.6s 1010 Mean Learning Rate: 1.90e-04
+4600.6s 1011 Mean Weight Decay: 0.207
+4600.6s 1012 
+4600.6s 1013 ============================================================
+4600.6s 1014 Epoch 29/60
+4600.6s 1015 ============================================================
+4600.6s 1016 
+4600.6s 1017 --- Training Member 0 (Batch size: 64) ---
+4602.1s 1018 built data in 1.697598934173584 seconds
+4670.9s 1019 LR changed during epoch: 1.15e-04 -> 1.53e-04
+4670.9s 1020 total runtime to train this model was 68.81851172447205 seconds
+4684.1s 1021 evaluation in 13.023590564727783 seconds
+4684.1s 1022 Loss: 0.5013
+4684.1s 1023 Train Accuracy: 82.32%
+4684.1s 1024 Test Accuracy: 79.41%
+4684.1s 1025 
+4684.1s 1026 --- Training Member 1 (Batch size: 128) ---
+4685.6s 1027 built data in 1.6762988567352295 seconds
+4750.4s 1028 LR changed during epoch: 1.86e-04 -> 1.85e-04
+4750.4s 1029 total runtime to train this model was 64.75565981864929 seconds
+4763.5s 1030 evaluation in 12.970531702041626 seconds
+4763.5s 1031 Loss: 0.4868
+4763.5s 1032 Train Accuracy: 82.93%
+4763.5s 1033 Test Accuracy: 79.11%
+4763.5s 1034 
+4763.5s 1035 ============================================================
+4763.5s 1036 Epoch 29 Summary:
+4763.5s 1037 ============================================================
+4763.5s 1038 Time: 162.94s (Avg member: 81.47s)
+4763.5s 1039 Population Mean Accuracy: 79.26%
+4763.5s 1040 Best Member Accuracy: 79.41%
+4763.5s 1041 Mean Batch Size: 96
+4763.5s 1042 Mean Learning Rate: 1.90e-04
+4763.5s 1043 Mean Weight Decay: 0.207
+4763.5s 1044 
+4763.5s 1045 ============================================================
+4763.5s 1046 Epoch 30/60
+4763.5s 1047 ============================================================
+4763.5s 1048 
+4763.5s 1049 --- Training Member 0 (Batch size: 64) ---
+4765.1s 1050 built data in 1.7667055130004883 seconds
+4833.9s 1051 LR changed during epoch: 1.53e-04 -> 1.92e-04
+4833.9s 1052 total runtime to train this model was 68.76623225212097 seconds
+4847.0s 1053 evaluation in 12.950207710266113 seconds
+4847.0s 1054 Loss: 0.5333
+4847.0s 1055 Train Accuracy: 81.13%
+4847.0s 1056 Test Accuracy: 77.15%
+4847.0s 1057 
+4847.0s 1058 --- Training Member 1 (Batch size: 128) ---
+4848.5s 1059 built data in 1.6812303066253662 seconds
+4913.8s 1060 LR changed during epoch: 1.85e-04 -> 1.84e-04
+4913.8s 1061 total runtime to train this model was 65.28216052055359 seconds
+4927.0s 1062 evaluation in 13.068320512771606 seconds
+4927.0s 1063 Loss: 0.4795
+4927.0s 1064 Train Accuracy: 83.02%
+4927.0s 1065 Test Accuracy: 80.07%
+4927.0s 1066 
+4927.0s 1067 --- Population Update (Epoch 30) ---
+4927.0s 1068 
+4927.0s 1069 === PBT Exploit & Explore ===
+4927.0s 1070 Truncating 1 members
+4927.0s 1071 Top performers: ['80.07%']
+4927.0s 1072 Bottom performers: ['77.15%']
+4927.0s 1073 Member 0: lr changed from 0.0001916000304619308 to 0.00017766255147396077
+4927.0s 1074 Member 0: weight_decay changed from 0.15925391315856716 to 0.11751176352824128
+4927.0s 1075 Member 0: drop_path changed from 0.12128180474227052 to 0.09711951197344508
+4927.0s 1076 Member 0 copied from 1
+4927.0s 1077 LR=1.78e-04, WD=0.118, DropPath=0.097, Warmup=5 epochs, Batch=64
+4927.0s 1078 
+4927.0s 1079 ============================================================
+4927.0s 1080 Epoch 30 Summary:
+4927.0s 1081 ============================================================
+4927.0s 1082 Time: 163.53s (Avg member: 81.76s)
+4927.0s 1083 Population Mean Accuracy: 78.61%
+4927.0s 1084 Best Member Accuracy: 80.07%
+4927.0s 1085 Mean Batch Size: 96
+4927.0s 1086 Mean Learning Rate: 1.83e-04
+4927.0s 1087 Mean Weight Decay: 0.186
+4927.0s 1088 
+4927.0s 1089 ============================================================
+4927.0s 1090 Epoch 31/60
+4927.0s 1091 ============================================================
+4927.0s 1092 
+4927.0s 1093 --- Training Member 0 (Batch size: 64) ---
+4928.5s 1094 built data in 1.6892762184143066 seconds
+4997.4s 1095 LR changed during epoch: 4.54e-08 -> 3.56e-05
+4997.4s 1096 total runtime to train this model was 68.81658101081848 seconds
+5010.6s 1097 evaluation in 13.037560939788818 seconds
+5010.6s 1098 Loss: 0.3793
+5010.6s 1099 Train Accuracy: 86.59%
+5010.6s 1100 Test Accuracy: 82.84%
+5010.6s 1101 
+5010.6s 1102 --- Training Member 1 (Batch size: 128) ---
+5012.1s 1103 built data in 1.6755437850952148 seconds
+5077.3s 1104 LR changed during epoch: 1.84e-04 -> 1.82e-04
+5077.3s 1105 total runtime to train this model was 65.19105792045593 seconds
+5090.6s 1106 evaluation in 13.127286195755005 seconds
+5090.6s 1107 Loss: 0.4683
+5090.6s 1108 Train Accuracy: 83.28%
+5090.6s 1109 Test Accuracy: 80.59%
+5090.6s 1110 
+5090.6s 1111 ============================================================
+5090.6s 1112 Epoch 31 Summary:
+5090.6s 1113 ============================================================
+5090.6s 1114 Time: 163.54s (Avg member: 81.77s)
+5090.6s 1115 Population Mean Accuracy: 81.72%
+5090.6s 1116 Best Member Accuracy: 82.84%
+5090.6s 1117 Mean Batch Size: 96
+5090.6s 1118 Mean Learning Rate: 1.83e-04
+5090.6s 1119 Mean Weight Decay: 0.186
+5090.6s 1120 
+5090.6s 1121 ============================================================
+5090.6s 1122 Epoch 32/60
+5090.6s 1123 ============================================================
+5090.6s 1124 
+5090.6s 1125 --- Training Member 0 (Batch size: 64) ---
+5092.1s 1126 built data in 1.7477381229400635 seconds
+5160.4s 1127 LR changed during epoch: 3.56e-05 -> 7.11e-05
+5160.4s 1128 total runtime to train this model was 68.233642578125 seconds
+5173.6s 1129 evaluation in 13.000070333480835 seconds
+5173.6s 1130 Loss: 0.3696
+5173.6s 1131 Train Accuracy: 87.00%
+5173.6s 1132 Test Accuracy: 82.36%
+5173.6s 1133 
+5173.6s 1134 --- Training Member 1 (Batch size: 128) ---
+5175.0s 1135 built data in 1.6730186939239502 seconds
+5240.2s 1136 LR changed during epoch: 1.82e-04 -> 1.80e-04
+5240.2s 1137 total runtime to train this model was 65.10632061958313 seconds
+5253.3s 1138 evaluation in 12.939664363861084 seconds
+5253.3s 1139 Loss: 0.4553
+5253.3s 1140 Train Accuracy: 83.98%
+5253.3s 1141 Test Accuracy: 79.88%
+5253.3s 1142 
+5253.3s 1143 ============================================================
+5253.3s 1144 Epoch 32 Summary:
+5253.3s 1145 ============================================================
+5253.3s 1146 Time: 162.70s (Avg member: 81.35s)
+5253.3s 1147 Population Mean Accuracy: 81.12%
+5253.3s 1148 Best Member Accuracy: 82.36%
+5253.3s 1149 Mean Batch Size: 96
+5253.3s 1150 Mean Learning Rate: 1.83e-04
+5253.3s 1151 Mean Weight Decay: 0.186
+5253.3s 1152 
+5253.3s 1153 ============================================================
+5253.3s 1154 Epoch 33/60
+5253.3s 1155 ============================================================
+5253.3s 1156 
+5253.3s 1157 --- Training Member 0 (Batch size: 64) ---
+5254.9s 1158 built data in 1.8533203601837158 seconds
+5323.7s 1159 LR changed during epoch: 7.11e-05 -> 1.07e-04
+5323.7s 1160 total runtime to train this model was 68.7062783241272 seconds
+5336.7s 1161 evaluation in 12.865074872970581 seconds
+5336.7s 1162 Loss: 0.4007
+5336.7s 1163 Train Accuracy: 85.81%
+5336.7s 1164 Test Accuracy: 81.19%
+5336.7s 1165 
+5336.7s 1166 --- Training Member 1 (Batch size: 128) ---
+5338.2s 1167 built data in 1.6763665676116943 seconds
+5403.2s 1168 LR changed during epoch: 1.80e-04 -> 1.78e-04
+5403.2s 1169 total runtime to train this model was 65.0050938129425 seconds
+5416.3s 1170 evaluation in 12.88725733757019 seconds
+5416.3s 1171 Loss: 0.4418
+5416.3s 1172 Train Accuracy: 84.40%
+5416.3s 1173 Test Accuracy: 80.74%
+5416.3s 1174 
+5416.3s 1175 ============================================================
+5416.3s 1176 Epoch 33 Summary:
+5416.3s 1177 ============================================================
+5416.3s 1178 Time: 163.00s (Avg member: 81.50s)
+5416.3s 1179 Population Mean Accuracy: 80.97%
+5416.3s 1180 Best Member Accuracy: 81.19%
+5416.3s 1181 Mean Batch Size: 96
+5416.3s 1182 Mean Learning Rate: 1.83e-04
+5416.3s 1183 Mean Weight Decay: 0.186
+5416.3s 1184 
+5416.3s 1185 ============================================================
+5416.3s 1186 Epoch 34/60
+5416.3s 1187 ============================================================
+5416.3s 1188 
+5416.3s 1189 --- Training Member 0 (Batch size: 64) ---
+5417.8s 1190 built data in 1.692828893661499 seconds
+5486.4s 1191 LR changed during epoch: 1.07e-04 -> 1.42e-04
+5486.4s 1192 total runtime to train this model was 68.60520601272583 seconds
+5499.5s 1193 evaluation in 12.934439182281494 seconds
+5499.5s 1194 Loss: 0.4290
+5499.5s 1195 Train Accuracy: 84.83%
+5499.5s 1196 Test Accuracy: 77.98%
+5499.5s 1197 
+5499.5s 1198 --- Training Member 1 (Batch size: 128) ---
+5501.0s 1199 built data in 1.6792144775390625 seconds
+5566.3s 1200 LR changed during epoch: 1.78e-04 -> 1.76e-04
+5566.3s 1201 total runtime to train this model was 65.24726486206055 seconds
+5579.4s 1202 evaluation in 12.966030359268188 seconds
+5579.4s 1203 Loss: 0.4294
+5579.4s 1204 Train Accuracy: 84.97%
+5579.4s 1205 Test Accuracy: 80.55%
+5579.4s 1206 
+5579.4s 1207 ============================================================
+5579.4s 1208 Epoch 34 Summary:
+5579.4s 1209 ============================================================
+5579.4s 1210 Time: 163.13s (Avg member: 81.56s)
+5579.4s 1211 Population Mean Accuracy: 79.27%
+5579.4s 1212 Best Member Accuracy: 80.55%
+5579.4s 1213 Mean Batch Size: 96
+5579.4s 1214 Mean Learning Rate: 1.83e-04
+5579.4s 1215 Mean Weight Decay: 0.186
+5579.4s 1216 
+5579.4s 1217 ============================================================
+5579.4s 1218 Epoch 35/60
+5579.4s 1219 ============================================================
+5579.4s 1220 
+5579.4s 1221 --- Training Member 0 (Batch size: 64) ---
+5580.9s 1222 built data in 1.6796033382415771 seconds
+5649.5s 1223 LR changed during epoch: 1.42e-04 -> 1.78e-04
+5649.5s 1224 total runtime to train this model was 68.6346046924591 seconds
+5662.6s 1225 evaluation in 12.864626169204712 seconds
+5662.6s 1226 Loss: 0.4681
+5662.6s 1227 Train Accuracy: 83.49%
+5662.6s 1228 Test Accuracy: 80.22%
+5662.6s 1229 
+5662.6s 1230 --- Training Member 1 (Batch size: 128) ---
+5664.1s 1231 built data in 1.6853251457214355 seconds
+5729.2s 1232 LR changed during epoch: 1.76e-04 -> 1.73e-04
+5729.2s 1233 total runtime to train this model was 65.12906408309937 seconds
+5742.3s 1234 evaluation in 12.867823362350464 seconds
+5742.3s 1235 Loss: 0.4189
+5742.3s 1236 Train Accuracy: 85.15%
+5742.3s 1237 Test Accuracy: 81.30%
+5742.3s 1238 
+5742.3s 1239 --- Population Update (Epoch 35) ---
+5742.3s 1240 
+5742.3s 1241 === PBT Exploit & Explore ===
+5742.3s 1242 Truncating 1 members
+5742.3s 1243 Top performers: ['81.30%']
+5742.3s 1244 Bottom performers: ['80.22%']
+5742.3s 1245 Member 0: lr changed from 0.00017766255147396077 to 0.00019466626868528764
+5742.3s 1246 Member 0: weight_decay changed from 0.11751176352824128 to 0.14840203226888407
+5742.3s 1247 Member 0: drop_path changed from 0.09711951197344508 to 0.08995983699275957
+5742.3s 1248 Member 0 copied from 1
+5742.3s 1249 LR=1.95e-04, WD=0.148, DropPath=0.090, Warmup=5 epochs, Batch=64
+5742.3s 1250 
+5742.3s 1251 ============================================================
+5742.3s 1252 Epoch 35 Summary:
+5742.3s 1253 ============================================================
+5742.3s 1254 Time: 162.87s (Avg member: 81.43s)
+5742.3s 1255 Population Mean Accuracy: 80.76%
+5742.3s 1256 Best Member Accuracy: 81.30%
+5742.3s 1257 Mean Batch Size: 96
+5742.3s 1258 Mean Learning Rate: 1.91e-04
+5742.3s 1259 Mean Weight Decay: 0.201
+5742.3s 1260 
+5742.3s 1261 ============================================================
+5742.3s 1262 Epoch 36/60
+5742.3s 1263 ============================================================
+5742.3s 1264 
+5742.3s 1265 --- Training Member 0 (Batch size: 64) ---
+5743.8s 1266 built data in 1.6643507480621338 seconds
+5812.4s 1267 LR changed during epoch: 4.98e-08 -> 3.90e-05
+5812.4s 1268 total runtime to train this model was 68.58231806755066 seconds
+5825.4s 1269 evaluation in 12.871908187866211 seconds
+5825.4s 1270 Loss: 0.3213
+5825.4s 1271 Train Accuracy: 88.71%
+5825.4s 1272 Test Accuracy: 83.24%
+5825.4s 1273 
+5825.4s 1274 --- Training Member 1 (Batch size: 128) ---
+5826.9s 1275 built data in 1.6635258197784424 seconds
+5891.7s 1276 LR changed during epoch: 1.73e-04 -> 1.70e-04
+5891.7s 1277 total runtime to train this model was 64.84279417991638 seconds
+5904.9s 1278 evaluation in 13.016814708709717 seconds
+5904.9s 1279 Loss: 0.4047
+5904.9s 1280 Train Accuracy: 85.71%
+5904.9s 1281 Test Accuracy: 81.54%
+5904.9s 1282 
+5904.9s 1283 ============================================================
+5904.9s 1284 Epoch 36 Summary:
+5904.9s 1285 ============================================================
+5904.9s 1286 Time: 162.64s (Avg member: 81.32s)
+5904.9s 1287 Population Mean Accuracy: 82.39%
+5904.9s 1288 Best Member Accuracy: 83.24%
+5904.9s 1289 Mean Batch Size: 96
+5904.9s 1290 Mean Learning Rate: 1.91e-04
+5904.9s 1291 Mean Weight Decay: 0.201
+5904.9s 1292 
+5904.9s 1293 ============================================================
+5904.9s 1294 Epoch 37/60
+5904.9s 1295 ============================================================
+5904.9s 1296 
+5904.9s 1297 --- Training Member 0 (Batch size: 64) ---
+5906.4s 1298 built data in 1.7014565467834473 seconds
+5975.2s 1299 LR changed during epoch: 3.90e-05 -> 7.79e-05
+5975.2s 1300 total runtime to train this model was 68.70398354530334 seconds
+5988.3s 1301 evaluation in 12.998350620269775 seconds
+5988.3s 1302 Loss: 0.3239
+5988.3s 1303 Train Accuracy: 88.72%
+5988.3s 1304 Test Accuracy: 82.54%
+5988.3s 1305 
+5988.3s 1306 --- Training Member 1 (Batch size: 128) ---
+5989.8s 1307 built data in 1.6234333515167236 seconds
+6054.7s 1308 LR changed during epoch: 1.70e-04 -> 1.67e-04
+6054.7s 1309 total runtime to train this model was 64.8977541923523 seconds
+6067.7s 1310 evaluation in 12.816590070724487 seconds
+6067.7s 1311 Loss: 0.3905
+6067.7s 1312 Train Accuracy: 86.22%
+6067.7s 1313 Test Accuracy: 81.77%
+6067.7s 1314 
+6067.7s 1315 ============================================================
+6067.7s 1316 Epoch 37 Summary:
+6067.7s 1317 ============================================================
+6067.7s 1318 Time: 162.74s (Avg member: 81.37s)
+6067.7s 1319 Population Mean Accuracy: 82.16%
+6067.7s 1320 Best Member Accuracy: 82.54%
+6067.7s 1321 Mean Batch Size: 96
+6067.7s 1322 Mean Learning Rate: 1.91e-04
+6067.7s 1323 Mean Weight Decay: 0.201
+6067.7s 1324 
+6067.7s 1325 ============================================================
+6067.7s 1326 Epoch 38/60
+6067.7s 1327 ============================================================
+6067.7s 1328 
+6067.7s 1329 --- Training Member 0 (Batch size: 64) ---
+6069.2s 1330 built data in 1.6780240535736084 seconds
+6137.8s 1331 LR changed during epoch: 7.79e-05 -> 1.17e-04
+6137.8s 1332 total runtime to train this model was 68.66231322288513 seconds
+6151.1s 1333 evaluation in 13.061875343322754 seconds
+6151.1s 1334 Loss: 0.3609
+6151.1s 1335 Train Accuracy: 87.23%
+6151.1s 1336 Test Accuracy: 82.15%
+6151.1s 1337 
+6151.1s 1338 --- Training Member 1 (Batch size: 128) ---
+6152.5s 1339 built data in 1.6599178314208984 seconds
+6217.7s 1340 LR changed during epoch: 1.67e-04 -> 1.63e-04
+6217.7s 1341 total runtime to train this model was 65.13719415664673 seconds
+6231.0s 1342 evaluation in 13.096652030944824 seconds
+6231.0s 1343 Loss: 0.3901
+6231.0s 1344 Train Accuracy: 86.13%
+6231.0s 1345 Test Accuracy: 81.41%
+6231.0s 1346 
+6231.0s 1347 ============================================================
+6231.0s 1348 Epoch 38 Summary:
+6231.0s 1349 ============================================================
+6231.0s 1350 Time: 163.30s (Avg member: 81.65s)
+6231.0s 1351 Population Mean Accuracy: 81.78%
+6231.0s 1352 Best Member Accuracy: 82.15%
+6231.0s 1353 Mean Batch Size: 96
+6231.0s 1354 Mean Learning Rate: 1.91e-04
+6231.0s 1355 Mean Weight Decay: 0.201
+6231.0s 1356 
+6231.0s 1357 ============================================================
+6231.0s 1358 Epoch 39/60
+6231.0s 1359 ============================================================
+6231.0s 1360 
+6231.0s 1361 --- Training Member 0 (Batch size: 64) ---
+6232.5s 1362 built data in 1.677201271057129 seconds
+6301.5s 1363 LR changed during epoch: 1.17e-04 -> 1.56e-04
+6301.5s 1364 total runtime to train this model was 68.98954653739929 seconds
+6314.6s 1365 evaluation in 12.9399573802948 seconds
+6314.6s 1366 Loss: 0.4030
+6314.6s 1367 Train Accuracy: 85.55%
+6314.6s 1368 Test Accuracy: 80.60%
+6314.6s 1369 
+6314.6s 1370 --- Training Member 1 (Batch size: 128) ---
+6316.1s 1371 built data in 1.668304681777954 seconds
+6380.9s 1372 LR changed during epoch: 1.63e-04 -> 1.59e-04
+6380.9s 1373 total runtime to train this model was 64.84248304367065 seconds
+6394.2s 1374 evaluation in 13.140109300613403 seconds
+6394.2s 1375 Loss: 0.3728
+6394.2s 1376 Train Accuracy: 86.63%
+6394.2s 1377 Test Accuracy: 82.79%
+6394.2s 1378 
+6394.2s 1379 ============================================================
+6394.2s 1380 Epoch 39 Summary:
+6394.2s 1381 ============================================================
+6394.2s 1382 Time: 163.26s (Avg member: 81.63s)
+6394.2s 1383 Population Mean Accuracy: 81.69%
+6394.2s 1384 Best Member Accuracy: 82.79%
+6394.2s 1385 Mean Batch Size: 96
+6394.2s 1386 Mean Learning Rate: 1.91e-04
+6394.2s 1387 Mean Weight Decay: 0.201
+6394.2s 1388 
+6394.2s 1389 ============================================================
+6394.2s 1390 Epoch 40/60
+6394.2s 1391 ============================================================
+6394.2s 1392 
+6394.2s 1393 --- Training Member 0 (Batch size: 64) ---
+6395.8s 1394 built data in 1.7897167205810547 seconds
+6464.6s 1395 LR changed during epoch: 1.56e-04 -> 1.95e-04
+6464.6s 1396 total runtime to train this model was 68.74547553062439 seconds
+6477.8s 1397 evaluation in 13.044091701507568 seconds
+6477.8s 1398 Loss: 0.4491
+6477.8s 1399 Train Accuracy: 84.04%
+6477.8s 1400 Test Accuracy: 80.09%
+6477.8s 1401 
+6477.8s 1402 --- Training Member 1 (Batch size: 128) ---
+6479.3s 1403 built data in 1.665818214416504 seconds
+6544.5s 1404 LR changed during epoch: 1.59e-04 -> 1.56e-04
+6544.5s 1405 total runtime to train this model was 65.1526370048523 seconds
+6557.6s 1406 evaluation in 13.005293130874634 seconds
+6557.6s 1407 Loss: 0.3623
+6557.6s 1408 Train Accuracy: 87.07%
+6557.6s 1409 Test Accuracy: 81.84%
+6557.6s 1410 
+6557.6s 1411 --- Population Update (Epoch 40) ---
+6557.6s 1412 
+6557.6s 1413 === PBT Exploit & Explore ===
+6557.6s 1414 Truncating 1 members
+6557.6s 1415 Top performers: ['81.84%']
+6557.6s 1416 Bottom performers: ['80.09%']
+6557.6s 1417 Member 0: lr changed from 0.00019466626868528764 to 0.0001506366881094005
+6557.6s 1418 Member 0: weight_decay changed from 0.14840203226888407 to 0.191995185725041
+6557.6s 1419 Member 0: drop_path changed from 0.08995983699275957 to 0.11864771959304782
+6557.6s 1420 Member 0: batch_size changed from 64 to 128
+6557.6s 1421 Member 0 copied from 1
+6557.6s 1422 LR=1.51e-04, WD=0.192, DropPath=0.119, Warmup=5 epochs, Batch=128
+6557.6s 1423 
+6557.6s 1424 ============================================================
+6557.6s 1425 Epoch 40 Summary:
+6557.6s 1426 ============================================================
+6557.6s 1427 Time: 163.42s (Avg member: 81.70s)
+6557.6s 1428 Population Mean Accuracy: 80.97%
+6557.6s 1429 Best Member Accuracy: 81.84%
+6557.6s 1430 Mean Batch Size: 128
+6557.6s 1431 Mean Learning Rate: 1.69e-04
+6557.6s 1432 Mean Weight Decay: 0.223
+6557.6s 1433 
+6557.6s 1434 ============================================================
+6557.6s 1435 Epoch 41/60
+6557.6s 1436 ============================================================
+6557.6s 1437 
+6557.6s 1438 --- Training Member 0 (Batch size: 128) ---
+6559.2s 1439 built data in 1.7060065269470215 seconds
+6624.3s 1440 LR changed during epoch: 7.71e-08 -> 3.02e-05
+6624.3s 1441 total runtime to train this model was 65.11997318267822 seconds
+6637.4s 1442 evaluation in 12.909087896347046 seconds
+6637.4s 1443 Loss: 0.2766
+6637.4s 1444 Train Accuracy: 90.31%
+6637.4s 1445 Test Accuracy: 83.99%
+6637.4s 1446 
+6637.4s 1447 --- Training Member 1 (Batch size: 128) ---
+6638.9s 1448 built data in 1.6707839965820312 seconds
+6704.1s 1449 LR changed during epoch: 1.56e-04 -> 1.51e-04
+6704.1s 1450 total runtime to train this model was 65.17046189308167 seconds
+6717.3s 1451 evaluation in 13.04554796218872 seconds
+6717.3s 1452 Loss: 0.3515
+6717.3s 1453 Train Accuracy: 87.39%
+6717.3s 1454 Test Accuracy: 82.21%
+6717.3s 1455 
+6717.3s 1456 ============================================================
+6717.3s 1457 Epoch 41 Summary:
+6717.3s 1458 ============================================================
+6717.3s 1459 Time: 159.62s (Avg member: 79.81s)
+6717.3s 1460 Population Mean Accuracy: 83.10%
+6717.3s 1461 Best Member Accuracy: 83.99%
+6717.3s 1462 Mean Batch Size: 128
+6717.3s 1463 Mean Learning Rate: 1.69e-04
+6717.3s 1464 Mean Weight Decay: 0.223
+6717.3s 1465 
+6717.3s 1466 ============================================================
+6717.3s 1467 Epoch 42/60
+6717.3s 1468 ============================================================
+6717.3s 1469 
+6717.3s 1470 --- Training Member 0 (Batch size: 128) ---
+6718.8s 1471 built data in 1.6903035640716553 seconds
+6784.1s 1472 LR changed during epoch: 3.02e-05 -> 6.03e-05
+6784.1s 1473 total runtime to train this model was 65.31695437431335 seconds
+6797.3s 1474 evaluation in 13.046743392944336 seconds
+6797.3s 1475 Loss: 0.2537
+6797.3s 1476 Train Accuracy: 91.06%
+6797.3s 1477 Test Accuracy: 83.87%
+6797.3s 1478 
+6797.3s 1479 --- Training Member 1 (Batch size: 128) ---
+6798.8s 1480 built data in 1.678081750869751 seconds
+6864.3s 1481 LR changed during epoch: 1.51e-04 -> 1.47e-04
+6864.3s 1482 total runtime to train this model was 65.46298837661743 seconds
+6877.6s 1483 evaluation in 13.095432996749878 seconds
+6877.6s 1484 Loss: 0.3357
+6877.6s 1485 Train Accuracy: 88.09%
+6877.6s 1486 Test Accuracy: 81.64%
+6877.6s 1487 
+6877.6s 1488 ============================================================
+6877.6s 1489 Epoch 42 Summary:
+6877.6s 1490 ============================================================
+6877.6s 1491 Time: 160.29s (Avg member: 80.15s)
+6877.6s 1492 Population Mean Accuracy: 82.75%
+6877.6s 1493 Best Member Accuracy: 83.87%
+6877.6s 1494 Mean Batch Size: 128
+6877.6s 1495 Mean Learning Rate: 1.69e-04
+6877.6s 1496 Mean Weight Decay: 0.223
+6877.6s 1497 
+6877.6s 1498 ============================================================
+6877.6s 1499 Epoch 43/60
+6877.6s 1500 ============================================================
+6877.6s 1501 
+6877.6s 1502 --- Training Member 0 (Batch size: 128) ---
+6879.1s 1503 built data in 1.7001163959503174 seconds
+6944.3s 1504 LR changed during epoch: 6.03e-05 -> 9.05e-05
+6944.3s 1505 total runtime to train this model was 65.18561339378357 seconds
+6957.4s 1506 evaluation in 12.950693130493164 seconds
+6957.4s 1507 Loss: 0.2550
+6957.4s 1508 Train Accuracy: 90.98%
+6957.4s 1509 Test Accuracy: 83.44%
+6957.4s 1510 
+6957.4s 1511 --- Training Member 1 (Batch size: 128) ---
+6958.9s 1512 built data in 1.6904966831207275 seconds
+7024.1s 1513 LR changed during epoch: 1.47e-04 -> 1.43e-04
+7024.1s 1514 total runtime to train this model was 65.21226215362549 seconds
+7037.3s 1515 evaluation in 12.995945930480957 seconds
+7037.3s 1516 Loss: 0.3309
+7037.3s 1517 Train Accuracy: 88.23%
+7037.3s 1518 Test Accuracy: 82.21%
+7037.3s 1519 
+7037.3s 1520 ============================================================
+7037.3s 1521 Epoch 43 Summary:
+7037.3s 1522 ============================================================
+7037.3s 1523 Time: 159.74s (Avg member: 79.87s)
+7037.3s 1524 Population Mean Accuracy: 82.82%
+7037.3s 1525 Best Member Accuracy: 83.44%
+7037.3s 1526 Mean Batch Size: 128
+7037.3s 1527 Mean Learning Rate: 1.69e-04
+7037.3s 1528 Mean Weight Decay: 0.223
+7037.3s 1529 
+7037.3s 1530 ============================================================
+7037.3s 1531 Epoch 44/60
+7037.3s 1532 ============================================================
+7037.3s 1533 
+7037.3s 1534 --- Training Member 0 (Batch size: 128) ---
+7038.8s 1535 built data in 1.7306125164031982 seconds
+7103.8s 1536 LR changed during epoch: 9.05e-05 -> 1.21e-04
+7103.8s 1537 total runtime to train this model was 64.90136218070984 seconds
+7117.0s 1538 evaluation in 13.031830787658691 seconds
+7117.0s 1539 Loss: 0.2817
+7117.0s 1540 Train Accuracy: 90.01%
+7117.0s 1541 Test Accuracy: 83.33%
+7117.0s 1542 
+7117.0s 1543 --- Training Member 1 (Batch size: 128) ---
+7118.5s 1544 built data in 1.689002275466919 seconds
+7183.8s 1545 LR changed during epoch: 1.43e-04 -> 1.38e-04
+7183.8s 1546 total runtime to train this model was 65.2434732913971 seconds
+7197.0s 1547 evaluation in 13.046884775161743 seconds
+7197.0s 1548 Loss: 0.3138
+7197.0s 1549 Train Accuracy: 88.87%
+7197.0s 1550 Test Accuracy: 82.41%
+7197.0s 1551 
+7197.0s 1552 ============================================================
+7197.0s 1553 Epoch 44 Summary:
+7197.0s 1554 ============================================================
+7197.0s 1555 Time: 159.65s (Avg member: 79.82s)
+7197.0s 1556 Population Mean Accuracy: 82.87%
+7197.0s 1557 Best Member Accuracy: 83.33%
+7197.0s 1558 Mean Batch Size: 128
+7197.0s 1559 Mean Learning Rate: 1.69e-04
+7197.0s 1560 Mean Weight Decay: 0.223
+7197.0s 1561 
+7197.0s 1562 ============================================================
+7197.0s 1563 Epoch 45/60
+7197.0s 1564 ============================================================
+7197.0s 1565 
+7197.0s 1566 --- Training Member 0 (Batch size: 128) ---
+7198.5s 1567 built data in 1.7051451206207275 seconds
+7263.5s 1568 LR changed during epoch: 1.21e-04 -> 1.51e-04
+7263.5s 1569 total runtime to train this model was 65.03972434997559 seconds
+7276.6s 1570 evaluation in 12.9049711227417 seconds
+7276.6s 1571 Loss: 0.3121
+7276.6s 1572 Train Accuracy: 88.97%
+7276.6s 1573 Test Accuracy: 81.33%
+7276.6s 1574 
+7276.6s 1575 --- Training Member 1 (Batch size: 128) ---
+7278.1s 1576 built data in 1.691054105758667 seconds
+7343.2s 1577 LR changed during epoch: 1.38e-04 -> 1.33e-04
+7343.2s 1578 total runtime to train this model was 65.11933636665344 seconds
+7356.5s 1579 evaluation in 13.039340257644653 seconds
+7356.5s 1580 Loss: 0.3080
+7356.5s 1581 Train Accuracy: 89.10%
+7356.5s 1582 Test Accuracy: 82.38%
+7356.5s 1583 
+7356.5s 1584 --- Population Update (Epoch 45) ---
+7356.5s 1585 
+7356.5s 1586 === PBT Exploit & Explore ===
+7356.5s 1587 Truncating 1 members
+7356.5s 1588 Top performers: ['82.38%']
+7356.5s 1589 Bottom performers: ['81.33%']
+7356.5s 1590 Member 0: lr changed from 0.0001506366881094005 to 0.00016836391734370232
+7356.5s 1591 Member 0: weight_decay changed from 0.191995185725041 to 0.223071483025243
+7356.5s 1592 Member 0: drop_path changed from 0.11864771959304782 to 0.12303099407602483
+7356.5s 1593 Member 0: batch_size changed from 128 to 256
+7356.5s 1594 Member 0 copied from 1
+7356.5s 1595 LR=1.68e-04, WD=0.223, DropPath=0.123, Warmup=5 epochs, Batch=256
+7356.5s 1596 
+7356.5s 1597 ============================================================
+7356.5s 1598 Epoch 45 Summary:
+7356.5s 1599 ============================================================
+7356.5s 1600 Time: 159.51s (Avg member: 79.75s)
+7356.5s 1601 Population Mean Accuracy: 81.85%
+7356.5s 1602 Best Member Accuracy: 82.38%
+7356.5s 1603 Mean Batch Size: 192
+7356.5s 1604 Mean Learning Rate: 1.78e-04
+7356.5s 1605 Mean Weight Decay: 0.239
+7356.5s 1606 
+7356.5s 1607 ============================================================
+7356.5s 1608 Epoch 46/60
+7356.5s 1609 ============================================================
+7356.5s 1610 
+7356.5s 1611 --- Training Member 0 (Batch size: 256) ---
+7358.0s 1612 built data in 1.7012171745300293 seconds
+7421.4s 1613 LR changed during epoch: 1.72e-07 -> 3.38e-05
+7421.4s 1614 total runtime to train this model was 63.450419187545776 seconds
+7434.7s 1615 evaluation in 13.029000282287598 seconds
+7434.7s 1616 Loss: 0.2248
+7434.7s 1617 Train Accuracy: 92.18%
+7434.7s 1618 Test Accuracy: 84.41%
+7434.7s 1619 
+7434.7s 1620 --- Training Member 1 (Batch size: 128) ---
+7436.1s 1621 built data in 1.6865904331207275 seconds
+7501.2s 1622 LR changed during epoch: 1.33e-04 -> 1.28e-04
+7501.2s 1623 total runtime to train this model was 65.05915641784668 seconds
+7514.5s 1624 evaluation in 13.09196424484253 seconds
+7514.5s 1625 Loss: 0.2952
+7514.5s 1626 Train Accuracy: 89.55%
+7514.5s 1627 Test Accuracy: 82.48%
+7514.5s 1628 
+7514.5s 1629 ============================================================
+7514.5s 1630 Epoch 46 Summary:
+7514.5s 1631 ============================================================
+7514.5s 1632 Time: 158.02s (Avg member: 79.01s)
+7514.5s 1633 Population Mean Accuracy: 83.44%
+7514.5s 1634 Best Member Accuracy: 84.41%
+7514.5s 1635 Mean Batch Size: 192
+7514.5s 1636 Mean Learning Rate: 1.78e-04
+7514.5s 1637 Mean Weight Decay: 0.239
+7514.5s 1638 
+7514.5s 1639 ============================================================
+7514.5s 1640 Epoch 47/60
+7514.5s 1641 ============================================================
+7514.5s 1642 
+7514.5s 1643 --- Training Member 0 (Batch size: 256) ---
+7516.0s 1644 built data in 1.7134308815002441 seconds
+7579.5s 1645 LR changed during epoch: 3.38e-05 -> 6.75e-05
+7579.5s 1646 total runtime to train this model was 63.479023694992065 seconds
+7592.8s 1647 evaluation in 13.089191198348999 seconds
+7592.8s 1648 Loss: 0.2058
+7592.8s 1649 Train Accuracy: 92.77%
+7592.8s 1650 Test Accuracy: 84.05%
+7592.8s 1651 
+7592.8s 1652 --- Training Member 1 (Batch size: 128) ---
+7594.3s 1653 built data in 1.7104883193969727 seconds
+7659.7s 1654 LR changed during epoch: 1.28e-04 -> 1.23e-04
+7659.7s 1655 total runtime to train this model was 65.32923483848572 seconds
+7672.9s 1656 evaluation in 13.057193994522095 seconds
+7672.9s 1657 Loss: 0.2816
+7672.9s 1658 Train Accuracy: 90.05%
+7672.9s 1659 Test Accuracy: 83.08%
+7672.9s 1660 
+7672.9s 1661 ============================================================
+7672.9s 1662 Epoch 47 Summary:
+7672.9s 1663 ============================================================
+7672.9s 1664 Time: 158.38s (Avg member: 79.19s)
+7672.9s 1665 Population Mean Accuracy: 83.56%
+7672.9s 1666 Best Member Accuracy: 84.05%
+7672.9s 1667 Mean Batch Size: 192
+7672.9s 1668 Mean Learning Rate: 1.78e-04
+7672.9s 1669 Mean Weight Decay: 0.239
+7672.9s 1670 
+7672.9s 1671 ============================================================
+7672.9s 1672 Epoch 48/60
+7672.9s 1673 ============================================================
+7672.9s 1674 
+7672.9s 1675 --- Training Member 0 (Batch size: 256) ---
+7674.4s 1676 built data in 1.6984834671020508 seconds
+7737.7s 1677 LR changed during epoch: 6.75e-05 -> 1.01e-04
+7737.7s 1678 total runtime to train this model was 63.32676672935486 seconds
+7750.8s 1679 evaluation in 12.85333776473999 seconds
+7750.8s 1680 Loss: 0.2087
+7750.8s 1681 Train Accuracy: 92.64%
+7750.8s 1682 Test Accuracy: 83.74%
+7750.8s 1683 
+7750.8s 1684 --- Training Member 1 (Batch size: 128) ---
+7752.2s 1685 built data in 1.682560920715332 seconds
+7817.4s 1686 LR changed during epoch: 1.23e-04 -> 1.18e-04
+7817.4s 1687 total runtime to train this model was 65.14649796485901 seconds
+7830.5s 1688 evaluation in 12.916277885437012 seconds
+7830.5s 1689 Loss: 0.2717
+7830.5s 1690 Train Accuracy: 90.45%
+7830.5s 1691 Test Accuracy: 82.32%
+7830.5s 1692 
+7830.5s 1693 ============================================================
+7830.5s 1694 Epoch 48 Summary:
+7830.5s 1695 ============================================================
+7830.5s 1696 Time: 157.63s (Avg member: 78.81s)
+7830.5s 1697 Population Mean Accuracy: 83.03%
+7830.5s 1698 Best Member Accuracy: 83.74%
+7830.5s 1699 Mean Batch Size: 192
+7830.5s 1700 Mean Learning Rate: 1.78e-04
+7830.5s 1701 Mean Weight Decay: 0.239
+7830.5s 1702 
+7830.5s 1703 ============================================================
+7830.5s 1704 Epoch 49/60
+7830.5s 1705 ============================================================
+7830.5s 1706 
+7830.5s 1707 --- Training Member 0 (Batch size: 256) ---
+7832.0s 1708 built data in 1.7252049446105957 seconds
+7895.4s 1709 LR changed during epoch: 1.01e-04 -> 1.35e-04
+7895.4s 1710 total runtime to train this model was 63.34379816055298 seconds
+7908.4s 1711 evaluation in 12.870095252990723 seconds
+7908.4s 1712 Loss: 0.2296
+7908.4s 1713 Train Accuracy: 91.91%
+7908.4s 1714 Test Accuracy: 83.24%
+7908.4s 1715 
+7908.4s 1716 --- Training Member 1 (Batch size: 128) ---
+7909.9s 1717 built data in 1.6923305988311768 seconds
+7975.1s 1718 LR changed during epoch: 1.18e-04 -> 1.13e-04
+7975.1s 1719 total runtime to train this model was 65.11930632591248 seconds
+7988.2s 1720 evaluation in 12.957540035247803 seconds
+7988.2s 1721 Loss: 0.2584
+7988.2s 1722 Train Accuracy: 90.86%
+7988.2s 1723 Test Accuracy: 83.42%
+7988.2s 1724 
+7988.2s 1725 ============================================================
+7988.2s 1726 Epoch 49 Summary:
+7988.2s 1727 ============================================================
+7988.2s 1728 Time: 157.71s (Avg member: 78.86s)
+7988.2s 1729 Population Mean Accuracy: 83.33%
+7988.2s 1730 Best Member Accuracy: 83.42%
+7988.2s 1731 Mean Batch Size: 192
+7988.2s 1732 Mean Learning Rate: 1.78e-04
+7988.2s 1733 Mean Weight Decay: 0.239
+7988.2s 1734 
+7988.2s 1735 ============================================================
+7988.2s 1736 Epoch 50/60
+7988.2s 1737 ============================================================
+7988.2s 1738 
+7988.2s 1739 --- Training Member 0 (Batch size: 256) ---
+7989.7s 1740 built data in 1.698195219039917 seconds
+8053.1s 1741 LR changed during epoch: 1.35e-04 -> 1.68e-04
+8053.1s 1742 total runtime to train this model was 63.36247539520264 seconds
+8066.3s 1743 evaluation in 13.023070812225342 seconds
+8066.3s 1744 Loss: 0.2525
+8066.3s 1745 Train Accuracy: 91.02%
+8066.3s 1746 Test Accuracy: 82.83%
+8066.3s 1747 
+8066.3s 1748 --- Training Member 1 (Batch size: 128) ---
+8067.8s 1749 built data in 1.6749539375305176 seconds
+8133.0s 1750 LR changed during epoch: 1.13e-04 -> 1.08e-04
+8133.0s 1751 total runtime to train this model was 65.18499040603638 seconds
+8146.1s 1752 evaluation in 12.987258434295654 seconds
+8146.1s 1753 Loss: 0.2497
+8146.1s 1754 Train Accuracy: 91.25%
+8146.1s 1755 Test Accuracy: 83.22%
+8146.1s 1756 
+8146.1s 1757 --- Population Update (Epoch 50) ---
+8146.1s 1758 
+8146.1s 1759 === PBT Exploit & Explore ===
+8146.1s 1760 Truncating 1 members
+8146.1s 1761 Top performers: ['83.22%']
+8146.1s 1762 Bottom performers: ['82.83%']
+8146.1s 1763 Member 0: lr changed from 0.00016836391734370232 to 0.0002546345281024175
+8146.1s 1764 Member 0: weight_decay changed from 0.223071483025243 to 0.2577678871453266
+8146.1s 1765 Member 0: drop_path changed from 0.12303099407602483 to 0.1488064470424887
+8146.1s 1766 Member 0: batch_size changed from 256 to 128
+8146.1s 1767 Member 0 copied from 1
+8146.1s 1768 LR=2.55e-04, WD=0.258, DropPath=0.149, Warmup=5 epochs, Batch=128
+8146.1s 1769 
+8146.1s 1770 ============================================================
+8146.1s 1771 Epoch 50 Summary:
+8146.1s 1772 ============================================================
+8146.1s 1773 Time: 157.94s (Avg member: 78.97s)
+8146.1s 1774 Population Mean Accuracy: 83.03%
+8146.1s 1775 Best Member Accuracy: 83.22%
+8146.1s 1776 Mean Batch Size: 128
+8146.1s 1777 Mean Learning Rate: 2.21e-04
+8146.1s 1778 Mean Weight Decay: 0.256
+8146.1s 1779 
+8146.1s 1780 ============================================================
+8146.1s 1781 Epoch 51/60
+8146.1s 1782 ============================================================
+8146.1s 1783 
+8146.1s 1784 --- Training Member 0 (Batch size: 128) ---
+8147.7s 1785 built data in 1.779207706451416 seconds
+8212.9s 1786 LR changed during epoch: 1.30e-07 -> 5.11e-05
+8212.9s 1787 total runtime to train this model was 65.14881587028503 seconds
+8226.2s 1788 evaluation in 13.067710638046265 seconds
+8226.2s 1789 Loss: 0.1786
+8226.2s 1790 Train Accuracy: 93.85%
+8226.2s 1791 Test Accuracy: 83.63%
+8226.2s 1792 
+8226.2s 1793 --- Training Member 1 (Batch size: 128) ---
+8227.7s 1794 built data in 1.748774766921997 seconds
+8292.8s 1795 LR changed during epoch: 1.08e-04 -> 1.02e-04
+8292.8s 1796 total runtime to train this model was 65.0919017791748 seconds
+8306.1s 1797 evaluation in 13.09673285484314 seconds
+8306.1s 1798 Loss: 0.2389
+8306.1s 1799 Train Accuracy: 91.48%
+8306.1s 1800 Test Accuracy: 83.03%
+8306.1s 1801 
+8306.1s 1802 ============================================================
+8306.1s 1803 Epoch 51 Summary:
+8306.1s 1804 ============================================================
+8306.1s 1805 Time: 159.94s (Avg member: 79.97s)
+8306.1s 1806 Population Mean Accuracy: 83.33%
+8306.1s 1807 Best Member Accuracy: 83.63%
+8306.1s 1808 Mean Batch Size: 128
+8306.1s 1809 Mean Learning Rate: 2.21e-04
+8306.1s 1810 Mean Weight Decay: 0.256
+8306.1s 1811 
+8306.1s 1812 ============================================================
+8306.1s 1813 Epoch 52/60
+8306.1s 1814 ============================================================
+8306.1s 1815 
+8306.1s 1816 --- Training Member 0 (Batch size: 128) ---
+8307.6s 1817 built data in 1.7016069889068604 seconds
+8372.8s 1818 LR changed during epoch: 5.11e-05 -> 1.02e-04
+8372.8s 1819 total runtime to train this model was 65.19122743606567 seconds
+8386.0s 1820 evaluation in 12.998389959335327 seconds
+8386.0s 1821 Loss: 0.2019
+8386.0s 1822 Train Accuracy: 92.85%
+8386.0s 1823 Test Accuracy: 83.57%
+8386.0s 1824 
+8386.0s 1825 --- Training Member 1 (Batch size: 128) ---
+8387.5s 1826 built data in 1.6913034915924072 seconds
+8452.7s 1827 LR changed during epoch: 1.02e-04 -> 9.70e-05
+8452.7s 1828 total runtime to train this model was 65.18520998954773 seconds
+8466.0s 1829 evaluation in 13.134832620620728 seconds
+8466.0s 1830 Loss: 0.2271
+8466.0s 1831 Train Accuracy: 91.92%
+8466.0s 1832 Test Accuracy: 83.21%
+8466.0s 1833 
+8466.0s 1834 ============================================================
+8466.0s 1835 Epoch 52 Summary:
+8466.0s 1836 ============================================================
+8466.0s 1837 Time: 159.91s (Avg member: 79.95s)
+8466.0s 1838 Population Mean Accuracy: 83.39%
+8466.0s 1839 Best Member Accuracy: 83.57%
+8466.0s 1840 Mean Batch Size: 128
+8466.0s 1841 Mean Learning Rate: 2.21e-04
+8466.0s 1842 Mean Weight Decay: 0.256
+8466.0s 1843 
+8466.0s 1844 ============================================================
+8466.0s 1845 Epoch 53/60
+8466.0s 1846 ============================================================
+8466.0s 1847 
+8466.0s 1848 --- Training Member 0 (Batch size: 128) ---
+8467.5s 1849 built data in 1.7137596607208252 seconds
+8532.1s 1850 LR changed during epoch: 1.02e-04 -> 1.53e-04
+8532.1s 1851 total runtime to train this model was 64.547602891922 seconds
+8545.2s 1852 evaluation in 12.93172836303711 seconds
+8545.2s 1853 Loss: 0.2513
+8545.2s 1854 Train Accuracy: 91.11%
+8545.2s 1855 Test Accuracy: 81.95%
+8545.2s 1856 
+8545.2s 1857 --- Training Member 1 (Batch size: 128) ---
+8546.7s 1858 built data in 1.6822655200958252 seconds
+8611.7s 1859 LR changed during epoch: 9.70e-05 -> 9.17e-05
+8611.7s 1860 total runtime to train this model was 65.03021216392517 seconds
+8624.8s 1861 evaluation in 12.902385473251343 seconds
+8624.8s 1862 Loss: 0.2128
+8624.8s 1863 Train Accuracy: 92.32%
+8624.8s 1864 Test Accuracy: 83.17%
+8624.8s 1865 
+8624.8s 1866 ============================================================
+8624.8s 1867 Epoch 53 Summary:
+8624.8s 1868 ============================================================
+8624.8s 1869 Time: 158.81s (Avg member: 79.41s)
+8624.8s 1870 Population Mean Accuracy: 82.56%
+8624.8s 1871 Best Member Accuracy: 83.17%
+8624.8s 1872 Mean Batch Size: 128
+8624.8s 1873 Mean Learning Rate: 2.21e-04
+8624.8s 1874 Mean Weight Decay: 0.256
+8624.8s 1875 
+8624.8s 1876 ============================================================
+8624.8s 1877 Epoch 54/60
+8624.8s 1878 ============================================================
+8624.8s 1879 
+8624.8s 1880 --- Training Member 0 (Batch size: 128) ---
+8626.3s 1881 built data in 1.7068345546722412 seconds
+8691.6s 1882 LR changed during epoch: 1.53e-04 -> 2.04e-04
+8691.6s 1883 total runtime to train this model was 65.21888470649719 seconds
+8704.6s 1884 evaluation in 12.858600378036499 seconds
+8704.6s 1885 Loss: 0.3098
+8704.6s 1886 Train Accuracy: 88.86%
+8704.6s 1887 Test Accuracy: 81.41%
+8704.6s 1888 
+8704.6s 1889 --- Training Member 1 (Batch size: 128) ---
+8706.1s 1890 built data in 1.7220702171325684 seconds
+8771.1s 1891 LR changed during epoch: 9.17e-05 -> 8.64e-05
+8771.1s 1892 total runtime to train this model was 64.95821189880371 seconds
+8784.2s 1893 evaluation in 12.913646936416626 seconds
+8784.2s 1894 Loss: 0.2007
+8784.2s 1895 Train Accuracy: 92.82%
+8784.2s 1896 Test Accuracy: 83.77%
+8784.2s 1897 
+8784.2s 1898 ============================================================
+8784.2s 1899 Epoch 54 Summary:
+8784.2s 1900 ============================================================
+8784.2s 1901 Time: 159.38s (Avg member: 79.69s)
+8784.2s 1902 Population Mean Accuracy: 82.59%
+8784.2s 1903 Best Member Accuracy: 83.77%
+8784.2s 1904 Mean Batch Size: 128
+8784.2s 1905 Mean Learning Rate: 2.21e-04
+8784.2s 1906 Mean Weight Decay: 0.256
+8784.2s 1907 
+8784.2s 1908 ============================================================
+8784.2s 1909 Epoch 55/60
+8784.2s 1910 ============================================================
+8784.2s 1911 
+8784.2s 1912 --- Training Member 0 (Batch size: 128) ---
+8785.7s 1913 built data in 1.7494173049926758 seconds
+8850.9s 1914 LR changed during epoch: 2.04e-04 -> 2.55e-04
+8850.9s 1915 total runtime to train this model was 65.07597160339355 seconds
+8864.0s 1916 evaluation in 12.96999740600586 seconds
+8864.0s 1917 Loss: 0.3537
+8864.0s 1918 Train Accuracy: 87.35%
+8864.0s 1919 Test Accuracy: 81.29%
+8864.0s 1920 
+8864.0s 1921 --- Training Member 1 (Batch size: 128) ---
+8865.5s 1922 built data in 1.7329597473144531 seconds
+8930.6s 1923 LR changed during epoch: 8.64e-05 -> 8.11e-05
+8930.6s 1924 total runtime to train this model was 65.0060818195343 seconds
+8943.8s 1925 evaluation in 13.061032772064209 seconds
+8943.8s 1926 Loss: 0.1903
+8943.8s 1927 Train Accuracy: 93.24%
+8943.8s 1928 Test Accuracy: 83.96%
+8943.8s 1929 
+8943.8s 1930 --- Population Update (Epoch 55) ---
+8943.8s 1931 
+8943.8s 1932 === PBT Exploit & Explore ===
+8943.8s 1933 Truncating 1 members
+8943.8s 1934 Top performers: ['83.96%']
+8943.8s 1935 Bottom performers: ['81.29%']
+8943.8s 1936 Member 0: lr changed from 0.0002546345281024175 to 0.0001717413992748101
+8943.8s 1937 Member 0: weight_decay changed from 0.2577678871453266 to 0.2691837810023137
+8943.8s 1938 Member 0: drop_path changed from 0.1488064470424887 to 0.1109543514838644
+8943.8s 1939 Member 0: batch_size changed from 128 to 256
+8943.8s 1940 Member 0 copied from 1
+8943.8s 1941 LR=1.72e-04, WD=0.269, DropPath=0.111, Warmup=5 epochs, Batch=256
+8943.8s 1942 
+8943.8s 1943 ============================================================
+8943.8s 1944 Epoch 55 Summary:
+8943.8s 1945 ============================================================
+8943.8s 1946 Time: 159.61s (Avg member: 79.80s)
+8943.8s 1947 Population Mean Accuracy: 82.62%
+8943.8s 1948 Best Member Accuracy: 83.96%
+8943.8s 1949 Mean Batch Size: 192
+8943.8s 1950 Mean Learning Rate: 1.80e-04
+8943.8s 1951 Mean Weight Decay: 0.262
+8943.8s 1952 
+8943.8s 1953 ============================================================
+8943.8s 1954 Epoch 56/60
+8943.8s 1955 ============================================================
+8943.8s 1956 
+8943.8s 1957 --- Training Member 0 (Batch size: 256) ---
+8945.4s 1958 built data in 1.7552142143249512 seconds
+9008.8s 1959 LR changed during epoch: 1.75e-07 -> 3.45e-05
+9008.8s 1960 total runtime to train this model was 63.41369986534119 seconds
+9022.0s 1961 evaluation in 13.056587934494019 seconds
+9022.0s 1962 Loss: 0.1445
+9022.0s 1963 Train Accuracy: 94.98%
+9022.0s 1964 Test Accuracy: 84.38%
+9022.0s 1965 
+9022.0s 1966 --- Training Member 1 (Batch size: 128) ---
+9023.5s 1967 built data in 1.682910442352295 seconds
+9088.7s 1968 LR changed during epoch: 8.11e-05 -> 7.58e-05
+9088.7s 1969 total runtime to train this model was 65.12203121185303 seconds
+9101.9s 1970 evaluation in 13.034337997436523 seconds
+9101.9s 1971 Loss: 0.1800
+9101.9s 1972 Train Accuracy: 93.54%
+9101.9s 1973 Test Accuracy: 83.86%
+9101.9s 1974 
+9101.9s 1975 ============================================================
+9101.9s 1976 Epoch 56 Summary:
+9101.9s 1977 ============================================================
+9101.9s 1978 Time: 158.07s (Avg member: 79.03s)
+9101.9s 1979 Population Mean Accuracy: 84.12%
+9101.9s 1980 Best Member Accuracy: 84.38%
+9101.9s 1981 Mean Batch Size: 192
+9101.9s 1982 Mean Learning Rate: 1.80e-04
+9101.9s 1983 Mean Weight Decay: 0.262
+9101.9s 1984 
+9101.9s 1985 ============================================================
+9101.9s 1986 Epoch 57/60
+9101.9s 1987 ============================================================
+9101.9s 1988 
+9101.9s 1989 --- Training Member 0 (Batch size: 256) ---
+9103.4s 1990 built data in 1.747652292251587 seconds
+9166.9s 1991 LR changed during epoch: 3.45e-05 -> 6.89e-05
+9166.9s 1992 total runtime to train this model was 63.40649127960205 seconds
+9180.1s 1993 evaluation in 13.076347827911377 seconds
+9180.1s 1994 Loss: 0.1334
+9180.1s 1995 Train Accuracy: 95.33%
+9180.1s 1996 Test Accuracy: 84.62%
+9180.1s 1997 
+9180.1s 1998 --- Training Member 1 (Batch size: 128) ---
+9181.6s 1999 built data in 1.7244012355804443 seconds
+9246.6s 2000 LR changed during epoch: 7.58e-05 -> 7.06e-05
+9246.6s 2001 total runtime to train this model was 64.96955013275146 seconds
+9259.7s 2002 evaluation in 12.853161096572876 seconds
+9259.7s 2003 Loss: 0.1763
+9259.7s 2004 Train Accuracy: 93.79%
+9259.7s 2005 Test Accuracy: 84.01%
+9259.7s 2006 
+9259.7s 2007 ============================================================
+9259.7s 2008 Epoch 57 Summary:
+9259.7s 2009 ============================================================
+9259.7s 2010 Time: 157.78s (Avg member: 78.89s)
+9259.7s 2011 Population Mean Accuracy: 84.31%
+9259.7s 2012 Best Member Accuracy: 84.62%
+9259.7s 2013 Mean Batch Size: 192
+9259.7s 2014 Mean Learning Rate: 1.80e-04
+9259.7s 2015 Mean Weight Decay: 0.262
+9259.7s 2016 
+9259.7s 2017 ============================================================
+9259.7s 2018 Epoch 58/60
+9259.7s 2019 ============================================================
+9259.7s 2020 
+9259.7s 2021 --- Training Member 0 (Batch size: 256) ---
+9261.2s 2022 built data in 1.713559865951538 seconds
+9324.4s 2023 LR changed during epoch: 6.89e-05 -> 1.03e-04
+9324.4s 2024 total runtime to train this model was 63.18356442451477 seconds
+9337.4s 2025 evaluation in 12.869438409805298 seconds
+9337.4s 2026 Loss: 0.1547
+9337.4s 2027 Train Accuracy: 94.58%
+9337.4s 2028 Test Accuracy: 83.90%
+9337.4s 2029 
+9337.4s 2030 --- Training Member 1 (Batch size: 128) ---
+9338.9s 2031 built data in 1.6856796741485596 seconds
+9404.2s 2032 LR changed during epoch: 7.06e-05 -> 6.55e-05
+9404.2s 2033 total runtime to train this model was 65.22368550300598 seconds
+9417.2s 2034 evaluation in 12.914927005767822 seconds
+9417.2s 2035 Loss: 0.1649
+9417.2s 2036 Train Accuracy: 94.17%
+9417.2s 2037 Test Accuracy: 83.49%
+9417.2s 2038 
+9417.2s 2039 ============================================================
+9417.2s 2040 Epoch 58 Summary:
+9417.2s 2041 ============================================================
+9417.2s 2042 Time: 157.59s (Avg member: 78.80s)
+9417.2s 2043 Population Mean Accuracy: 83.69%
+9417.2s 2044 Best Member Accuracy: 83.90%
+9417.2s 2045 Mean Batch Size: 192
+9417.2s 2046 Mean Learning Rate: 1.80e-04
+9417.2s 2047 Mean Weight Decay: 0.262
+9417.2s 2048 
+9417.2s 2049 ============================================================
+9417.2s 2050 Epoch 59/60
+9417.2s 2051 ============================================================
+9417.2s 2052 
+9417.2s 2053 --- Training Member 0 (Batch size: 256) ---
+9418.8s 2054 built data in 1.7135310173034668 seconds
+9482.1s 2055 LR changed during epoch: 1.03e-04 -> 1.38e-04
+9482.1s 2056 total runtime to train this model was 63.270745038986206 seconds
+9495.3s 2057 evaluation in 13.106541633605957 seconds
+9495.3s 2058 Loss: 0.1815
+9495.3s 2059 Train Accuracy: 93.50%
+9495.3s 2060 Test Accuracy: 83.33%
+9495.3s 2061 
+9495.3s 2062 --- Training Member 1 (Batch size: 128) ---
+9496.9s 2063 built data in 1.7343013286590576 seconds
+9561.5s 2064 LR changed during epoch: 6.55e-05 -> 6.05e-05
+9561.5s 2065 total runtime to train this model was 64.60341095924377 seconds
+9574.8s 2066 evaluation in 13.120516061782837 seconds
+9574.8s 2067 Loss: 0.1551
+9574.8s 2068 Train Accuracy: 94.43%
+9574.8s 2069 Test Accuracy: 84.12%
+9574.8s 2070 
+9574.8s 2071 ============================================================
+9574.8s 2072 Epoch 59 Summary:
+9574.8s 2073 ============================================================
+9574.8s 2074 Time: 157.55s (Avg member: 78.78s)
+9574.8s 2075 Population Mean Accuracy: 83.72%
+9574.8s 2076 Best Member Accuracy: 84.12%
+9574.8s 2077 Mean Batch Size: 192
+9574.8s 2078 Mean Learning Rate: 1.80e-04
+9574.8s 2079 Mean Weight Decay: 0.262
+9574.8s 2080 
+9574.8s 2081 ============================================================
+9574.8s 2082 Epoch 60/60
+9574.8s 2083 ============================================================
+9574.8s 2084 
+9574.8s 2085 --- Training Member 0 (Batch size: 256) ---
+9576.3s 2086 built data in 1.7034876346588135 seconds
+9639.4s 2087 LR changed during epoch: 1.38e-04 -> 1.72e-04
+9639.4s 2088 total runtime to train this model was 63.0851628780365 seconds
+9652.6s 2089 evaluation in 12.98161005973816 seconds
+9652.6s 2090 Loss: 0.2102
+9652.6s 2091 Train Accuracy: 92.60%
+9652.6s 2092 Test Accuracy: 82.39%
+9652.6s 2093 
+9652.6s 2094 --- Training Member 1 (Batch size: 128) ---
+9654.1s 2095 built data in 1.6889386177062988 seconds
+9718.9s 2096 LR changed during epoch: 6.05e-05 -> 5.56e-05
+9718.9s 2097 total runtime to train this model was 64.84141373634338 seconds
+9731.9s 2098 evaluation in 12.822333574295044 seconds
+9731.9s 2099 Loss: 0.1400
+9731.9s 2100 Train Accuracy: 95.11%
+9731.9s 2101 Test Accuracy: 84.21%
+9731.9s 2102 
+9731.9s 2103 --- Population Update (Epoch 60) ---
+9731.9s 2104 
+9731.9s 2105 === PBT Exploit & Explore ===
+9731.9s 2106 Truncating 1 members
+9731.9s 2107 Top performers: ['84.21%']
+9731.9s 2108 Bottom performers: ['82.39%']
+9731.9s 2109 Member 0: lr changed from 0.0001717413992748101 to 0.0002000051273875661
+9731.9s 2110 Member 0: weight_decay changed from 0.2691837810023137 to 0.25151123446908613
+9731.9s 2111 Member 0: drop_path changed from 0.1109543514838644 to 0.07406739701237977
+9731.9s 2112 Member 0 copied from 1
+9731.9s 2113 LR=2.00e-04, WD=0.252, DropPath=0.074, Warmup=5 epochs, Batch=256
+9731.9s 2114 
+9731.9s 2115 ============================================================
+9731.9s 2116 Epoch 60 Summary:
+9731.9s 2117 ============================================================
+9731.9s 2118 Time: 157.14s (Avg member: 78.56s)
+9731.9s 2119 Population Mean Accuracy: 83.30%
+9731.9s 2120 Best Member Accuracy: 84.21%
+9731.9s 2121 Mean Batch Size: 192
+9731.9s 2122 Mean Learning Rate: 1.94e-04
+9731.9s 2123 Mean Weight Decay: 0.253
+9731.9s 2124 
+9731.9s 2125 ======================================================================
+9731.9s 2126 PBT TRAINING COMPLETE
+9731.9s 2127 ======================================================================
+9731.9s 2128 Best member: 1
+9731.9s 2129 Best accuracy: 84.21%
+9731.9s 2130 
+9731.9s 2131 Best hyperparameters:
+9731.9s 2132 Learning Rate: 1.88e-04
+9731.9s 2133 Weight Decay: 0.254
+9731.9s 2134 Drop Path Rate: 0.157
+9731.9s 2135 Warmup Epochs: 5
+9731.9s 2136 Batch Size: 128
+9731.9s 2137 
+9731.9s 2138 ======================================================================
+9731.9s 2139 PBT TIMING REPORT
+9731.9s 2140 ======================================================================
+9731.9s 2141 
+9731.9s 2142 Overall Statistics                       Value
+9731.9s 2143 ----------------------------------------------------------------------
+9731.9s 2144 Total runtime                            9705.92s (161.77 min)
+9731.9s 2145 Number of epochs                         60
+9731.9s 2146 Number of population updates             12
+9731.9s 2147 
+9731.9s 2148 Epoch Timing                             Value
+9731.9s 2149 ----------------------------------------------------------------------
+9731.9s 2150 Average epoch time                       161.75s
+9731.9s 2151 Std epoch time                           2.62s
+9731.9s 2152 Min epoch time                           157.02s (epoch 1)
+9731.9s 2153 Max epoch time                           167.16s (epoch 20)
+9731.9s 2154 
+9731.9s 2155 Member Training Timing                   Value
+9731.9s 2156 ----------------------------------------------------------------------
+9731.9s 2157 Average member time per epoch            80.88s
+9731.9s 2158 Total training time                      9705.04s
+9731.9s 2159 Training efficiency                      100.0%
+9731.9s 2160 
+9731.9s 2161 Population Update Timing                 Value
+9731.9s 2162 ----------------------------------------------------------------------
+9731.9s 2163 Average update time                      0.01s
+9731.9s 2164 Total update time                        0.12s
+9731.9s 2165 Update efficiency                        0.0%
+9731.9s 2166 
+9731.9s 2167 Batch Size Analysis                      Avg Time        Samples
+9731.9s 2168 ----------------------------------------------------------------------
+9731.9s 2169 Batch size 64                            83.28s      45
+9731.9s 2170 Batch size 128                           79.77s      60
+9731.9s 2171 Batch size 256                           78.06s      15
+9731.9s 2172 
+9731.9s 2173 Per-Member Statistics                    Avg Time        Total Time
+9731.9s 2174 ----------------------------------------------------------------------
+9731.9s 2175 Member 0                                 81.82s      4909.24s
+9731.9s 2176 Member 1                                 79.93s      4795.80s
+9731.9s 2177 
+9731.9s 2178 ======================================================================
+9739.5s 2179 
+9739.5s 2180 Experiment completed successfully!
+9739.5s 2181 Results saved to: pbt_vit_timing_results.png
+9739.5s 2182 Detailed timing saved to: pbt_detailed_timing.png
+9745.2s 2183 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+9745.2s 2184 warn(
+9745.2s 2185 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+9745.6s 2186 [NbConvertApp] Writing 747203 bytes to __notebook__.ipynb
+9748.2s 2187 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+9748.2s 2188 warn(
+9748.3s 2189 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+9749.3s 2190 [NbConvertApp] Support files will be in __results___files/
+9749.3s 2191 [NbConvertApp] Making directory __results___files
+9749.3s 2192 [NbConvertApp] Making directory __results___files
+9749.3s 2193 [NbConvertApp] Writing 637328 bytes to __results__.html

@@ -1,0 +1,532 @@
+6.4s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.4s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.4s 3 0.00s - to python to disable frozen modules.
+6.4s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.9s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.9s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.9s 7 0.00s - to python to disable frozen modules.
+6.9s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.4s 9 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_1
+10.4s 10 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_2
+10.4s 11 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/batches.meta
+10.4s 12 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/test_batch
+10.4s 13 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_3
+10.4s 14 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_5
+10.4s 15 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/data_batch_4
+10.4s 16 /kaggle/input/cifar-10-dataset/cifar-10-batches-py/readme.html
+18.5s 17 Using device: cuda
+21.6s 18 50000 10000
+21.8s 19 Starting Multi-Seed Experiment.
+21.8s 20 Seeds: [38042, 217401, 637451, 207796, 45921]
+21.8s 21 Config: 90 Epochs per seed | ViT-Small (Patch=8, Dim=192)
+21.8s 22 Estimated duration: ~3.5 to 4 hours
+21.8s 23 
+21.8s 24 ================================================================================
+21.8s 25 STARTING SEED: 38042
+21.8s 26 ================================================================================
+46.2s 27 [Seed 38042 | Ep 00] Train (L=1.9746 A=24.4%) | Val (L=1.8507 A=30.4%) | Hyper (LR=2.64e-04 WD=6.99e-02) | Time=18.2s [HG UPDATE: dLR=7.9e+05, dWD=1.0e+04]
+65.1s 28 [Seed 38042 | Ep 01] Train (L=1.7575 A=33.7%) | Val (L=1.6493 A=39.6%) | Hyper (LR=2.64e-04 WD=6.99e-02) | Time=17.7s
+89.7s 29 [Seed 38042 | Ep 02] Train (L=1.6716 A=37.9%) | Val (L=1.6174 A=41.1%) | Hyper (LR=2.11e-04 WD=6.99e-02) | Time=18.2s [HG UPDATE: dLR=2.3e+05, dWD=-3.4e+02]
+109.4s 30 [Seed 38042 | Ep 03] Train (L=1.6090 A=40.5%) | Val (L=1.5695 A=42.9%) | Hyper (LR=2.11e-04 WD=6.99e-02) | Time=18.4s
+134.8s 31 [Seed 38042 | Ep 04] Train (L=1.5671 A=42.1%) | Val (L=1.5531 A=43.9%) | Hyper (LR=1.69e-04 WD=6.99e-02) | Time=18.9s [HG UPDATE: dLR=7.9e+03, dWD=4.3e+03]
+154.7s 32 [Seed 38042 | Ep 05] Train (L=1.5194 A=44.2%) | Val (L=1.4390 A=48.4%) | Hyper (LR=1.69e-04 WD=6.99e-02) | Time=18.6s
+179.4s 33 [Seed 38042 | Ep 06] Train (L=1.4904 A=45.2%) | Val (L=1.4109 A=48.2%) | Hyper (LR=1.35e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=5.4e+03, dWD=-6.2e+02]
+199.2s 34 [Seed 38042 | Ep 07] Train (L=1.4607 A=46.6%) | Val (L=1.4395 A=47.2%) | Hyper (LR=1.35e-04 WD=6.99e-02) | Time=18.5s
+224.5s 35 [Seed 38042 | Ep 08] Train (L=1.4397 A=47.4%) | Val (L=1.4052 A=48.8%) | Hyper (LR=1.62e-04 WD=6.99e-02) | Time=18.8s [HG UPDATE: dLR=-6.5e+04, dWD=-3.9e+03]
+244.4s 36 [Seed 38042 | Ep 09] Train (L=1.4299 A=48.0%) | Val (L=1.3873 A=50.1%) | Hyper (LR=1.62e-04 WD=6.99e-02) | Time=18.6s
+269.3s 37 [Seed 38042 | Ep 10] Train (L=1.4172 A=48.3%) | Val (L=1.3922 A=49.8%) | Hyper (LR=1.30e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=4.9e+05, dWD=-4.7e+02]
+289.9s 38 [Seed 38042 | Ep 11] Train (L=1.3860 A=49.6%) | Val (L=1.3575 A=51.0%) | Hyper (LR=1.30e-04 WD=6.99e-02) | Time=18.9s
+315.6s 39 [Seed 38042 | Ep 12] Train (L=1.3761 A=49.9%) | Val (L=1.3791 A=50.3%) | Hyper (LR=1.56e-04 WD=6.99e-02) | Time=19.2s [HG UPDATE: dLR=-7.9e+05, dWD=-1.7e+03]
+335.5s 40 [Seed 38042 | Ep 13] Train (L=1.3687 A=49.9%) | Val (L=1.3515 A=51.2%) | Hyper (LR=1.56e-04 WD=6.99e-02) | Time=18.6s
+360.4s 41 [Seed 38042 | Ep 14] Train (L=1.3592 A=50.5%) | Val (L=1.3921 A=50.1%) | Hyper (LR=1.25e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=8.8e+05, dWD=-6.0e+02]
+380.3s 42 [Seed 38042 | Ep 15] Train (L=1.3332 A=51.6%) | Val (L=1.3112 A=52.5%) | Hyper (LR=1.25e-04 WD=6.99e-02) | Time=18.5s
+405.6s 43 [Seed 38042 | Ep 16] Train (L=1.3195 A=51.9%) | Val (L=1.3196 A=52.2%) | Hyper (LR=1.49e-04 WD=6.99e-02) | Time=18.8s [HG UPDATE: dLR=-3.9e+05, dWD=2.6e+02]
+425.5s 44 [Seed 38042 | Ep 17] Train (L=1.3240 A=51.8%) | Val (L=1.2984 A=53.9%) | Hyper (LR=1.49e-04 WD=6.99e-02) | Time=18.6s
+450.4s 45 [Seed 38042 | Ep 18] Train (L=1.3105 A=52.6%) | Val (L=1.2989 A=53.3%) | Hyper (LR=1.20e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=4.9e+05, dWD=-1.0e+03]
+470.4s 46 [Seed 38042 | Ep 19] Train (L=1.2813 A=53.3%) | Val (L=1.2992 A=53.3%) | Hyper (LR=1.20e-04 WD=6.99e-02) | Time=18.7s
+495.5s 47 [Seed 38042 | Ep 20] Train (L=1.2698 A=53.9%) | Val (L=1.2901 A=53.8%) | Hyper (LR=9.57e-05 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=1.1e+05, dWD=2.2e+03]
+515.4s 48 [Seed 38042 | Ep 21] Train (L=1.2509 A=54.5%) | Val (L=1.2628 A=54.2%) | Hyper (LR=9.57e-05 WD=6.99e-02) | Time=18.5s
+540.4s 49 [Seed 38042 | Ep 22] Train (L=1.2383 A=55.4%) | Val (L=1.2440 A=55.3%) | Hyper (LR=1.15e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-1.2e+06, dWD=4.3e+03]
+560.2s 50 [Seed 38042 | Ep 23] Train (L=1.2372 A=55.1%) | Val (L=1.2247 A=56.0%) | Hyper (LR=1.15e-04 WD=6.99e-02) | Time=18.5s
+585.3s 51 [Seed 38042 | Ep 24] Train (L=1.2318 A=55.2%) | Val (L=1.2425 A=55.4%) | Hyper (LR=9.18e-05 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=1.0e+05, dWD=5.1e+02]
+605.3s 52 [Seed 38042 | Ep 25] Train (L=1.2139 A=56.3%) | Val (L=1.2195 A=56.4%) | Hyper (LR=9.18e-05 WD=6.99e-02) | Time=18.7s
+630.2s 53 [Seed 38042 | Ep 26] Train (L=1.1986 A=56.6%) | Val (L=1.2241 A=56.4%) | Hyper (LR=1.10e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-3.1e+06, dWD=-1.9e+03]
+650.1s 54 [Seed 38042 | Ep 27] Train (L=1.2051 A=56.6%) | Val (L=1.2079 A=57.1%) | Hyper (LR=1.10e-04 WD=6.99e-02) | Time=18.6s
+675.1s 55 [Seed 38042 | Ep 28] Train (L=1.1950 A=56.9%) | Val (L=1.2026 A=57.2%) | Hyper (LR=8.82e-05 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=9.1e+04, dWD=4.5e+02]
+695.1s 56 [Seed 38042 | Ep 29] Train (L=1.1699 A=57.6%) | Val (L=1.1934 A=57.6%) | Hyper (LR=8.82e-05 WD=6.99e-02) | Time=18.6s
+720.0s 57 [Seed 38042 | Ep 30] Train (L=1.1660 A=57.8%) | Val (L=1.2242 A=56.1%) | Hyper (LR=1.06e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-1.4e+06, dWD=1.7e+02]
+739.9s 58 [Seed 38042 | Ep 31] Train (L=1.1685 A=57.6%) | Val (L=1.1766 A=58.0%) | Hyper (LR=1.06e-04 WD=6.99e-02) | Time=18.6s
+764.7s 59 [Seed 38042 | Ep 32] Train (L=1.1610 A=58.1%) | Val (L=1.1956 A=57.1%) | Hyper (LR=1.27e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-8.0e+05, dWD=-2.6e+03]
+784.6s 60 [Seed 38042 | Ep 33] Train (L=1.1672 A=57.9%) | Val (L=1.1885 A=58.0%) | Hyper (LR=1.27e-04 WD=6.99e-02) | Time=18.6s
+809.7s 61 [Seed 38042 | Ep 34] Train (L=1.1566 A=58.3%) | Val (L=1.1808 A=58.3%) | Hyper (LR=1.02e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=8.2e+05, dWD=4.1e+01]
+829.6s 62 [Seed 38042 | Ep 35] Train (L=1.1321 A=59.1%) | Val (L=1.1839 A=58.3%) | Hyper (LR=1.02e-04 WD=6.99e-02) | Time=18.5s
+854.3s 63 [Seed 38042 | Ep 36] Train (L=1.1179 A=59.5%) | Val (L=1.1477 A=59.3%) | Hyper (LR=1.22e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-5.0e+05, dWD=1.2e+03]
+874.2s 64 [Seed 38042 | Ep 37] Train (L=1.1250 A=59.3%) | Val (L=1.1471 A=59.4%) | Hyper (LR=1.22e-04 WD=6.99e-02) | Time=18.5s
+899.3s 65 [Seed 38042 | Ep 38] Train (L=1.1227 A=59.8%) | Val (L=1.1548 A=59.6%) | Hyper (LR=1.46e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=-5.9e+05, dWD=8.9e+02]
+919.1s 66 [Seed 38042 | Ep 39] Train (L=1.1258 A=59.3%) | Val (L=1.1503 A=59.7%) | Hyper (LR=1.46e-04 WD=6.99e-02) | Time=18.4s
+944.1s 67 [Seed 38042 | Ep 40] Train (L=1.1205 A=59.8%) | Val (L=1.1791 A=57.7%) | Hyper (LR=1.17e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=1.7e+06, dWD=-3.9e+02]
+963.9s 68 [Seed 38042 | Ep 41] Train (L=1.0867 A=61.2%) | Val (L=1.1447 A=59.8%) | Hyper (LR=1.17e-04 WD=6.99e-02) | Time=18.5s
+988.6s 69 [Seed 38042 | Ep 42] Train (L=1.0773 A=61.2%) | Val (L=1.1218 A=60.0%) | Hyper (LR=1.40e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-7.2e+05, dWD=4.5e+02]
+1008.4s 70 [Seed 38042 | Ep 43] Train (L=1.0866 A=61.0%) | Val (L=1.1542 A=58.9%) | Hyper (LR=1.40e-04 WD=6.99e-02) | Time=18.4s
+1033.2s 71 [Seed 38042 | Ep 44] Train (L=1.0781 A=61.3%) | Val (L=1.1424 A=60.0%) | Hyper (LR=1.68e-04 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=-1.2e+05, dWD=6.7e+03]
+1053.1s 72 [Seed 38042 | Ep 45] Train (L=1.0857 A=60.9%) | Val (L=1.1304 A=60.1%) | Hyper (LR=1.68e-04 WD=6.98e-02) | Time=18.6s
+1078.0s 73 [Seed 38042 | Ep 46] Train (L=1.0716 A=61.4%) | Val (L=1.1694 A=59.5%) | Hyper (LR=2.02e-04 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=-4.4e+05, dWD=9.8e+02]
+1097.7s 74 [Seed 38042 | Ep 47] Train (L=1.0876 A=61.2%) | Val (L=1.1040 A=61.4%) | Hyper (LR=2.02e-04 WD=6.98e-02) | Time=18.4s
+1122.6s 75 [Seed 38042 | Ep 48] Train (L=1.0766 A=61.3%) | Val (L=1.0937 A=61.0%) | Hyper (LR=2.43e-04 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=-2.2e+06, dWD=-2.4e+03]
+1142.3s 76 [Seed 38042 | Ep 49] Train (L=1.0795 A=61.1%) | Val (L=1.1758 A=59.3%) | Hyper (LR=2.43e-04 WD=6.98e-02) | Time=18.4s
+1167.0s 77 [Seed 38042 | Ep 50] Train (L=1.0714 A=61.6%) | Val (L=1.1054 A=61.5%) | Hyper (LR=2.91e-04 WD=6.98e-02) | Time=18.4s [HG UPDATE: dLR=-2.9e+05, dWD=-6.4e+02]
+1186.9s 78 [Seed 38042 | Ep 51] Train (L=1.0853 A=61.0%) | Val (L=1.0965 A=61.1%) | Hyper (LR=2.91e-04 WD=6.98e-02) | Time=18.5s
+1211.8s 79 [Seed 38042 | Ep 52] Train (L=1.0719 A=61.4%) | Val (L=1.0775 A=61.9%) | Hyper (LR=2.33e-04 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=2.7e+05, dWD=-2.6e+02]
+1231.7s 80 [Seed 38042 | Ep 53] Train (L=1.0272 A=63.1%) | Val (L=1.0762 A=61.7%) | Hyper (LR=2.33e-04 WD=6.98e-02) | Time=18.5s
+1256.5s 81 [Seed 38042 | Ep 54] Train (L=1.0120 A=63.6%) | Val (L=1.0602 A=62.4%) | Hyper (LR=1.86e-04 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=1.1e+06, dWD=1.3e+03]
+1276.4s 82 [Seed 38042 | Ep 55] Train (L=0.9685 A=65.4%) | Val (L=1.0198 A=64.3%) | Hyper (LR=1.86e-04 WD=6.98e-02) | Time=18.6s
+1301.6s 83 [Seed 38042 | Ep 56] Train (L=0.9518 A=65.8%) | Val (L=1.0153 A=64.0%) | Hyper (LR=1.49e-04 WD=6.98e-02) | Time=18.7s [HG UPDATE: dLR=3.9e+05, dWD=1.0e+03]
+1321.4s 84 [Seed 38042 | Ep 57] Train (L=0.9144 A=67.4%) | Val (L=0.9882 A=65.7%) | Hyper (LR=1.49e-04 WD=6.98e-02) | Time=18.5s
+1346.1s 85 [Seed 38042 | Ep 58] Train (L=0.8955 A=68.0%) | Val (L=0.9852 A=65.8%) | Hyper (LR=1.19e-04 WD=6.98e-02) | Time=18.3s [HG UPDATE: dLR=5.4e+05, dWD=-1.6e+03]
+1366.0s 86 [Seed 38042 | Ep 59] Train (L=0.8671 A=68.8%) | Val (L=0.9597 A=67.2%) | Hyper (LR=1.19e-04 WD=6.98e-02) | Time=18.5s
+1390.9s 87 [Seed 38042 | Ep 60] Train (L=0.8502 A=69.7%) | Val (L=0.9619 A=67.0%) | Hyper (LR=9.54e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=1.2e+05, dWD=1.6e+01]
+1410.6s 88 [Seed 38042 | Ep 61] Train (L=0.8205 A=70.6%) | Val (L=0.9491 A=67.4%) | Hyper (LR=9.54e-05 WD=6.98e-02) | Time=18.4s
+1435.4s 89 [Seed 38042 | Ep 62] Train (L=0.8077 A=71.0%) | Val (L=0.9460 A=68.1%) | Hyper (LR=7.63e-05 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=5.6e+05, dWD=8.7e+02]
+1455.3s 90 [Seed 38042 | Ep 63] Train (L=0.7829 A=71.9%) | Val (L=0.9302 A=68.6%) | Hyper (LR=7.63e-05 WD=6.98e-02) | Time=18.5s
+1480.0s 91 [Seed 38042 | Ep 64] Train (L=0.7747 A=72.0%) | Val (L=0.9172 A=69.0%) | Hyper (LR=6.11e-05 WD=6.98e-02) | Time=18.3s [HG UPDATE: dLR=1.4e+04, dWD=1.4e+03]
+1499.7s 92 [Seed 38042 | Ep 65] Train (L=0.7509 A=73.2%) | Val (L=0.9063 A=69.0%) | Hyper (LR=6.11e-05 WD=6.98e-02) | Time=18.4s
+1524.5s 93 [Seed 38042 | Ep 66] Train (L=0.7430 A=73.7%) | Val (L=0.9270 A=69.1%) | Hyper (LR=7.33e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=-1.8e+06, dWD=-7.4e+02]
+1544.2s 94 [Seed 38042 | Ep 67] Train (L=0.7429 A=73.4%) | Val (L=0.9146 A=69.3%) | Hyper (LR=7.33e-05 WD=6.98e-02) | Time=18.4s
+1569.5s 95 [Seed 38042 | Ep 68] Train (L=0.7350 A=73.7%) | Val (L=0.9052 A=69.4%) | Hyper (LR=5.86e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=6.1e+05, dWD=2.2e+02]
+1589.1s 96 [Seed 38042 | Ep 69] Train (L=0.7183 A=74.3%) | Val (L=0.9069 A=69.1%) | Hyper (LR=5.86e-05 WD=6.98e-02) | Time=18.3s
+1614.0s 97 [Seed 38042 | Ep 70] Train (L=0.7062 A=74.7%) | Val (L=0.9028 A=69.5%) | Hyper (LR=4.69e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=2.1e+06, dWD=4.7e+02]
+1633.9s 98 [Seed 38042 | Ep 71] Train (L=0.6831 A=75.6%) | Val (L=0.8995 A=70.0%) | Hyper (LR=4.69e-05 WD=6.98e-02) | Time=18.6s
+1659.0s 99 [Seed 38042 | Ep 72] Train (L=0.6793 A=75.6%) | Val (L=0.9103 A=69.5%) | Hyper (LR=3.75e-05 WD=6.98e-02) | Time=18.7s [HG UPDATE: dLR=6.4e+05, dWD=8.7e+02]
+1678.7s 100 [Seed 38042 | Ep 73] Train (L=0.6669 A=76.2%) | Val (L=0.9043 A=70.2%) | Hyper (LR=3.75e-05 WD=6.98e-02) | Time=18.4s
+1703.7s 101 [Seed 38042 | Ep 74] Train (L=0.6543 A=76.6%) | Val (L=0.8970 A=70.2%) | Hyper (LR=3.00e-05 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=3.5e+05, dWD=3.7e+02]
+1723.7s 102 [Seed 38042 | Ep 75] Train (L=0.6479 A=76.6%) | Val (L=0.9035 A=70.1%) | Hyper (LR=3.00e-05 WD=6.98e-02) | Time=18.7s
+1748.9s 103 [Seed 38042 | Ep 76] Train (L=0.6437 A=76.9%) | Val (L=0.9051 A=69.8%) | Hyper (LR=2.40e-05 WD=6.98e-02) | Time=18.8s [HG UPDATE: dLR=2.8e+05, dWD=7.8e+01]
+1768.7s 104 [Seed 38042 | Ep 77] Train (L=0.6325 A=77.4%) | Val (L=0.8978 A=70.4%) | Hyper (LR=2.40e-05 WD=6.98e-02) | Time=18.5s
+1793.6s 105 [Seed 38042 | Ep 78] Train (L=0.6256 A=77.5%) | Val (L=0.9051 A=70.4%) | Hyper (LR=1.92e-05 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=2.4e+06, dWD=5.6e+02]
+1813.4s 106 [Seed 38042 | Ep 79] Train (L=0.6154 A=78.1%) | Val (L=0.8977 A=70.4%) | Hyper (LR=1.92e-05 WD=6.98e-02) | Time=18.5s
+1838.3s 107 [Seed 38042 | Ep 80] Train (L=0.6139 A=78.0%) | Val (L=0.8965 A=70.3%) | Hyper (LR=2.30e-05 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=-1.7e+06, dWD=8.6e+02]
+1858.4s 108 [Seed 38042 | Ep 81] Train (L=0.6170 A=77.9%) | Val (L=0.9084 A=69.9%) | Hyper (LR=2.30e-05 WD=6.98e-02) | Time=18.7s
+1883.4s 109 [Seed 38042 | Ep 82] Train (L=0.6108 A=78.2%) | Val (L=0.9008 A=70.9%) | Hyper (LR=2.77e-05 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=-2.6e+05, dWD=-6.8e+01]
+1903.1s 110 [Seed 38042 | Ep 83] Train (L=0.6120 A=78.1%) | Val (L=0.8971 A=70.6%) | Hyper (LR=2.77e-05 WD=6.98e-02) | Time=18.4s
+1927.9s 111 [Seed 38042 | Ep 84] Train (L=0.6084 A=78.2%) | Val (L=0.8954 A=70.7%) | Hyper (LR=2.21e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=8.6e+04, dWD=-5.3e+02]
+1947.7s 112 [Seed 38042 | Ep 85] Train (L=0.6048 A=78.3%) | Val (L=0.9176 A=70.2%) | Hyper (LR=2.21e-05 WD=6.98e-02) | Time=18.4s
+1972.6s 113 [Seed 38042 | Ep 86] Train (L=0.5966 A=78.7%) | Val (L=0.9095 A=70.3%) | Hyper (LR=2.66e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=-1.9e+05, dWD=8.8e+02]
+1992.3s 114 [Seed 38042 | Ep 87] Train (L=0.5980 A=78.5%) | Val (L=0.9077 A=70.6%) | Hyper (LR=2.66e-05 WD=6.98e-02) | Time=18.4s
+2017.2s 115 [Seed 38042 | Ep 88] Train (L=0.5925 A=78.8%) | Val (L=0.9088 A=70.4%) | Hyper (LR=3.19e-05 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=-5.6e+05, dWD=5.5e+02]
+2037.1s 116 [Seed 38042 | Ep 89] Train (L=0.5960 A=78.6%) | Val (L=0.9075 A=70.8%) | Hyper (LR=3.19e-05 WD=6.98e-02) | Time=18.5s
+2037.1s 117 --> Completed Seed 38042. Saved checkpoint to 'hypergradient_results.csv'
+2037.1s 118 
+2037.1s 119 ================================================================================
+2037.1s 120 STARTING SEED: 217401
+2037.1s 121 ================================================================================
+2062.3s 122 [Seed 217401 | Ep 00] Train (L=1.9984 A=24.1%) | Val (L=1.7233 A=36.6%) | Hyper (LR=3.96e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-4.1e+05, dWD=-3.0e+03]
+2082.1s 123 [Seed 217401 | Ep 01] Train (L=1.7435 A=34.7%) | Val (L=1.7138 A=37.6%) | Hyper (LR=3.96e-04 WD=7.00e-02) | Time=18.5s
+2107.2s 124 [Seed 217401 | Ep 02] Train (L=1.6468 A=39.0%) | Val (L=1.5776 A=42.3%) | Hyper (LR=4.75e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=-5.7e+05, dWD=-3.5e+03]
+2126.8s 125 [Seed 217401 | Ep 03] Train (L=1.6109 A=40.7%) | Val (L=1.5047 A=45.0%) | Hyper (LR=4.75e-04 WD=7.01e-02) | Time=18.3s
+2152.1s 126 [Seed 217401 | Ep 04] Train (L=1.5610 A=42.6%) | Val (L=1.5133 A=44.5%) | Hyper (LR=3.80e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=8.3e+05, dWD=-7.6e+03]
+2171.9s 127 [Seed 217401 | Ep 05] Train (L=1.5089 A=44.9%) | Val (L=1.4250 A=48.3%) | Hyper (LR=3.80e-04 WD=7.01e-02) | Time=18.5s
+2197.3s 128 [Seed 217401 | Ep 06] Train (L=1.4826 A=45.9%) | Val (L=1.4755 A=45.8%) | Hyper (LR=3.04e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=1.7e+05, dWD=-6.7e+03]
+2217.1s 129 [Seed 217401 | Ep 07] Train (L=1.4431 A=47.2%) | Val (L=1.3811 A=49.4%) | Hyper (LR=3.04e-04 WD=7.02e-02) | Time=18.5s
+2242.1s 130 [Seed 217401 | Ep 08] Train (L=1.4220 A=48.2%) | Val (L=1.3871 A=49.5%) | Hyper (LR=3.65e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-1.0e+06, dWD=2.5e+02]
+2262.1s 131 [Seed 217401 | Ep 09] Train (L=1.4169 A=48.6%) | Val (L=1.4206 A=48.4%) | Hyper (LR=3.65e-04 WD=7.02e-02) | Time=18.7s
+2287.0s 132 [Seed 217401 | Ep 10] Train (L=1.4039 A=48.9%) | Val (L=1.3639 A=50.3%) | Hyper (LR=4.38e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=-9.4e+05, dWD=1.5e+03]
+2307.0s 133 [Seed 217401 | Ep 11] Train (L=1.4009 A=48.8%) | Val (L=1.3577 A=50.7%) | Hyper (LR=4.38e-04 WD=7.02e-02) | Time=18.6s
+2332.0s 134 [Seed 217401 | Ep 12] Train (L=1.3843 A=49.7%) | Val (L=1.3411 A=51.4%) | Hyper (LR=3.50e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=9.9e+04, dWD=6.0e+02]
+2351.9s 135 [Seed 217401 | Ep 13] Train (L=1.3532 A=50.8%) | Val (L=1.2992 A=52.7%) | Hyper (LR=3.50e-04 WD=7.02e-02) | Time=18.6s
+2376.9s 136 [Seed 217401 | Ep 14] Train (L=1.3344 A=51.6%) | Val (L=1.3259 A=51.8%) | Hyper (LR=4.20e-04 WD=7.01e-02) | Time=18.5s [HG UPDATE: dLR=-1.9e+05, dWD=4.9e+03]
+2396.7s 137 [Seed 217401 | Ep 15] Train (L=1.3367 A=51.4%) | Val (L=1.3004 A=52.4%) | Hyper (LR=4.20e-04 WD=7.01e-02) | Time=18.4s
+2421.7s 138 [Seed 217401 | Ep 16] Train (L=1.3226 A=52.0%) | Val (L=1.2960 A=53.7%) | Hyper (LR=5.05e-04 WD=7.01e-02) | Time=18.5s [HG UPDATE: dLR=-4.2e+05, dWD=4.0e+03]
+2441.5s 139 [Seed 217401 | Ep 17] Train (L=1.3349 A=51.6%) | Val (L=1.3362 A=51.8%) | Hyper (LR=5.05e-04 WD=7.01e-02) | Time=18.5s
+2466.7s 140 [Seed 217401 | Ep 18] Train (L=1.3134 A=52.7%) | Val (L=1.2733 A=54.7%) | Hyper (LR=6.05e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=-4.7e+05, dWD=-3.9e+03]
+2486.7s 141 [Seed 217401 | Ep 19] Train (L=1.3235 A=52.1%) | Val (L=1.3018 A=53.6%) | Hyper (LR=6.05e-04 WD=7.01e-02) | Time=18.6s
+2511.8s 142 [Seed 217401 | Ep 20] Train (L=1.3110 A=52.7%) | Val (L=1.3088 A=52.6%) | Hyper (LR=7.26e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=-1.2e+05, dWD=1.7e+03]
+2531.8s 143 [Seed 217401 | Ep 21] Train (L=1.3199 A=52.3%) | Val (L=1.2836 A=54.0%) | Hyper (LR=7.26e-04 WD=7.01e-02) | Time=18.6s
+2556.8s 144 [Seed 217401 | Ep 22] Train (L=1.3029 A=53.0%) | Val (L=1.2574 A=54.3%) | Hyper (LR=8.72e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-4.4e+05, dWD=-3.3e+03]
+2576.7s 145 [Seed 217401 | Ep 23] Train (L=1.3127 A=52.4%) | Val (L=1.2986 A=53.1%) | Hyper (LR=8.72e-04 WD=7.02e-02) | Time=18.6s
+2602.0s 146 [Seed 217401 | Ep 24] Train (L=1.3025 A=53.0%) | Val (L=1.2711 A=54.1%) | Hyper (LR=6.97e-04 WD=7.02e-02) | Time=18.8s [HG UPDATE: dLR=1.5e+05, dWD=-3.0e+03]
+2621.9s 147 [Seed 217401 | Ep 25] Train (L=1.2496 A=54.9%) | Val (L=1.1951 A=56.8%) | Hyper (LR=6.97e-04 WD=7.02e-02) | Time=18.6s
+2647.0s 148 [Seed 217401 | Ep 26] Train (L=1.2332 A=55.4%) | Val (L=1.1998 A=57.1%) | Hyper (LR=5.58e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=1.8e+05, dWD=-4.1e+02]
+2666.9s 149 [Seed 217401 | Ep 27] Train (L=1.1877 A=57.1%) | Val (L=1.1752 A=58.0%) | Hyper (LR=5.58e-04 WD=7.02e-02) | Time=18.6s
+2692.0s 150 [Seed 217401 | Ep 28] Train (L=1.1670 A=57.8%) | Val (L=1.1864 A=58.4%) | Hyper (LR=6.70e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-1.8e+05, dWD=-1.3e+03]
+2711.8s 151 [Seed 217401 | Ep 29] Train (L=1.1713 A=58.1%) | Val (L=1.1596 A=58.3%) | Hyper (LR=6.70e-04 WD=7.02e-02) | Time=18.4s
+2736.9s 152 [Seed 217401 | Ep 30] Train (L=1.1580 A=58.2%) | Val (L=1.1412 A=58.8%) | Hyper (LR=5.36e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=6.4e+04, dWD=3.8e+02]
+2756.9s 153 [Seed 217401 | Ep 31] Train (L=1.1096 A=60.3%) | Val (L=1.1073 A=61.2%) | Hyper (LR=5.36e-04 WD=7.02e-02) | Time=18.7s
+2781.8s 154 [Seed 217401 | Ep 32] Train (L=1.0821 A=61.0%) | Val (L=1.0728 A=61.8%) | Hyper (LR=6.43e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-8.3e+04, dWD=1.5e+03]
+2801.8s 155 [Seed 217401 | Ep 33] Train (L=1.0954 A=60.6%) | Val (L=1.1398 A=59.4%) | Hyper (LR=6.43e-04 WD=7.02e-02) | Time=18.6s
+2826.9s 156 [Seed 217401 | Ep 34] Train (L=1.0783 A=61.2%) | Val (L=1.1096 A=60.8%) | Hyper (LR=5.14e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=5.5e+05, dWD=2.8e+03]
+2846.9s 157 [Seed 217401 | Ep 35] Train (L=1.0260 A=63.1%) | Val (L=1.0281 A=63.7%) | Hyper (LR=5.14e-04 WD=7.02e-02) | Time=18.6s
+2872.4s 158 [Seed 217401 | Ep 36] Train (L=1.0084 A=63.7%) | Val (L=1.0452 A=62.8%) | Hyper (LR=4.11e-04 WD=7.02e-02) | Time=19.0s [HG UPDATE: dLR=2.0e+05, dWD=-1.4e+03]
+2892.5s 159 [Seed 217401 | Ep 37] Train (L=0.9661 A=65.4%) | Val (L=0.9883 A=65.3%) | Hyper (LR=4.11e-04 WD=7.02e-02) | Time=18.7s
+2917.5s 160 [Seed 217401 | Ep 38] Train (L=0.9469 A=66.0%) | Val (L=0.9811 A=64.9%) | Hyper (LR=4.40e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-2.9e+03, dWD=-1.8e+03]
+2937.5s 161 [Seed 217401 | Ep 39] Train (L=0.9342 A=66.5%) | Val (L=0.9860 A=65.0%) | Hyper (LR=4.40e-04 WD=7.02e-02) | Time=18.6s
+2962.6s 162 [Seed 217401 | Ep 40] Train (L=0.9238 A=66.8%) | Val (L=0.9737 A=65.2%) | Hyper (LR=5.28e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-1.7e+04, dWD=-1.5e+01]
+2982.4s 163 [Seed 217401 | Ep 41] Train (L=0.9308 A=66.4%) | Val (L=1.0055 A=64.5%) | Hyper (LR=5.28e-04 WD=7.02e-02) | Time=18.5s
+3007.4s 164 [Seed 217401 | Ep 42] Train (L=0.9214 A=67.0%) | Val (L=0.9823 A=65.6%) | Hyper (LR=6.34e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=-5.1e+05, dWD=-4.1e+02]
+3027.3s 165 [Seed 217401 | Ep 43] Train (L=0.9294 A=66.6%) | Val (L=1.0066 A=64.5%) | Hyper (LR=6.34e-04 WD=7.02e-02) | Time=18.6s
+3052.3s 166 [Seed 217401 | Ep 44] Train (L=0.9179 A=67.2%) | Val (L=0.9599 A=66.2%) | Hyper (LR=5.07e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=4.0e+04, dWD=1.9e+03]
+3072.1s 167 [Seed 217401 | Ep 45] Train (L=0.8709 A=68.6%) | Val (L=0.9429 A=66.7%) | Hyper (LR=5.07e-04 WD=7.02e-02) | Time=18.5s
+3097.1s 168 [Seed 217401 | Ep 46] Train (L=0.8537 A=69.5%) | Val (L=0.9198 A=67.9%) | Hyper (LR=6.08e-04 WD=7.01e-02) | Time=18.5s [HG UPDATE: dLR=-2.9e+05, dWD=3.0e+03]
+3116.9s 169 [Seed 217401 | Ep 47] Train (L=0.8685 A=68.9%) | Val (L=0.9883 A=65.6%) | Hyper (LR=6.08e-04 WD=7.01e-02) | Time=18.5s
+3141.9s 170 [Seed 217401 | Ep 48] Train (L=0.8606 A=69.4%) | Val (L=0.9429 A=67.4%) | Hyper (LR=4.87e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=2.7e+05, dWD=-3.9e+02]
+3161.9s 171 [Seed 217401 | Ep 49] Train (L=0.8127 A=71.0%) | Val (L=0.9217 A=67.8%) | Hyper (LR=4.87e-04 WD=7.01e-02) | Time=18.6s
+3186.7s 172 [Seed 217401 | Ep 50] Train (L=0.7989 A=71.2%) | Val (L=0.9088 A=68.2%) | Hyper (LR=5.84e-04 WD=7.02e-02) | Time=18.4s [HG UPDATE: dLR=-1.4e+05, dWD=-1.1e+03]
+3206.8s 173 [Seed 217401 | Ep 51] Train (L=0.8086 A=71.0%) | Val (L=0.9283 A=67.4%) | Hyper (LR=5.84e-04 WD=7.02e-02) | Time=18.7s
+3231.8s 174 [Seed 217401 | Ep 52] Train (L=0.8034 A=71.1%) | Val (L=0.9445 A=66.9%) | Hyper (LR=7.01e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-1.4e+05, dWD=-7.0e+02]
+3251.7s 175 [Seed 217401 | Ep 53] Train (L=0.8239 A=70.7%) | Val (L=0.9320 A=67.3%) | Hyper (LR=7.01e-04 WD=7.02e-02) | Time=18.5s
+3276.6s 176 [Seed 217401 | Ep 54] Train (L=0.8154 A=70.8%) | Val (L=0.9419 A=67.8%) | Hyper (LR=5.61e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=2.1e+05, dWD=-4.0e+03]
+3296.6s 177 [Seed 217401 | Ep 55] Train (L=0.7670 A=72.4%) | Val (L=0.9067 A=68.8%) | Hyper (LR=5.61e-04 WD=7.02e-02) | Time=18.6s
+3321.8s 178 [Seed 217401 | Ep 56] Train (L=0.7554 A=73.1%) | Val (L=0.8927 A=69.1%) | Hyper (LR=4.49e-04 WD=7.02e-02) | Time=18.8s [HG UPDATE: dLR=2.9e+04, dWD=-1.6e+03]
+3341.5s 179 [Seed 217401 | Ep 57] Train (L=0.7037 A=75.0%) | Val (L=0.9082 A=69.5%) | Hyper (LR=4.49e-04 WD=7.02e-02) | Time=18.4s
+3366.6s 180 [Seed 217401 | Ep 58] Train (L=0.6891 A=75.4%) | Val (L=0.8689 A=70.5%) | Hyper (LR=3.59e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=7.6e+05, dWD=7.8e+02]
+3386.3s 181 [Seed 217401 | Ep 59] Train (L=0.6425 A=76.9%) | Val (L=0.8795 A=70.4%) | Hyper (LR=3.59e-04 WD=7.02e-02) | Time=18.4s
+3411.3s 182 [Seed 217401 | Ep 60] Train (L=0.6303 A=77.4%) | Val (L=0.8575 A=71.0%) | Hyper (LR=4.31e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=-3.8e+05, dWD=1.3e+03]
+3431.3s 183 [Seed 217401 | Ep 61] Train (L=0.6420 A=77.1%) | Val (L=0.9068 A=69.6%) | Hyper (LR=4.31e-04 WD=7.02e-02) | Time=18.6s
+3456.3s 184 [Seed 217401 | Ep 62] Train (L=0.6374 A=77.1%) | Val (L=0.8776 A=70.7%) | Hyper (LR=5.17e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-4.8e+05, dWD=2.7e+03]
+3476.3s 185 [Seed 217401 | Ep 63] Train (L=0.6549 A=76.3%) | Val (L=0.9100 A=69.7%) | Hyper (LR=5.17e-04 WD=7.02e-02) | Time=18.6s
+3501.5s 186 [Seed 217401 | Ep 64] Train (L=0.6441 A=76.7%) | Val (L=0.9108 A=69.3%) | Hyper (LR=6.20e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-1.9e+04, dWD=-7.6e+02]
+3521.4s 187 [Seed 217401 | Ep 65] Train (L=0.6830 A=75.5%) | Val (L=0.9116 A=69.2%) | Hyper (LR=6.20e-04 WD=7.02e-02) | Time=18.6s
+3546.6s 188 [Seed 217401 | Ep 66] Train (L=0.6705 A=76.0%) | Val (L=0.8953 A=69.8%) | Hyper (LR=4.96e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=5.5e+05, dWD=2.8e+03]
+3566.5s 189 [Seed 217401 | Ep 67] Train (L=0.6179 A=77.8%) | Val (L=0.9035 A=69.8%) | Hyper (LR=4.96e-04 WD=7.01e-02) | Time=18.6s
+3591.4s 190 [Seed 217401 | Ep 68] Train (L=0.6143 A=77.7%) | Val (L=0.8897 A=70.3%) | Hyper (LR=3.97e-04 WD=7.01e-02) | Time=18.4s [HG UPDATE: dLR=5.8e+04, dWD=3.5e+02]
+3611.3s 191 [Seed 217401 | Ep 69] Train (L=0.5601 A=79.8%) | Val (L=0.9105 A=70.8%) | Hyper (LR=3.97e-04 WD=7.01e-02) | Time=18.6s
+3636.4s 192 [Seed 217401 | Ep 70] Train (L=0.5453 A=80.4%) | Val (L=0.9238 A=70.4%) | Hyper (LR=4.76e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=-4.4e+05, dWD=1.8e+03]
+3656.3s 193 [Seed 217401 | Ep 71] Train (L=0.5716 A=79.2%) | Val (L=0.9116 A=70.7%) | Hyper (LR=4.76e-04 WD=7.01e-02) | Time=18.5s
+3681.2s 194 [Seed 217401 | Ep 72] Train (L=0.5678 A=79.5%) | Val (L=0.9533 A=69.8%) | Hyper (LR=3.81e-04 WD=7.01e-02) | Time=18.5s [HG UPDATE: dLR=1.4e+05, dWD=-2.4e+02]
+3701.2s 195 [Seed 217401 | Ep 73] Train (L=0.5144 A=81.6%) | Val (L=0.9136 A=70.4%) | Hyper (LR=3.81e-04 WD=7.01e-02) | Time=18.7s
+3726.3s 196 [Seed 217401 | Ep 74] Train (L=0.4999 A=81.9%) | Val (L=0.9221 A=71.0%) | Hyper (LR=3.05e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=6.3e+04, dWD=3.0e+03]
+3746.2s 197 [Seed 217401 | Ep 75] Train (L=0.4545 A=83.7%) | Val (L=0.9482 A=71.2%) | Hyper (LR=3.05e-04 WD=7.01e-02) | Time=18.6s
+3771.0s 198 [Seed 217401 | Ep 76] Train (L=0.4442 A=83.9%) | Val (L=0.9539 A=71.5%) | Hyper (LR=3.66e-04 WD=7.01e-02) | Time=18.4s [HG UPDATE: dLR=-6.9e+05, dWD=3.1e+02]
+3790.7s 199 [Seed 217401 | Ep 77] Train (L=0.4661 A=83.2%) | Val (L=0.9493 A=70.9%) | Hyper (LR=3.66e-04 WD=7.01e-02) | Time=18.4s
+3816.1s 200 [Seed 217401 | Ep 78] Train (L=0.4578 A=83.4%) | Val (L=0.9473 A=71.2%) | Hyper (LR=2.93e-04 WD=7.01e-02) | Time=18.8s [HG UPDATE: dLR=1.3e+05, dWD=1.3e+03]
+3836.1s 201 [Seed 217401 | Ep 79] Train (L=0.4172 A=85.0%) | Val (L=0.9659 A=71.5%) | Hyper (LR=2.93e-04 WD=7.01e-02) | Time=18.7s
+3861.2s 202 [Seed 217401 | Ep 80] Train (L=0.4111 A=85.2%) | Val (L=0.9723 A=70.9%) | Hyper (LR=2.34e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=1.0e+05, dWD=1.5e+03]
+3881.2s 203 [Seed 217401 | Ep 81] Train (L=0.3702 A=86.7%) | Val (L=0.9669 A=71.8%) | Hyper (LR=2.34e-04 WD=7.01e-02) | Time=18.7s
+3906.4s 204 [Seed 217401 | Ep 82] Train (L=0.3633 A=86.8%) | Val (L=0.9672 A=71.6%) | Hyper (LR=2.81e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=-7.3e+05, dWD=7.2e+02]
+3926.3s 205 [Seed 217401 | Ep 83] Train (L=0.3711 A=86.6%) | Val (L=0.9662 A=71.9%) | Hyper (LR=2.81e-04 WD=7.01e-02) | Time=18.6s
+3951.5s 206 [Seed 217401 | Ep 84] Train (L=0.3741 A=86.6%) | Val (L=1.0196 A=70.9%) | Hyper (LR=3.37e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-6.2e+05, dWD=1.3e+03]
+3971.7s 207 [Seed 217401 | Ep 85] Train (L=0.3933 A=85.7%) | Val (L=0.9953 A=71.1%) | Hyper (LR=3.37e-04 WD=7.00e-02) | Time=18.8s
+3996.8s 208 [Seed 217401 | Ep 86] Train (L=0.3927 A=85.9%) | Val (L=0.9976 A=71.0%) | Hyper (LR=2.70e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=2.3e+05, dWD=-5.8e+02]
+4016.7s 209 [Seed 217401 | Ep 87] Train (L=0.3575 A=87.1%) | Val (L=1.0185 A=71.6%) | Hyper (LR=2.70e-04 WD=7.01e-02) | Time=18.5s
+4041.7s 210 [Seed 217401 | Ep 88] Train (L=0.3469 A=87.5%) | Val (L=1.0029 A=71.9%) | Hyper (LR=3.24e-04 WD=7.01e-02) | Time=18.5s [HG UPDATE: dLR=-7.3e+05, dWD=-5.9e+02]
+4061.8s 211 [Seed 217401 | Ep 89] Train (L=0.3686 A=86.7%) | Val (L=1.0018 A=71.3%) | Hyper (LR=3.24e-04 WD=7.01e-02) | Time=18.6s
+4061.8s 212 --> Completed Seed 217401. Saved checkpoint to 'hypergradient_results.csv'
+4061.8s 213 
+4061.8s 214 ================================================================================
+4061.8s 215 STARTING SEED: 637451
+4061.8s 216 ================================================================================
+4086.9s 217 [Seed 637451 | Ep 00] Train (L=1.9842 A=24.4%) | Val (L=1.8073 A=31.2%) | Hyper (LR=3.96e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=-1.5e+06, dWD=-9.5e+03]
+4106.8s 218 [Seed 637451 | Ep 01] Train (L=1.7624 A=33.7%) | Val (L=1.6978 A=37.4%) | Hyper (LR=3.96e-04 WD=7.01e-02) | Time=18.6s
+4131.9s 219 [Seed 637451 | Ep 02] Train (L=1.6570 A=38.6%) | Val (L=1.6037 A=41.4%) | Hyper (LR=3.17e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=8.7e+05, dWD=-3.4e+03]
+4151.8s 220 [Seed 637451 | Ep 03] Train (L=1.5805 A=41.7%) | Val (L=1.5239 A=45.2%) | Hyper (LR=3.17e-04 WD=7.01e-02) | Time=18.6s
+4177.6s 221 [Seed 637451 | Ep 04] Train (L=1.5425 A=43.4%) | Val (L=1.4657 A=46.8%) | Hyper (LR=2.53e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=1.5e+05, dWD=1.4e+03]
+4197.4s 222 [Seed 637451 | Ep 05] Train (L=1.4980 A=45.2%) | Val (L=1.4418 A=47.2%) | Hyper (LR=2.53e-04 WD=7.01e-02) | Time=18.5s
+4222.5s 223 [Seed 637451 | Ep 06] Train (L=1.4692 A=46.2%) | Val (L=1.4171 A=48.6%) | Hyper (LR=3.04e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-8.2e+05, dWD=-4.1e+03]
+4242.5s 224 [Seed 637451 | Ep 07] Train (L=1.4671 A=46.4%) | Val (L=1.4310 A=47.8%) | Hyper (LR=3.04e-04 WD=7.02e-02) | Time=18.7s
+4267.5s 225 [Seed 637451 | Ep 08] Train (L=1.4522 A=47.0%) | Val (L=1.4405 A=48.5%) | Hyper (LR=3.65e-04 WD=7.01e-02) | Time=18.5s [HG UPDATE: dLR=-1.3e+06, dWD=3.4e+03]
+4287.4s 226 [Seed 637451 | Ep 09] Train (L=1.4472 A=47.0%) | Val (L=1.4252 A=49.4%) | Hyper (LR=3.65e-04 WD=7.01e-02) | Time=18.6s
+4312.6s 227 [Seed 637451 | Ep 10] Train (L=1.4265 A=48.0%) | Val (L=1.3581 A=50.7%) | Hyper (LR=2.92e-04 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=3.0e+04, dWD=-8.2e+02]
+4332.5s 228 [Seed 637451 | Ep 11] Train (L=1.3872 A=49.3%) | Val (L=1.3873 A=50.4%) | Hyper (LR=2.92e-04 WD=7.01e-02) | Time=18.6s
+4357.6s 229 [Seed 637451 | Ep 12] Train (L=1.3744 A=50.0%) | Val (L=1.3378 A=51.0%) | Hyper (LR=2.34e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=1.4e+06, dWD=-2.3e+03]
+4377.7s 230 [Seed 637451 | Ep 13] Train (L=1.3381 A=51.2%) | Val (L=1.3112 A=52.9%) | Hyper (LR=2.34e-04 WD=7.02e-02) | Time=18.7s
+4402.8s 231 [Seed 637451 | Ep 14] Train (L=1.3225 A=51.9%) | Val (L=1.3329 A=51.7%) | Hyper (LR=2.80e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-7.8e+05, dWD=-1.8e+03]
+4422.8s 232 [Seed 637451 | Ep 15] Train (L=1.3273 A=51.9%) | Val (L=1.2652 A=54.4%) | Hyper (LR=2.80e-04 WD=7.02e-02) | Time=18.6s
+4447.9s 233 [Seed 637451 | Ep 16] Train (L=1.3084 A=52.5%) | Val (L=1.2831 A=53.9%) | Hyper (LR=3.36e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-7.6e+05, dWD=-1.7e+03]
+4467.8s 234 [Seed 637451 | Ep 17] Train (L=1.3134 A=52.4%) | Val (L=1.2689 A=54.1%) | Hyper (LR=3.36e-04 WD=7.02e-02) | Time=18.6s
+4492.8s 235 [Seed 637451 | Ep 18] Train (L=1.3000 A=52.8%) | Val (L=1.2814 A=53.4%) | Hyper (LR=4.04e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=-4.1e+05, dWD=-1.3e+03]
+4512.6s 236 [Seed 637451 | Ep 19] Train (L=1.3054 A=52.6%) | Val (L=1.3137 A=52.6%) | Hyper (LR=4.04e-04 WD=7.02e-02) | Time=18.4s
+4537.5s 237 [Seed 637451 | Ep 20] Train (L=1.2878 A=53.0%) | Val (L=1.2766 A=54.5%) | Hyper (LR=3.23e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=3.1e+05, dWD=-4.3e+02]
+4557.2s 238 [Seed 637451 | Ep 21] Train (L=1.2607 A=54.6%) | Val (L=1.2373 A=55.5%) | Hyper (LR=3.23e-04 WD=7.02e-02) | Time=18.4s
+4582.2s 239 [Seed 637451 | Ep 22] Train (L=1.2362 A=55.5%) | Val (L=1.2178 A=55.8%) | Hyper (LR=2.58e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=2.2e+04, dWD=-1.3e+03]
+4602.1s 240 [Seed 637451 | Ep 23] Train (L=1.2074 A=56.3%) | Val (L=1.1909 A=57.5%) | Hyper (LR=2.58e-04 WD=7.02e-02) | Time=18.5s
+4627.2s 241 [Seed 637451 | Ep 24] Train (L=1.1916 A=57.1%) | Val (L=1.1649 A=58.2%) | Hyper (LR=2.07e-04 WD=7.02e-02) | Time=18.7s [HG UPDATE: dLR=1.8e+05, dWD=-1.0e+03]
+4647.0s 242 [Seed 637451 | Ep 25] Train (L=1.1579 A=58.2%) | Val (L=1.1480 A=59.1%) | Hyper (LR=2.07e-04 WD=7.02e-02) | Time=18.5s
+4671.8s 243 [Seed 637451 | Ep 26] Train (L=1.1432 A=58.8%) | Val (L=1.1413 A=59.8%) | Hyper (LR=2.48e-04 WD=7.02e-02) | Time=18.4s [HG UPDATE: dLR=-5.7e+04, dWD=7.5e+02]
+4691.8s 244 [Seed 637451 | Ep 27] Train (L=1.1460 A=58.7%) | Val (L=1.1570 A=58.9%) | Hyper (LR=2.48e-04 WD=7.02e-02) | Time=18.6s
+4716.8s 245 [Seed 637451 | Ep 28] Train (L=1.1380 A=59.0%) | Val (L=1.1354 A=59.2%) | Hyper (LR=2.98e-04 WD=7.02e-02) | Time=18.6s [HG UPDATE: dLR=-3.9e+04, dWD=-5.8e+02]
+4736.7s 246 [Seed 637451 | Ep 29] Train (L=1.1442 A=58.7%) | Val (L=1.1710 A=58.4%) | Hyper (LR=2.98e-04 WD=7.02e-02) | Time=18.6s
+4761.8s 247 [Seed 637451 | Ep 30] Train (L=1.1337 A=59.1%) | Val (L=1.1554 A=58.8%) | Hyper (LR=2.38e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=5.3e+04, dWD=-5.4e+03]
+4781.6s 248 [Seed 637451 | Ep 31] Train (L=1.1003 A=60.3%) | Val (L=1.1009 A=61.2%) | Hyper (LR=2.38e-04 WD=7.03e-02) | Time=18.4s
+4807.2s 249 [Seed 637451 | Ep 32] Train (L=1.0870 A=61.1%) | Val (L=1.0996 A=61.0%) | Hyper (LR=2.86e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=-4.6e+05, dWD=-1.9e+03]
+4827.2s 250 [Seed 637451 | Ep 33] Train (L=1.0920 A=60.6%) | Val (L=1.1082 A=60.6%) | Hyper (LR=2.86e-04 WD=7.03e-02) | Time=18.6s
+4852.4s 251 [Seed 637451 | Ep 34] Train (L=1.0762 A=61.5%) | Val (L=1.1082 A=61.0%) | Hyper (LR=2.29e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=4.0e+05, dWD=3.8e+03]
+4872.2s 252 [Seed 637451 | Ep 35] Train (L=1.0443 A=62.3%) | Val (L=1.0845 A=61.9%) | Hyper (LR=2.29e-04 WD=7.03e-02) | Time=18.5s
+4897.3s 253 [Seed 637451 | Ep 36] Train (L=1.0329 A=62.8%) | Val (L=1.0653 A=62.6%) | Hyper (LR=1.83e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=1.1e+06, dWD=2.5e+02]
+4917.2s 254 [Seed 637451 | Ep 37] Train (L=0.9979 A=64.2%) | Val (L=1.0312 A=63.5%) | Hyper (LR=1.83e-04 WD=7.03e-02) | Time=18.5s
+4941.9s 255 [Seed 637451 | Ep 38] Train (L=0.9847 A=64.5%) | Val (L=1.0292 A=64.0%) | Hyper (LR=2.19e-04 WD=7.02e-02) | Time=18.3s [HG UPDATE: dLR=-4.2e+05, dWD=2.1e+03]
+4962.0s 256 [Seed 637451 | Ep 39] Train (L=0.9888 A=64.4%) | Val (L=1.0309 A=64.3%) | Hyper (LR=2.19e-04 WD=7.02e-02) | Time=18.8s
+4987.1s 257 [Seed 637451 | Ep 40] Train (L=0.9854 A=64.5%) | Val (L=1.0807 A=61.9%) | Hyper (LR=2.63e-04 WD=7.02e-02) | Time=18.7s [HG UPDATE: dLR=-2.0e+05, dWD=1.9e+03]
+5007.2s 258 [Seed 637451 | Ep 41] Train (L=0.9921 A=64.3%) | Val (L=1.0583 A=62.9%) | Hyper (LR=2.63e-04 WD=7.02e-02) | Time=18.7s
+5032.2s 259 [Seed 637451 | Ep 42] Train (L=0.9830 A=64.9%) | Val (L=1.0211 A=64.2%) | Hyper (LR=3.16e-04 WD=7.02e-02) | Time=18.5s [HG UPDATE: dLR=-2.2e+05, dWD=3.5e+02]
+5052.2s 260 [Seed 637451 | Ep 43] Train (L=0.9956 A=64.3%) | Val (L=1.0555 A=63.4%) | Hyper (LR=3.16e-04 WD=7.02e-02) | Time=18.7s
+5077.3s 261 [Seed 637451 | Ep 44] Train (L=0.9902 A=64.6%) | Val (L=1.0372 A=64.1%) | Hyper (LR=2.53e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=7.6e+05, dWD=-5.7e+03]
+5097.0s 262 [Seed 637451 | Ep 45] Train (L=0.9457 A=66.1%) | Val (L=1.0363 A=64.2%) | Hyper (LR=2.53e-04 WD=7.03e-02) | Time=18.3s
+5121.7s 263 [Seed 637451 | Ep 46] Train (L=0.9369 A=66.3%) | Val (L=0.9825 A=65.4%) | Hyper (LR=3.03e-04 WD=7.03e-02) | Time=18.3s [HG UPDATE: dLR=-8.2e+05, dWD=-2.7e+03]
+5141.5s 264 [Seed 637451 | Ep 47] Train (L=0.9494 A=66.2%) | Val (L=1.0087 A=64.6%) | Hyper (LR=3.03e-04 WD=7.03e-02) | Time=18.5s
+5166.6s 265 [Seed 637451 | Ep 48] Train (L=0.9356 A=66.6%) | Val (L=1.0080 A=64.7%) | Hyper (LR=2.43e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=5.7e+05, dWD=-2.9e+03]
+5186.6s 266 [Seed 637451 | Ep 49] Train (L=0.9025 A=67.5%) | Val (L=0.9912 A=65.6%) | Hyper (LR=2.43e-04 WD=7.03e-02) | Time=18.6s
+5211.7s 267 [Seed 637451 | Ep 50] Train (L=0.8864 A=68.2%) | Val (L=0.9954 A=66.1%) | Hyper (LR=1.94e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=4.3e+05, dWD=3.5e+03]
+5231.7s 268 [Seed 637451 | Ep 51] Train (L=0.8495 A=69.4%) | Val (L=0.9658 A=67.1%) | Hyper (LR=1.94e-04 WD=7.03e-02) | Time=18.7s
+5257.0s 269 [Seed 637451 | Ep 52] Train (L=0.8306 A=70.2%) | Val (L=0.9472 A=67.2%) | Hyper (LR=2.33e-04 WD=7.03e-02) | Time=18.9s [HG UPDATE: dLR=-9.2e+05, dWD=-3.7e+03]
+5276.8s 270 [Seed 637451 | Ep 53] Train (L=0.8473 A=69.7%) | Val (L=0.9428 A=67.2%) | Hyper (LR=2.33e-04 WD=7.03e-02) | Time=18.4s
+5301.8s 271 [Seed 637451 | Ep 54] Train (L=0.8317 A=70.1%) | Val (L=0.9634 A=66.5%) | Hyper (LR=2.80e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=-4.5e+05, dWD=1.1e+03]
+5321.8s 272 [Seed 637451 | Ep 55] Train (L=0.8491 A=69.5%) | Val (L=0.9870 A=66.0%) | Hyper (LR=2.80e-04 WD=7.03e-02) | Time=18.6s
+5346.9s 273 [Seed 637451 | Ep 56] Train (L=0.8356 A=70.1%) | Val (L=0.9587 A=66.7%) | Hyper (LR=3.35e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=-4.6e+05, dWD=6.8e+02]
+5366.8s 274 [Seed 637451 | Ep 57] Train (L=0.8567 A=69.4%) | Val (L=0.9482 A=67.0%) | Hyper (LR=3.35e-04 WD=7.03e-02) | Time=18.6s
+5392.0s 275 [Seed 637451 | Ep 58] Train (L=0.8376 A=69.9%) | Val (L=0.9749 A=66.4%) | Hyper (LR=4.02e-04 WD=7.03e-02) | Time=18.8s [HG UPDATE: dLR=-5.1e+04, dWD=3.0e+03]
+5411.9s 276 [Seed 637451 | Ep 59] Train (L=0.8645 A=68.9%) | Val (L=0.9787 A=66.5%) | Hyper (LR=4.02e-04 WD=7.03e-02) | Time=18.6s
+5437.4s 277 [Seed 637451 | Ep 60] Train (L=0.8557 A=69.4%) | Val (L=0.9299 A=67.4%) | Hyper (LR=3.22e-04 WD=7.03e-02) | Time=18.8s [HG UPDATE: dLR=2.9e+05, dWD=-7.5e+02]
+5457.3s 278 [Seed 637451 | Ep 61] Train (L=0.8085 A=71.0%) | Val (L=0.9400 A=67.3%) | Hyper (LR=3.22e-04 WD=7.03e-02) | Time=18.6s
+5482.4s 279 [Seed 637451 | Ep 62] Train (L=0.7905 A=71.6%) | Val (L=0.9089 A=68.7%) | Hyper (LR=3.86e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=-1.2e+05, dWD=-2.7e+01]
+5502.4s 280 [Seed 637451 | Ep 63] Train (L=0.8131 A=70.8%) | Val (L=0.9322 A=67.0%) | Hyper (LR=3.86e-04 WD=7.03e-02) | Time=18.7s
+5527.9s 281 [Seed 637451 | Ep 64] Train (L=0.8065 A=71.1%) | Val (L=0.9414 A=67.5%) | Hyper (LR=3.09e-04 WD=7.03e-02) | Time=18.9s [HG UPDATE: dLR=3.9e+05, dWD=-2.9e+03]
+5547.9s 282 [Seed 637451 | Ep 65] Train (L=0.7608 A=72.8%) | Val (L=0.8983 A=69.5%) | Hyper (LR=3.09e-04 WD=7.03e-02) | Time=18.7s
+5573.0s 283 [Seed 637451 | Ep 66] Train (L=0.7461 A=73.1%) | Val (L=0.8859 A=69.3%) | Hyper (LR=3.71e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=-1.3e+05, dWD=7.1e+02]
+5592.8s 284 [Seed 637451 | Ep 67] Train (L=0.7664 A=72.5%) | Val (L=0.9228 A=68.4%) | Hyper (LR=3.71e-04 WD=7.03e-02) | Time=18.5s
+5618.0s 285 [Seed 637451 | Ep 68] Train (L=0.7580 A=72.7%) | Val (L=0.9227 A=69.0%) | Hyper (LR=2.97e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=1.7e+05, dWD=2.2e+03]
+5638.2s 286 [Seed 637451 | Ep 69] Train (L=0.7072 A=74.7%) | Val (L=0.9146 A=68.8%) | Hyper (LR=2.97e-04 WD=7.03e-02) | Time=18.8s
+5663.1s 287 [Seed 637451 | Ep 70] Train (L=0.6909 A=75.3%) | Val (L=0.8840 A=69.6%) | Hyper (LR=2.37e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=1.6e+05, dWD=-3.5e+03]
+5683.1s 288 [Seed 637451 | Ep 71] Train (L=0.6435 A=76.9%) | Val (L=0.8902 A=70.0%) | Hyper (LR=2.37e-04 WD=7.03e-02) | Time=18.6s
+5708.1s 289 [Seed 637451 | Ep 72] Train (L=0.6356 A=77.1%) | Val (L=0.9037 A=70.3%) | Hyper (LR=2.85e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=-2.6e+05, dWD=1.1e+03]
+5728.1s 290 [Seed 637451 | Ep 73] Train (L=0.6434 A=76.7%) | Val (L=0.8817 A=70.6%) | Hyper (LR=2.85e-04 WD=7.03e-02) | Time=18.7s
+5753.3s 291 [Seed 637451 | Ep 74] Train (L=0.6320 A=77.4%) | Val (L=0.8939 A=70.1%) | Hyper (LR=3.42e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=-5.7e+05, dWD=-5.9e+02]
+5773.2s 292 [Seed 637451 | Ep 75] Train (L=0.6548 A=76.5%) | Val (L=0.9100 A=69.2%) | Hyper (LR=3.42e-04 WD=7.03e-02) | Time=18.5s
+5798.5s 293 [Seed 637451 | Ep 76] Train (L=0.6566 A=76.5%) | Val (L=0.9091 A=69.7%) | Hyper (LR=2.73e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=2.7e+04, dWD=2.7e+03]
+5818.6s 294 [Seed 637451 | Ep 77] Train (L=0.6118 A=78.0%) | Val (L=0.8909 A=70.7%) | Hyper (LR=2.73e-04 WD=7.03e-02) | Time=18.7s
+5843.8s 295 [Seed 637451 | Ep 78] Train (L=0.5937 A=78.7%) | Val (L=0.9065 A=70.4%) | Hyper (LR=3.28e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=-2.7e+05, dWD=-8.9e+02]
+5863.7s 296 [Seed 637451 | Ep 79] Train (L=0.6148 A=77.9%) | Val (L=0.8896 A=70.2%) | Hyper (LR=3.28e-04 WD=7.03e-02) | Time=18.5s
+5888.9s 297 [Seed 637451 | Ep 80] Train (L=0.6140 A=77.9%) | Val (L=0.8863 A=70.6%) | Hyper (LR=2.63e-04 WD=7.03e-02) | Time=18.6s [HG UPDATE: dLR=2.1e+04, dWD=-1.0e+03]
+5908.8s 298 [Seed 637451 | Ep 81] Train (L=0.5553 A=80.0%) | Val (L=0.8898 A=70.9%) | Hyper (LR=2.63e-04 WD=7.03e-02) | Time=18.6s
+5934.0s 299 [Seed 637451 | Ep 82] Train (L=0.5456 A=80.3%) | Val (L=0.9044 A=70.6%) | Hyper (LR=3.15e-04 WD=7.03e-02) | Time=18.7s [HG UPDATE: dLR=-3.8e+05, dWD=-7.3e+02]
+5953.9s 300 [Seed 637451 | Ep 83] Train (L=0.5650 A=79.6%) | Val (L=0.9291 A=70.3%) | Hyper (LR=3.15e-04 WD=7.03e-02) | Time=18.6s
+5978.9s 301 [Seed 637451 | Ep 84] Train (L=0.5555 A=80.0%) | Val (L=0.9531 A=69.5%) | Hyper (LR=2.52e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=3.4e+05, dWD=9.8e+02]
+5999.1s 302 [Seed 637451 | Ep 85] Train (L=0.5167 A=81.3%) | Val (L=0.9096 A=70.8%) | Hyper (LR=2.52e-04 WD=7.03e-02) | Time=18.8s
+6024.0s 303 [Seed 637451 | Ep 86] Train (L=0.5081 A=81.5%) | Val (L=0.8976 A=71.3%) | Hyper (LR=2.02e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=4.8e+05, dWD=-3.0e+03]
+6043.7s 304 [Seed 637451 | Ep 87] Train (L=0.4588 A=83.3%) | Val (L=0.9157 A=71.2%) | Hyper (LR=2.02e-04 WD=7.03e-02) | Time=18.4s
+6068.8s 305 [Seed 637451 | Ep 88] Train (L=0.4483 A=83.9%) | Val (L=0.9262 A=71.0%) | Hyper (LR=1.61e-04 WD=7.03e-02) | Time=18.5s [HG UPDATE: dLR=2.1e+05, dWD=5.0e+02]
+6088.8s 306 [Seed 637451 | Ep 89] Train (L=0.4168 A=84.9%) | Val (L=0.9500 A=71.8%) | Hyper (LR=1.61e-04 WD=7.03e-02) | Time=18.6s
+6088.8s 307 --> Completed Seed 637451. Saved checkpoint to 'hypergradient_results.csv'
+6088.8s 308 
+6088.8s 309 ================================================================================
+6088.8s 310 STARTING SEED: 207796
+6088.8s 311 ================================================================================
+6113.9s 312 [Seed 207796 | Ep 00] Train (L=2.0036 A=23.7%) | Val (L=1.7524 A=35.2%) | Hyper (LR=3.96e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-2.1e+06, dWD=5.9e+03]
+6133.6s 313 [Seed 207796 | Ep 01] Train (L=1.7655 A=34.1%) | Val (L=1.7041 A=38.0%) | Hyper (LR=3.96e-04 WD=6.99e-02) | Time=18.4s
+6158.5s 314 [Seed 207796 | Ep 02] Train (L=1.6549 A=39.0%) | Val (L=1.6339 A=41.2%) | Hyper (LR=3.17e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=3.1e+05, dWD=-5.8e+03]
+6178.4s 315 [Seed 207796 | Ep 03] Train (L=1.5859 A=41.6%) | Val (L=1.5492 A=43.2%) | Hyper (LR=3.17e-04 WD=7.00e-02) | Time=18.6s
+6203.4s 316 [Seed 207796 | Ep 04] Train (L=1.5459 A=43.0%) | Val (L=1.5298 A=44.6%) | Hyper (LR=2.53e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=2.2e+05, dWD=3.4e+03]
+6223.2s 317 [Seed 207796 | Ep 05] Train (L=1.5094 A=44.7%) | Val (L=1.4530 A=46.7%) | Hyper (LR=2.53e-04 WD=7.00e-02) | Time=18.5s
+6248.3s 318 [Seed 207796 | Ep 06] Train (L=1.4842 A=45.2%) | Val (L=1.4596 A=47.2%) | Hyper (LR=2.03e-04 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=4.5e+05, dWD=-4.5e+03]
+6268.2s 319 [Seed 207796 | Ep 07] Train (L=1.4554 A=46.7%) | Val (L=1.4436 A=47.6%) | Hyper (LR=2.03e-04 WD=7.00e-02) | Time=18.6s
+6293.3s 320 [Seed 207796 | Ep 08] Train (L=1.4350 A=47.4%) | Val (L=1.4011 A=49.4%) | Hyper (LR=2.43e-04 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=-1.5e+06, dWD=1.6e+03]
+6313.3s 321 [Seed 207796 | Ep 09] Train (L=1.4348 A=47.5%) | Val (L=1.4397 A=47.5%) | Hyper (LR=2.43e-04 WD=7.00e-02) | Time=18.6s
+6338.2s 322 [Seed 207796 | Ep 10] Train (L=1.4130 A=48.2%) | Val (L=1.3856 A=50.1%) | Hyper (LR=1.95e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=1.9e+06, dWD=4.1e+02]
+6358.2s 323 [Seed 207796 | Ep 11] Train (L=1.3806 A=50.0%) | Val (L=1.3838 A=50.4%) | Hyper (LR=1.95e-04 WD=7.00e-02) | Time=18.6s
+6383.2s 324 [Seed 207796 | Ep 12] Train (L=1.3715 A=50.0%) | Val (L=1.3904 A=49.5%) | Hyper (LR=1.56e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=4.9e+05, dWD=2.7e+03]
+6403.1s 325 [Seed 207796 | Ep 13] Train (L=1.3423 A=51.3%) | Val (L=1.3329 A=52.2%) | Hyper (LR=1.56e-04 WD=7.00e-02) | Time=18.6s
+6428.2s 326 [Seed 207796 | Ep 14] Train (L=1.3235 A=51.6%) | Val (L=1.3116 A=52.9%) | Hyper (LR=1.25e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=1.7e+06, dWD=5.3e+03]
+6448.2s 327 [Seed 207796 | Ep 15] Train (L=1.2982 A=52.9%) | Val (L=1.2979 A=53.7%) | Hyper (LR=1.25e-04 WD=6.99e-02) | Time=18.6s
+6473.1s 328 [Seed 207796 | Ep 16] Train (L=1.2848 A=53.3%) | Val (L=1.2671 A=54.0%) | Hyper (LR=1.49e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-5.2e+05, dWD=1.8e+03]
+6492.8s 329 [Seed 207796 | Ep 17] Train (L=1.2901 A=53.2%) | Val (L=1.2816 A=54.1%) | Hyper (LR=1.49e-04 WD=6.99e-02) | Time=18.4s
+6517.8s 330 [Seed 207796 | Ep 18] Train (L=1.2781 A=53.8%) | Val (L=1.2834 A=54.4%) | Hyper (LR=1.20e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=6.7e+05, dWD=-1.7e+03]
+6537.6s 331 [Seed 207796 | Ep 19] Train (L=1.2608 A=54.3%) | Val (L=1.2610 A=54.9%) | Hyper (LR=1.20e-04 WD=6.99e-02) | Time=18.4s
+6562.5s 332 [Seed 207796 | Ep 20] Train (L=1.2433 A=54.9%) | Val (L=1.2858 A=53.8%) | Hyper (LR=1.44e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-2.5e+05, dWD=9.2e+02]
+6582.5s 333 [Seed 207796 | Ep 21] Train (L=1.2480 A=54.7%) | Val (L=1.2400 A=55.6%) | Hyper (LR=1.44e-04 WD=6.99e-02) | Time=18.6s
+6607.4s 334 [Seed 207796 | Ep 22] Train (L=1.2406 A=55.1%) | Val (L=1.2513 A=54.1%) | Hyper (LR=1.15e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=1.1e+05, dWD=-2.0e+03]
+6627.2s 335 [Seed 207796 | Ep 23] Train (L=1.2135 A=56.0%) | Val (L=1.2289 A=56.0%) | Hyper (LR=1.15e-04 WD=6.99e-02) | Time=18.5s
+6652.1s 336 [Seed 207796 | Ep 24] Train (L=1.2058 A=56.5%) | Val (L=1.2221 A=56.4%) | Hyper (LR=1.38e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-1.5e+06, dWD=-1.0e+02]
+6672.1s 337 [Seed 207796 | Ep 25] Train (L=1.2049 A=56.5%) | Val (L=1.2095 A=56.5%) | Hyper (LR=1.38e-04 WD=6.99e-02) | Time=18.6s
+6697.4s 338 [Seed 207796 | Ep 26] Train (L=1.1990 A=56.5%) | Val (L=1.2136 A=56.5%) | Hyper (LR=1.65e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-4.6e+05, dWD=2.6e+02]
+6717.4s 339 [Seed 207796 | Ep 27] Train (L=1.2103 A=56.2%) | Val (L=1.2317 A=55.8%) | Hyper (LR=1.65e-04 WD=6.99e-02) | Time=18.7s
+6742.6s 340 [Seed 207796 | Ep 28] Train (L=1.1972 A=56.6%) | Val (L=1.2382 A=55.2%) | Hyper (LR=1.98e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=-1.3e+06, dWD=1.8e+03]
+6762.4s 341 [Seed 207796 | Ep 29] Train (L=1.2050 A=56.3%) | Val (L=1.2536 A=55.0%) | Hyper (LR=1.98e-04 WD=6.99e-02) | Time=18.4s
+6787.3s 342 [Seed 207796 | Ep 30] Train (L=1.1948 A=56.9%) | Val (L=1.2203 A=55.7%) | Hyper (LR=2.38e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-1.5e+05, dWD=1.6e+03]
+6807.2s 343 [Seed 207796 | Ep 31] Train (L=1.2059 A=56.3%) | Val (L=1.2293 A=55.8%) | Hyper (LR=2.38e-04 WD=6.99e-02) | Time=18.6s
+6832.1s 344 [Seed 207796 | Ep 32] Train (L=1.2039 A=56.5%) | Val (L=1.2562 A=55.2%) | Hyper (LR=2.86e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-1.1e+06, dWD=1.3e+03]
+6852.0s 345 [Seed 207796 | Ep 33] Train (L=1.2121 A=56.4%) | Val (L=1.2194 A=56.0%) | Hyper (LR=2.86e-04 WD=6.99e-02) | Time=18.5s
+6877.0s 346 [Seed 207796 | Ep 34] Train (L=1.1977 A=56.6%) | Val (L=1.2198 A=56.4%) | Hyper (LR=2.29e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=2.3e+05, dWD=8.3e+02]
+6896.8s 347 [Seed 207796 | Ep 35] Train (L=1.1688 A=57.8%) | Val (L=1.1865 A=57.7%) | Hyper (LR=2.29e-04 WD=6.99e-02) | Time=18.4s
+6921.8s 348 [Seed 207796 | Ep 36] Train (L=1.1589 A=58.4%) | Val (L=1.1972 A=57.3%) | Hyper (LR=1.83e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=1.3e+06, dWD=-5.1e+03]
+6941.6s 349 [Seed 207796 | Ep 37] Train (L=1.1243 A=59.6%) | Val (L=1.1700 A=58.3%) | Hyper (LR=1.83e-04 WD=6.99e-02) | Time=18.4s
+6966.7s 350 [Seed 207796 | Ep 38] Train (L=1.1152 A=59.8%) | Val (L=1.1774 A=58.8%) | Hyper (LR=1.46e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=4.7e+05, dWD=1.2e+03]
+6986.6s 351 [Seed 207796 | Ep 39] Train (L=1.0841 A=61.1%) | Val (L=1.1577 A=58.4%) | Hyper (LR=1.46e-04 WD=6.99e-02) | Time=18.5s
+7011.5s 352 [Seed 207796 | Ep 40] Train (L=1.0713 A=61.3%) | Val (L=1.1345 A=59.4%) | Hyper (LR=1.76e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-4.7e+05, dWD=-6.9e+02]
+7031.4s 353 [Seed 207796 | Ep 41] Train (L=1.0820 A=60.9%) | Val (L=1.1401 A=60.0%) | Hyper (LR=1.76e-04 WD=6.99e-02) | Time=18.5s
+7056.2s 354 [Seed 207796 | Ep 42] Train (L=1.0743 A=61.4%) | Val (L=1.1326 A=59.7%) | Hyper (LR=1.40e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=9.0e+04, dWD=1.4e+03]
+7076.0s 355 [Seed 207796 | Ep 43] Train (L=1.0421 A=62.5%) | Val (L=1.1334 A=60.1%) | Hyper (LR=1.40e-04 WD=6.99e-02) | Time=18.4s
+7100.9s 356 [Seed 207796 | Ep 44] Train (L=1.0307 A=63.1%) | Val (L=1.0959 A=61.8%) | Hyper (LR=1.12e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=1.9e+05, dWD=-6.3e+02]
+7121.0s 357 [Seed 207796 | Ep 45] Train (L=1.0040 A=63.7%) | Val (L=1.0954 A=61.2%) | Hyper (LR=1.12e-04 WD=6.99e-02) | Time=18.7s
+7145.8s 358 [Seed 207796 | Ep 46] Train (L=0.9902 A=64.4%) | Val (L=1.1238 A=60.4%) | Hyper (LR=1.35e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-1.9e+05, dWD=-5.1e+03]
+7165.9s 359 [Seed 207796 | Ep 47] Train (L=0.9988 A=64.2%) | Val (L=1.1196 A=60.6%) | Hyper (LR=1.35e-04 WD=7.00e-02) | Time=18.7s
+7191.1s 360 [Seed 207796 | Ep 48] Train (L=0.9902 A=64.6%) | Val (L=1.0856 A=61.8%) | Hyper (LR=1.62e-04 WD=6.99e-02) | Time=18.8s [HG UPDATE: dLR=-6.4e+05, dWD=1.7e+03]
+7211.0s 361 [Seed 207796 | Ep 49] Train (L=0.9996 A=64.1%) | Val (L=1.1036 A=60.9%) | Hyper (LR=1.62e-04 WD=6.99e-02) | Time=18.5s
+7235.9s 362 [Seed 207796 | Ep 50] Train (L=0.9893 A=64.6%) | Val (L=1.0938 A=61.4%) | Hyper (LR=1.94e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-1.1e+05, dWD=6.5e+02]
+7255.9s 363 [Seed 207796 | Ep 51] Train (L=1.0017 A=63.8%) | Val (L=1.1080 A=61.3%) | Hyper (LR=1.94e-04 WD=6.99e-02) | Time=18.7s
+7280.9s 364 [Seed 207796 | Ep 52] Train (L=0.9991 A=64.0%) | Val (L=1.1069 A=61.1%) | Hyper (LR=2.33e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-3.1e+05, dWD=-1.7e+03]
+7300.8s 365 [Seed 207796 | Ep 53] Train (L=1.0114 A=63.4%) | Val (L=1.1114 A=61.0%) | Hyper (LR=2.33e-04 WD=6.99e-02) | Time=18.5s
+7325.9s 366 [Seed 207796 | Ep 54] Train (L=1.0010 A=64.0%) | Val (L=1.1413 A=59.8%) | Hyper (LR=2.80e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-1.1e+05, dWD=4.0e+03]
+7345.8s 367 [Seed 207796 | Ep 55] Train (L=1.0256 A=63.1%) | Val (L=1.1201 A=60.6%) | Hyper (LR=2.80e-04 WD=6.99e-02) | Time=18.5s
+7371.1s 368 [Seed 207796 | Ep 56] Train (L=1.0130 A=63.6%) | Val (L=1.1126 A=61.0%) | Hyper (LR=3.35e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=-5.3e+05, dWD=-1.5e+03]
+7391.0s 369 [Seed 207796 | Ep 57] Train (L=1.0415 A=62.5%) | Val (L=1.1115 A=60.2%) | Hyper (LR=3.35e-04 WD=6.99e-02) | Time=18.5s
+7416.0s 370 [Seed 207796 | Ep 58] Train (L=1.0358 A=62.8%) | Val (L=1.1602 A=59.5%) | Hyper (LR=4.02e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-9.9e+05, dWD=2.1e+03]
+7435.8s 371 [Seed 207796 | Ep 59] Train (L=1.0547 A=62.0%) | Val (L=1.1103 A=60.4%) | Hyper (LR=4.02e-04 WD=6.99e-02) | Time=18.5s
+7460.6s 372 [Seed 207796 | Ep 60] Train (L=1.0472 A=62.4%) | Val (L=1.1203 A=60.6%) | Hyper (LR=4.83e-04 WD=6.99e-02) | Time=18.3s [HG UPDATE: dLR=-3.6e+05, dWD=-4.2e+03]
+7480.3s 373 [Seed 207796 | Ep 61] Train (L=1.0776 A=61.3%) | Val (L=1.1367 A=59.8%) | Hyper (LR=4.83e-04 WD=6.99e-02) | Time=18.4s
+7505.3s 374 [Seed 207796 | Ep 62] Train (L=1.0594 A=61.9%) | Val (L=1.1184 A=60.5%) | Hyper (LR=5.80e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-3.7e+05, dWD=4.2e+03]
+7525.2s 375 [Seed 207796 | Ep 63] Train (L=1.0918 A=60.7%) | Val (L=1.1603 A=59.0%) | Hyper (LR=5.80e-04 WD=6.99e-02) | Time=18.6s
+7550.2s 376 [Seed 207796 | Ep 64] Train (L=1.0803 A=61.5%) | Val (L=1.1226 A=60.6%) | Hyper (LR=4.64e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=3.8e+05, dWD=3.7e+03]
+7570.1s 377 [Seed 207796 | Ep 65] Train (L=1.0260 A=63.2%) | Val (L=1.0867 A=61.5%) | Hyper (LR=4.64e-04 WD=6.99e-02) | Time=18.6s
+7595.0s 378 [Seed 207796 | Ep 66] Train (L=1.0056 A=64.1%) | Val (L=1.0846 A=62.2%) | Hyper (LR=3.71e-04 WD=6.98e-02) | Time=18.5s [HG UPDATE: dLR=1.0e+05, dWD=1.4e+03]
+7614.8s 379 [Seed 207796 | Ep 67] Train (L=0.9514 A=66.0%) | Val (L=1.0374 A=63.9%) | Hyper (LR=3.71e-04 WD=6.98e-02) | Time=18.5s
+7639.7s 380 [Seed 207796 | Ep 68] Train (L=0.9375 A=66.2%) | Val (L=1.0279 A=63.8%) | Hyper (LR=2.97e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=1.1e+06, dWD=-6.7e+03]
+7659.7s 381 [Seed 207796 | Ep 69] Train (L=0.8871 A=68.2%) | Val (L=1.0229 A=64.1%) | Hyper (LR=2.97e-04 WD=6.99e-02) | Time=18.6s
+7684.4s 382 [Seed 207796 | Ep 70] Train (L=0.8717 A=68.5%) | Val (L=1.0180 A=65.1%) | Hyper (LR=3.56e-04 WD=6.99e-02) | Time=18.4s [HG UPDATE: dLR=-1.3e+05, dWD=1.9e+03]
+7704.1s 383 [Seed 207796 | Ep 71] Train (L=0.8866 A=68.2%) | Val (L=1.0218 A=64.3%) | Hyper (LR=3.56e-04 WD=6.99e-02) | Time=18.3s
+7729.0s 384 [Seed 207796 | Ep 72] Train (L=0.8671 A=68.7%) | Val (L=1.0162 A=64.9%) | Hyper (LR=4.27e-04 WD=6.99e-02) | Time=18.7s [HG UPDATE: dLR=-8.4e+05, dWD=-1.7e+03]
+7748.6s 385 [Seed 207796 | Ep 73] Train (L=0.8879 A=68.3%) | Val (L=1.0447 A=63.9%) | Hyper (LR=4.27e-04 WD=6.99e-02) | Time=18.2s
+7773.4s 386 [Seed 207796 | Ep 74] Train (L=0.8832 A=68.3%) | Val (L=1.0265 A=64.9%) | Hyper (LR=5.13e-04 WD=6.99e-02) | Time=18.5s [HG UPDATE: dLR=-4.7e+05, dWD=3.7e+03]
+7793.0s 387 [Seed 207796 | Ep 75] Train (L=0.9045 A=67.4%) | Val (L=1.0472 A=63.8%) | Hyper (LR=5.13e-04 WD=6.99e-02) | Time=18.3s
+7817.7s 388 [Seed 207796 | Ep 76] Train (L=0.8924 A=67.9%) | Val (L=0.9843 A=65.8%) | Hyper (LR=6.15e-04 WD=6.99e-02) | Time=18.3s [HG UPDATE: dLR=-2.0e+05, dWD=-4.1e+03]
+7837.6s 389 [Seed 207796 | Ep 77] Train (L=0.9188 A=67.1%) | Val (L=1.0424 A=63.4%) | Hyper (LR=6.15e-04 WD=6.99e-02) | Time=18.6s
+7862.7s 390 [Seed 207796 | Ep 78] Train (L=0.9111 A=67.4%) | Val (L=1.0407 A=64.1%) | Hyper (LR=4.92e-04 WD=6.98e-02) | Time=18.7s [HG UPDATE: dLR=3.2e+05, dWD=7.9e+03]
+7882.9s 391 [Seed 207796 | Ep 79] Train (L=0.8533 A=69.3%) | Val (L=0.9788 A=65.8%) | Hyper (LR=4.92e-04 WD=6.98e-02) | Time=18.7s
+7908.1s 392 [Seed 207796 | Ep 80] Train (L=0.8308 A=70.3%) | Val (L=0.9631 A=66.6%) | Hyper (LR=5.91e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=-2.8e+05, dWD=-2.4e+03]
+7928.3s 393 [Seed 207796 | Ep 81] Train (L=0.8559 A=69.4%) | Val (L=0.9873 A=66.0%) | Hyper (LR=5.91e-04 WD=6.99e-02) | Time=18.8s
+7953.5s 394 [Seed 207796 | Ep 82] Train (L=0.8506 A=69.6%) | Val (L=1.0035 A=65.2%) | Hyper (LR=4.73e-04 WD=6.98e-02) | Time=18.8s [HG UPDATE: dLR=2.1e+05, dWD=4.0e+03]
+7973.8s 395 [Seed 207796 | Ep 83] Train (L=0.7839 A=72.1%) | Val (L=0.9852 A=66.1%) | Hyper (LR=4.73e-04 WD=6.98e-02) | Time=18.6s
+7999.6s 396 [Seed 207796 | Ep 84] Train (L=0.7622 A=72.8%) | Val (L=0.9535 A=67.7%) | Hyper (LR=5.67e-04 WD=6.98e-02) | Time=19.2s [HG UPDATE: dLR=-6.0e+05, dWD=-1.1e+02]
+8019.5s 397 [Seed 207796 | Ep 85] Train (L=0.7919 A=71.6%) | Val (L=0.9409 A=67.6%) | Hyper (LR=5.67e-04 WD=6.98e-02) | Time=18.5s
+8044.5s 398 [Seed 207796 | Ep 86] Train (L=0.7794 A=72.2%) | Val (L=0.9669 A=66.4%) | Hyper (LR=6.81e-04 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=-1.7e+04, dWD=-6.4e+02]
+8064.4s 399 [Seed 207796 | Ep 87] Train (L=0.8086 A=70.9%) | Val (L=0.9566 A=67.3%) | Hyper (LR=6.81e-04 WD=6.98e-02) | Time=18.6s
+8089.4s 400 [Seed 207796 | Ep 88] Train (L=0.8016 A=71.1%) | Val (L=0.9538 A=66.9%) | Hyper (LR=8.17e-04 WD=6.98e-02) | Time=18.6s [HG UPDATE: dLR=-1.7e+05, dWD=3.8e+02]
+8109.4s 401 [Seed 207796 | Ep 89] Train (L=0.8363 A=70.1%) | Val (L=0.9778 A=66.3%) | Hyper (LR=8.17e-04 WD=6.98e-02) | Time=18.5s
+8109.4s 402 --> Completed Seed 207796. Saved checkpoint to 'hypergradient_results.csv'
+8109.4s 403 
+8109.4s 404 ================================================================================
+8109.4s 405 STARTING SEED: 45921
+8109.4s 406 ================================================================================
+8134.4s 407 [Seed 45921 | Ep 00] Train (L=1.9794 A=24.0%) | Val (L=1.7845 A=33.1%) | Hyper (LR=2.64e-04 WD=6.99e-02) | Time=18.6s [HG UPDATE: dLR=1.0e+06, dWD=5.2e+03]
+8154.3s 408 [Seed 45921 | Ep 01] Train (L=1.7447 A=34.3%) | Val (L=1.6608 A=38.8%) | Hyper (LR=2.64e-04 WD=6.99e-02) | Time=18.5s
+8179.5s 409 [Seed 45921 | Ep 02] Train (L=1.6598 A=38.3%) | Val (L=1.6208 A=40.6%) | Hyper (LR=2.11e-04 WD=6.99e-02) | Time=18.8s [HG UPDATE: dLR=1.7e+06, dWD=2.5e+01]
+8199.5s 410 [Seed 45921 | Ep 03] Train (L=1.5850 A=41.6%) | Val (L=1.5256 A=44.0%) | Hyper (LR=2.11e-04 WD=6.99e-02) | Time=18.6s
+8224.7s 411 [Seed 45921 | Ep 04] Train (L=1.5440 A=43.3%) | Val (L=1.5166 A=44.9%) | Hyper (LR=2.53e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-1.1e+06, dWD=-2.9e+03]
+8244.6s 412 [Seed 45921 | Ep 05] Train (L=1.5228 A=44.0%) | Val (L=1.4991 A=45.4%) | Hyper (LR=2.53e-04 WD=7.00e-02) | Time=18.5s
+8269.5s 413 [Seed 45921 | Ep 06] Train (L=1.4903 A=45.5%) | Val (L=1.4975 A=46.0%) | Hyper (LR=2.03e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=4.4e+05, dWD=2.2e+02]
+8289.4s 414 [Seed 45921 | Ep 07] Train (L=1.4498 A=46.9%) | Val (L=1.3732 A=51.0%) | Hyper (LR=2.03e-04 WD=7.00e-02) | Time=18.6s
+8314.5s 415 [Seed 45921 | Ep 08] Train (L=1.4240 A=48.3%) | Val (L=1.3905 A=49.5%) | Hyper (LR=1.62e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=1.0e+06, dWD=2.2e+03]
+8334.3s 416 [Seed 45921 | Ep 09] Train (L=1.3887 A=49.2%) | Val (L=1.3324 A=51.5%) | Hyper (LR=1.62e-04 WD=7.00e-02) | Time=18.4s
+8359.2s 417 [Seed 45921 | Ep 10] Train (L=1.3718 A=50.2%) | Val (L=1.3314 A=51.8%) | Hyper (LR=1.30e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=2.2e+06, dWD=-3.4e+03]
+8379.0s 418 [Seed 45921 | Ep 11] Train (L=1.3435 A=51.3%) | Val (L=1.3226 A=51.9%) | Hyper (LR=1.30e-04 WD=7.00e-02) | Time=18.5s
+8404.0s 419 [Seed 45921 | Ep 12] Train (L=1.3235 A=51.9%) | Val (L=1.2979 A=53.1%) | Hyper (LR=1.56e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-3.1e+05, dWD=2.0e+03]
+8423.9s 420 [Seed 45921 | Ep 13] Train (L=1.3230 A=52.0%) | Val (L=1.2774 A=53.6%) | Hyper (LR=1.56e-04 WD=7.00e-02) | Time=18.5s
+8448.9s 421 [Seed 45921 | Ep 14] Train (L=1.3105 A=52.5%) | Val (L=1.2672 A=54.1%) | Hyper (LR=1.87e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-9.1e+05, dWD=4.7e+02]
+8468.9s 422 [Seed 45921 | Ep 15] Train (L=1.3040 A=52.7%) | Val (L=1.2673 A=53.9%) | Hyper (LR=1.87e-04 WD=7.00e-02) | Time=18.6s
+8494.1s 423 [Seed 45921 | Ep 16] Train (L=1.2924 A=53.1%) | Val (L=1.2747 A=54.3%) | Hyper (LR=2.24e-04 WD=6.99e-02) | Time=18.8s [HG UPDATE: dLR=-6.2e+05, dWD=2.6e+03]
+8514.0s 424 [Seed 45921 | Ep 17] Train (L=1.2944 A=53.0%) | Val (L=1.2644 A=54.1%) | Hyper (LR=2.24e-04 WD=6.99e-02) | Time=18.5s
+8539.1s 425 [Seed 45921 | Ep 18] Train (L=1.2769 A=53.7%) | Val (L=1.2646 A=54.8%) | Hyper (LR=2.69e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-6.0e+05, dWD=-2.0e+03]
+8559.0s 426 [Seed 45921 | Ep 19] Train (L=1.2886 A=53.3%) | Val (L=1.2867 A=54.2%) | Hyper (LR=2.69e-04 WD=7.00e-02) | Time=18.5s
+8584.4s 427 [Seed 45921 | Ep 20] Train (L=1.2733 A=54.0%) | Val (L=1.3061 A=53.0%) | Hyper (LR=2.15e-04 WD=6.99e-02) | Time=18.8s [HG UPDATE: dLR=1.4e+06, dWD=8.9e+02]
+8604.3s 428 [Seed 45921 | Ep 21] Train (L=1.2387 A=54.9%) | Val (L=1.2493 A=55.5%) | Hyper (LR=2.15e-04 WD=6.99e-02) | Time=18.5s
+8629.5s 429 [Seed 45921 | Ep 22] Train (L=1.2220 A=55.9%) | Val (L=1.1914 A=57.6%) | Hyper (LR=2.58e-04 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=-1.4e+06, dWD=-2.4e+03]
+8649.3s 430 [Seed 45921 | Ep 23] Train (L=1.2220 A=56.0%) | Val (L=1.2249 A=55.9%) | Hyper (LR=2.58e-04 WD=7.00e-02) | Time=18.5s
+8674.6s 431 [Seed 45921 | Ep 24] Train (L=1.2152 A=56.1%) | Val (L=1.2070 A=57.0%) | Hyper (LR=2.07e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=1.1e+06, dWD=-5.1e+03]
+8694.6s 432 [Seed 45921 | Ep 25] Train (L=1.1809 A=57.4%) | Val (L=1.1854 A=57.3%) | Hyper (LR=2.07e-04 WD=7.00e-02) | Time=18.6s
+8719.9s 433 [Seed 45921 | Ep 26] Train (L=1.1613 A=58.1%) | Val (L=1.2057 A=56.7%) | Hyper (LR=2.17e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-1.1e+03, dWD=1.9e+03]
+8739.9s 434 [Seed 45921 | Ep 27] Train (L=1.1535 A=58.3%) | Val (L=1.1558 A=58.6%) | Hyper (LR=2.17e-04 WD=7.00e-02) | Time=18.7s
+8765.1s 435 [Seed 45921 | Ep 28] Train (L=1.1444 A=58.8%) | Val (L=1.1688 A=58.0%) | Hyper (LR=1.74e-04 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=4.7e+05, dWD=-1.4e+03]
+8785.1s 436 [Seed 45921 | Ep 29] Train (L=1.1082 A=59.9%) | Val (L=1.1263 A=59.9%) | Hyper (LR=1.74e-04 WD=7.00e-02) | Time=18.6s
+8810.3s 437 [Seed 45921 | Ep 30] Train (L=1.0944 A=60.5%) | Val (L=1.1268 A=59.7%) | Hyper (LR=1.39e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=5.3e+05, dWD=-1.4e+02]
+8830.2s 438 [Seed 45921 | Ep 31] Train (L=1.0585 A=61.8%) | Val (L=1.0911 A=61.2%) | Hyper (LR=1.39e-04 WD=7.00e-02) | Time=18.5s
+8855.3s 439 [Seed 45921 | Ep 32] Train (L=1.0453 A=62.3%) | Val (L=1.0578 A=62.1%) | Hyper (LR=1.67e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-3.7e+05, dWD=1.6e+03]
+8875.2s 440 [Seed 45921 | Ep 33] Train (L=1.0492 A=62.3%) | Val (L=1.0717 A=61.5%) | Hyper (LR=1.67e-04 WD=7.00e-02) | Time=18.6s
+8900.3s 441 [Seed 45921 | Ep 34] Train (L=1.0357 A=62.7%) | Val (L=1.0480 A=63.1%) | Hyper (LR=1.34e-04 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=3.4e+05, dWD=1.2e+03]
+8920.4s 442 [Seed 45921 | Ep 35] Train (L=1.0048 A=64.0%) | Val (L=1.0394 A=62.8%) | Hyper (LR=1.34e-04 WD=7.00e-02) | Time=18.6s
+8945.4s 443 [Seed 45921 | Ep 36] Train (L=0.9981 A=64.1%) | Val (L=1.0271 A=63.3%) | Hyper (LR=1.60e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-7.2e+05, dWD=8.7e+02]
+8965.4s 444 [Seed 45921 | Ep 37] Train (L=0.9943 A=64.4%) | Val (L=1.0365 A=63.2%) | Hyper (LR=1.60e-04 WD=7.00e-02) | Time=18.7s
+8990.5s 445 [Seed 45921 | Ep 38] Train (L=0.9856 A=64.5%) | Val (L=1.0511 A=63.0%) | Hyper (LR=1.92e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-3.6e+04, dWD=1.3e+03]
+9010.4s 446 [Seed 45921 | Ep 39] Train (L=0.9913 A=64.4%) | Val (L=1.0246 A=63.6%) | Hyper (LR=1.92e-04 WD=7.00e-02) | Time=18.6s
+9035.4s 447 [Seed 45921 | Ep 40] Train (L=0.9788 A=65.0%) | Val (L=1.0288 A=63.9%) | Hyper (LR=2.31e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-7.4e+05, dWD=-3.5e+03]
+9055.5s 448 [Seed 45921 | Ep 41] Train (L=0.9911 A=64.3%) | Val (L=1.0454 A=62.4%) | Hyper (LR=2.31e-04 WD=7.00e-02) | Time=18.7s
+9080.7s 449 [Seed 45921 | Ep 42] Train (L=0.9826 A=64.9%) | Val (L=1.0071 A=65.3%) | Hyper (LR=1.85e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=9.7e+05, dWD=-4.3e+02]
+9100.7s 450 [Seed 45921 | Ep 43] Train (L=0.9400 A=66.0%) | Val (L=0.9757 A=65.7%) | Hyper (LR=1.85e-04 WD=7.00e-02) | Time=18.6s
+9125.7s 451 [Seed 45921 | Ep 44] Train (L=0.9308 A=66.7%) | Val (L=1.0043 A=64.9%) | Hyper (LR=2.22e-04 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-4.2e+05, dWD=5.0e+02]
+9145.8s 452 [Seed 45921 | Ep 45] Train (L=0.9373 A=66.3%) | Val (L=1.0121 A=64.2%) | Hyper (LR=2.22e-04 WD=7.00e-02) | Time=18.7s
+9170.9s 453 [Seed 45921 | Ep 46] Train (L=0.9279 A=66.6%) | Val (L=0.9887 A=65.4%) | Hyper (LR=1.77e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=3.1e+05, dWD=2.7e+03]
+9190.9s 454 [Seed 45921 | Ep 47] Train (L=0.8865 A=68.1%) | Val (L=0.9653 A=66.3%) | Hyper (LR=1.77e-04 WD=7.00e-02) | Time=18.6s
+9216.6s 455 [Seed 45921 | Ep 48] Train (L=0.8697 A=68.9%) | Val (L=0.9562 A=66.8%) | Hyper (LR=1.42e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=2.4e+06, dWD=-1.3e+03]
+9236.6s 456 [Seed 45921 | Ep 49] Train (L=0.8448 A=69.7%) | Val (L=0.9283 A=67.8%) | Hyper (LR=1.42e-04 WD=7.00e-02) | Time=18.7s
+9261.8s 457 [Seed 45921 | Ep 50] Train (L=0.8251 A=70.3%) | Val (L=0.9476 A=67.5%) | Hyper (LR=1.13e-04 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=4.4e+05, dWD=-5.4e+02]
+9281.8s 458 [Seed 45921 | Ep 51] Train (L=0.7960 A=71.3%) | Val (L=0.9113 A=68.5%) | Hyper (LR=1.13e-04 WD=7.00e-02) | Time=18.6s
+9307.0s 459 [Seed 45921 | Ep 52] Train (L=0.7807 A=71.9%) | Val (L=0.9094 A=68.6%) | Hyper (LR=9.08e-05 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=4.0e+05, dWD=-2.1e+03]
+9327.1s 460 [Seed 45921 | Ep 53] Train (L=0.7547 A=72.7%) | Val (L=0.8930 A=69.3%) | Hyper (LR=9.08e-05 WD=7.00e-02) | Time=18.7s
+9352.3s 461 [Seed 45921 | Ep 54] Train (L=0.7441 A=73.4%) | Val (L=0.8855 A=69.7%) | Hyper (LR=7.26e-05 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=4.2e+05, dWD=-7.2e+02]
+9372.3s 462 [Seed 45921 | Ep 55] Train (L=0.7183 A=74.3%) | Val (L=0.8992 A=68.9%) | Hyper (LR=7.26e-05 WD=7.00e-02) | Time=18.6s
+9397.7s 463 [Seed 45921 | Ep 56] Train (L=0.7101 A=74.8%) | Val (L=0.8931 A=69.5%) | Hyper (LR=8.71e-05 WD=7.00e-02) | Time=18.8s [HG UPDATE: dLR=-1.2e+05, dWD=2.1e+02]
+9417.5s 464 [Seed 45921 | Ep 57] Train (L=0.7128 A=74.5%) | Val (L=0.8942 A=69.3%) | Hyper (LR=8.71e-05 WD=7.00e-02) | Time=18.5s
+9442.7s 465 [Seed 45921 | Ep 58] Train (L=0.7073 A=74.6%) | Val (L=0.8881 A=69.2%) | Hyper (LR=6.97e-05 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=6.7e+05, dWD=-5.7e+02]
+9462.6s 466 [Seed 45921 | Ep 59] Train (L=0.6821 A=75.4%) | Val (L=0.8904 A=69.7%) | Hyper (LR=6.97e-05 WD=7.00e-02) | Time=18.6s
+9487.5s 467 [Seed 45921 | Ep 60] Train (L=0.6768 A=75.6%) | Val (L=0.8973 A=69.5%) | Hyper (LR=8.36e-05 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-2.1e+06, dWD=2.8e+02]
+9507.8s 468 [Seed 45921 | Ep 61] Train (L=0.6779 A=75.6%) | Val (L=0.9074 A=69.5%) | Hyper (LR=8.36e-05 WD=7.00e-02) | Time=18.9s
+9532.9s 469 [Seed 45921 | Ep 62] Train (L=0.6732 A=75.9%) | Val (L=0.8997 A=70.0%) | Hyper (LR=6.69e-05 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=2.5e+04, dWD=-1.5e+03]
+9552.9s 470 [Seed 45921 | Ep 63] Train (L=0.6469 A=76.6%) | Val (L=0.8939 A=70.1%) | Hyper (LR=6.69e-05 WD=7.00e-02) | Time=18.6s
+9578.2s 471 [Seed 45921 | Ep 64] Train (L=0.6398 A=77.0%) | Val (L=0.8980 A=70.2%) | Hyper (LR=8.03e-05 WD=7.01e-02) | Time=18.8s [HG UPDATE: dLR=-3.9e+05, dWD=-2.5e+03]
+9598.3s 472 [Seed 45921 | Ep 65] Train (L=0.6436 A=76.9%) | Val (L=0.9091 A=69.5%) | Hyper (LR=8.03e-05 WD=7.01e-02) | Time=18.7s
+9623.3s 473 [Seed 45921 | Ep 66] Train (L=0.6422 A=76.9%) | Val (L=0.8997 A=69.6%) | Hyper (LR=9.64e-05 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-3.5e+05, dWD=1.8e+03]
+9643.2s 474 [Seed 45921 | Ep 67] Train (L=0.6531 A=76.5%) | Val (L=0.8899 A=70.1%) | Hyper (LR=9.64e-05 WD=7.00e-02) | Time=18.5s
+9668.3s 475 [Seed 45921 | Ep 68] Train (L=0.6378 A=77.0%) | Val (L=0.9195 A=70.2%) | Hyper (LR=1.16e-04 WD=7.01e-02) | Time=18.6s [HG UPDATE: dLR=-1.8e+06, dWD=-1.5e+03]
+9688.3s 476 [Seed 45921 | Ep 69] Train (L=0.6518 A=76.6%) | Val (L=0.9302 A=69.3%) | Hyper (LR=1.16e-04 WD=7.01e-02) | Time=18.7s
+9713.6s 477 [Seed 45921 | Ep 70] Train (L=0.6456 A=76.9%) | Val (L=0.9083 A=70.1%) | Hyper (LR=1.39e-04 WD=7.00e-02) | Time=18.7s [HG UPDATE: dLR=-1.5e+05, dWD=1.0e+03]
+9733.5s 478 [Seed 45921 | Ep 71] Train (L=0.6616 A=76.4%) | Val (L=0.9221 A=69.8%) | Hyper (LR=1.39e-04 WD=7.00e-02) | Time=18.6s
+9758.9s 479 [Seed 45921 | Ep 72] Train (L=0.6510 A=76.5%) | Val (L=0.9255 A=69.7%) | Hyper (LR=1.11e-04 WD=7.00e-02) | Time=18.9s [HG UPDATE: dLR=6.9e+05, dWD=7.0e+02]
+9778.8s 480 [Seed 45921 | Ep 73] Train (L=0.6252 A=77.5%) | Val (L=0.9070 A=70.0%) | Hyper (LR=1.11e-04 WD=7.00e-02) | Time=18.5s
+9803.9s 481 [Seed 45921 | Ep 74] Train (L=0.6178 A=77.8%) | Val (L=0.9048 A=70.2%) | Hyper (LR=8.88e-05 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=7.4e+05, dWD=4.9e+01]
+9823.8s 482 [Seed 45921 | Ep 75] Train (L=0.5844 A=79.1%) | Val (L=0.9214 A=70.4%) | Hyper (LR=8.88e-05 WD=7.00e-02) | Time=18.5s
+9849.2s 483 [Seed 45921 | Ep 76] Train (L=0.5805 A=79.0%) | Val (L=0.8900 A=70.6%) | Hyper (LR=7.10e-05 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=4.6e+05, dWD=-1.1e+03]
+9869.0s 484 [Seed 45921 | Ep 77] Train (L=0.5542 A=80.0%) | Val (L=0.8996 A=71.5%) | Hyper (LR=7.10e-05 WD=7.01e-02) | Time=18.5s
+9894.3s 485 [Seed 45921 | Ep 78] Train (L=0.5394 A=80.5%) | Val (L=0.9118 A=70.8%) | Hyper (LR=5.68e-05 WD=7.01e-02) | Time=18.7s [HG UPDATE: dLR=5.4e+05, dWD=-1.0e+03]
+9914.3s 486 [Seed 45921 | Ep 79] Train (L=0.5239 A=81.2%) | Val (L=0.9215 A=71.4%) | Hyper (LR=5.68e-05 WD=7.01e-02) | Time=18.7s
+9939.6s 487 [Seed 45921 | Ep 80] Train (L=0.5172 A=81.4%) | Val (L=0.9252 A=71.1%) | Hyper (LR=6.82e-05 WD=7.00e-02) | Time=18.9s [HG UPDATE: dLR=-1.3e+06, dWD=1.6e+03]
+9959.8s 488 [Seed 45921 | Ep 81] Train (L=0.5255 A=81.0%) | Val (L=0.9143 A=70.6%) | Hyper (LR=6.82e-05 WD=7.00e-02) | Time=18.8s
+9984.9s 489 [Seed 45921 | Ep 82] Train (L=0.5210 A=81.3%) | Val (L=0.9145 A=71.3%) | Hyper (LR=8.18e-05 WD=7.00e-02) | Time=18.6s [HG UPDATE: dLR=-2.2e+05, dWD=1.1e+03]
+10004.9s 490 [Seed 45921 | Ep 83] Train (L=0.5282 A=80.9%) | Val (L=0.9226 A=71.0%) | Hyper (LR=8.18e-05 WD=7.00e-02) | Time=18.6s
+10030.0s 491 [Seed 45921 | Ep 84] Train (L=0.5233 A=81.3%) | Val (L=0.9117 A=70.9%) | Hyper (LR=6.55e-05 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=8.4e+05, dWD=9.3e+02]
+10050.0s 492 [Seed 45921 | Ep 85] Train (L=0.4953 A=82.2%) | Val (L=0.9349 A=71.4%) | Hyper (LR=6.55e-05 WD=7.00e-02) | Time=18.6s
+10074.9s 493 [Seed 45921 | Ep 86] Train (L=0.4959 A=82.3%) | Val (L=0.9077 A=72.3%) | Hyper (LR=5.24e-05 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=1.5e+06, dWD=-4.9e+01]
+10095.0s 494 [Seed 45921 | Ep 87] Train (L=0.4720 A=83.0%) | Val (L=0.9321 A=71.5%) | Hyper (LR=5.24e-05 WD=7.00e-02) | Time=18.7s
+10120.1s 495 [Seed 45921 | Ep 88] Train (L=0.4617 A=83.3%) | Val (L=0.9305 A=71.8%) | Hyper (LR=6.29e-05 WD=7.00e-02) | Time=18.5s [HG UPDATE: dLR=-1.3e+06, dWD=-9.3e+02]
+10140.1s 496 [Seed 45921 | Ep 89] Train (L=0.4725 A=83.0%) | Val (L=0.9351 A=71.5%) | Hyper (LR=6.29e-05 WD=7.00e-02) | Time=18.6s
+10140.1s 497 --> Completed Seed 45921. Saved checkpoint to 'hypergradient_results.csv'
+10140.1s 498 
+10140.1s 499 ================================================================================
+10140.1s 500 ALL SEEDS COMPLETED SUCCESSFULLY.
+10140.1s 501 Final data saved to 'hypergradient_results.csv'
+10140.1s 502 ================================================================================
+10142.1s 503 Traceback (most recent call last):
+10142.1s 504 File "<string>", line 1, in <module>
+10142.1s 505 File "/usr/local/lib/python3.11/dist-packages/papermill/execute.py", line 131, in execute_notebook
+10142.1s 506 raise_for_execution_errors(nb, output_path)
+10142.1s 507 File "/usr/local/lib/python3.11/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+10142.1s 508 raise error
+10142.1s 509 papermill.exceptions.PapermillExecutionError:
+10142.1s 510 ---------------------------------------------------------------------------
+10142.1s 511 Exception encountered at "In [10]":
+10142.1s 512 ---------------------------------------------------------------------------
+10142.1s 513 NameError                                 Traceback (most recent call last)
+10142.1s 514 /tmp/ipykernel_20/1538347321.py in <cell line: 0>()
+10142.1s 515 14 for seed in SEEDS:
+10142.1s 516 15     # Extract data
+10142.1s 517 ---> 16     s_val = all_results[seed]['val_loss']
+10142.1s 518 17     s_lr = all_results[seed]['lr']
+10142.1s 519 18     epochs = range(len(s_val))
+10142.1s 520 
+10142.1s 521 NameError: name 'all_results' is not defined
+10142.1s 522 
+10145.1s 523 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+10145.1s 524 warn(
+10145.1s 525 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+10145.5s 526 [NbConvertApp] Writing 113307 bytes to __notebook__.ipynb
+10148.0s 527 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+10148.0s 528 warn(
+10148.0s 529 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+10148.8s 530 [NbConvertApp] Support files will be in __results___files/
+10148.8s 531 [NbConvertApp] Making directory __results___files
+10148.8s 532 [NbConvertApp] Writing 422007 bytes to __results__.html
