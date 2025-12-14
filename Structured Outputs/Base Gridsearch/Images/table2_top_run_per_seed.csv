@@ -1,0 +1,2 @@
+run_idx,seed,Learning Rate,Weight Decay,Batch Size,Drop Path Rate,final_train_loss,Accuracy (%)
+,[38042],,,,,0.1625,84.91
