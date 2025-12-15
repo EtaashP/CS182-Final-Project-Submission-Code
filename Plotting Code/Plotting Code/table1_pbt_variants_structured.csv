@@ -1,5 +1,4 @@
 Method,N seeds,Final best val acc (%) (mean ± 95% CI over seeds),Total optimizer steps per seed (mean ± 95% CI seeds)
 PBT (base),5,79.16 ± 0.32,"68,600 ± 0"
-PBT (BS-ablation),2,79.24 ± 0.16,"68,600 ± 0"
+PBT (BS-ablation),2,79.24 ± 0.39,"188,212 ± 36,554"
 PBT (WD-ablation),1,79.40,"68,600"
-PBT (WD+BS ablation,2,84.36 ± 0.29,"52,318 ± 25,702"
